@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
 import 'package:infoodmacion_app/presentation/blocs/food/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
 import 'package:infoodmacion_app/presentation/widgets/home_banner.dart';
 import 'package:infoodmacion_app/presentation/widgets/shared/circular_progress_indicator_custom.dart';
 import 'package:infoodmacion_app/presentation/widgets/shared/slide.dart';
@@ -23,6 +24,7 @@ class _HomeScreenState extends State<HomeScreen> {
     try {
       context.read<FoodPlaceBlocBloc>().add(GetFoodPlaces());
       context.read<FoodBlocBloc>().add(GetFoods());
+      context.read<TrainerBloc>().add(GetTrainers());
     } catch(e) {
       debugPrint(e.toString());
     }
@@ -90,6 +92,65 @@ class _HomeScreenState extends State<HomeScreen> {
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, i) => Slide(name: foodState.foods[i].name, image: foodState.foods[i].imageURL),
                           itemCount: foodState.foods.length,
+                        );
+                      },
+                    )
+                  ),
+
+                  const SizedBox(height: 25),
+
+                  TitleSelection(title: 'Entrenadores', callback: () {}),
+                  const SizedBox(height: 5),
+                  SizedBox(
+                    height: screenHeight * 0.15,
+                    child: BlocBuilder<TrainerBloc, TrainerState>(
+                      builder: (context, state) {
+                        if(state is TrainerLoading  || state is TrainerInitial || state is TrainerLoadedError) {
+                          return CircularProgressIndicatorCustom(
+                            width: screenWidth * 0.2, 
+                            height: screenWidth * 0.2, 
+                            color: AppStyle.primaryColor
+                          );
+                        }
+
+                        final trainerState = state is TrainerLoaded ? state : const TrainerLoaded(trainers: []);
+                        return ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, i) => Slide(
+                            name: trainerState.trainers[i].name, 
+                            image: trainerState.trainers[i].image,
+                            isLocalImage: trainerState.trainers[i].isLocalImage,
+                          ),
+                          itemCount: trainerState.trainers.length,
+                        );
+                      },
+                    )
+                  ),
+
+                  const SizedBox(height: 25),
+                  TitleSelection(title: 'Recetas', callback: () {}),
+                  const SizedBox(height: 5),
+                  SizedBox(
+                    height: screenHeight * 0.15,
+                    child: BlocBuilder<TrainerBloc, TrainerState>(
+                      builder: (context, state) {
+                        if(state is TrainerLoading  || state is TrainerInitial || state is TrainerLoadedError) {
+                          return CircularProgressIndicatorCustom(
+                            width: screenWidth * 0.2, 
+                            height: screenWidth * 0.2, 
+                            color: AppStyle.primaryColor
+                          );
+                        }
+
+                        final trainerState = state is TrainerLoaded ? state : const TrainerLoaded(trainers: []);
+                        return ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, i) => Slide(
+                            name: trainerState.trainers[i].name, 
+                            image: trainerState.trainers[i].image,
+                            isLocalImage: trainerState.trainers[i].isLocalImage,
+                          ),
+                          itemCount: trainerState.trainers.length,
                         );
                       },
                     )

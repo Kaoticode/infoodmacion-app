@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 class Slide extends StatelessWidget {
   final String name;
   final String image;
+  final bool isLocalImage;
 
-  const Slide({super.key, required this.name, required this.image});
+  const Slide({super.key, required this.name, required this.image, this.isLocalImage = false});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,10 @@ class Slide extends StatelessWidget {
         width: screenWidth * 0.5,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          image: DecorationImage(image: NetworkImage(image), fit: BoxFit.cover),
+          image: DecorationImage(
+            image: isLocalImage ? AssetImage(image) : NetworkImage(image), 
+            fit: BoxFit.cover
+          ),
           boxShadow: const [
             BoxShadow(
               color: Colors.black26,

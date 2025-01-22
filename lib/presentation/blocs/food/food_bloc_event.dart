@@ -7,4 +7,4 @@ sealed class FoodBlocEvent extends Equatable {
   List<Object> get props => [];
 }
 
-class GetFoods extends FoodBlocEvent {}
+final class GetFoods extends FoodBlocEvent {}
