@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/router/app_router.dart';
 import 'package:infoodmacion_app/presentation/blocs/food/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
 
 void main() {
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       providers: [
         BlocProvider(create: (context) => FoodPlaceBlocBloc()),
         BlocProvider(create: (context) => FoodBlocBloc()),
-        BlocProvider(create: (context) => TrainerBloc())
+        BlocProvider(create: (context) => TrainerBloc()),
+        BlocProvider(create: (context) => RecipeBloc())
       ],
       child: MaterialApp(
         title: 'Flutter Demo',

@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
 import 'package:infoodmacion_app/presentation/blocs/food/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
 import 'package:infoodmacion_app/presentation/widgets/home_banner.dart';
 import 'package:infoodmacion_app/presentation/widgets/shared/circular_progress_indicator_custom.dart';
@@ -25,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
       context.read<FoodPlaceBlocBloc>().add(GetFoodPlaces());
       context.read<FoodBlocBloc>().add(GetFoods());
       context.read<TrainerBloc>().add(GetTrainers());
+      context.read<RecipeBloc>().add(GetRecipes());
     } catch(e) {
       debugPrint(e.toString());
     }
@@ -128,13 +130,14 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
 
                   const SizedBox(height: 25),
+                  
                   TitleSelection(title: 'Recetas', callback: () {}),
                   const SizedBox(height: 5),
                   SizedBox(
                     height: screenHeight * 0.15,
-                    child: BlocBuilder<TrainerBloc, TrainerState>(
+                    child: BlocBuilder<RecipeBloc, RecipeState>(
                       builder: (context, state) {
-                        if(state is TrainerLoading  || state is TrainerInitial || state is TrainerLoadedError) {
+                        if(state is RecipeLoading  || state is RecipeInitial || state is RecipeLoadedError) {
                           return CircularProgressIndicatorCustom(
                             width: screenWidth * 0.2, 
                             height: screenWidth * 0.2, 
@@ -142,15 +145,14 @@ class _HomeScreenState extends State<HomeScreen> {
                           );
                         }
 
-                        final trainerState = state is TrainerLoaded ? state : const TrainerLoaded(trainers: []);
+                        final recipeState = state is RecipeLoaded ? state : const RecipeLoaded(recipes: []);
                         return ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, i) => Slide(
-                            name: trainerState.trainers[i].name, 
-                            image: trainerState.trainers[i].image,
-                            isLocalImage: trainerState.trainers[i].isLocalImage,
+                            name: recipeState.recipes[i].name, 
+                            image: recipeState.recipes[i].image,
                           ),
-                          itemCount: trainerState.trainers.length,
+                          itemCount: recipeState.recipes.length,
                         );
                       },
                     )
