@@ -60,11 +60,19 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                           );
                         }
 
-                        final foodState = state is FoodPlaceLoaded ? state : const FoodPlaceLoaded(foods: []);
+                        final foodState = state is FoodPlaceLoaded ? state.foods : const FoodPlaceLoaded(foods: []).foods;
                         return ListView.builder(
                           scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, i) => Slide(name: foodState.foods[i].name, image: foodState.foods[i].image),
-                          itemCount: foodState.foods.length,
+                          itemBuilder: (context, i) => Slide(
+                            callback: () => Navigator.pushNamed(context, '/food-establishment', arguments: {
+                              'id': foodState[i].id,
+                              'name': foodState[i].name,
+                              'image': foodState[i].image
+                            }),
+                            name: foodState[i].name, 
+                            image: foodState[i].image
+                          ),
+                          itemCount: foodState.length,
                         );
                       },
                     )
@@ -86,11 +94,17 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                           );
                         }
 
-                        final foodState = state is FoodBlocLoaded ? state : const FoodBlocLoaded(foods: []);
+                        final foodState = state is FoodBlocLoaded ? state.foods : const FoodBlocLoaded(foods: []).foods;
                         return ListView.builder(
                           scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, i) => Slide(name: foodState.foods[i].name, image: foodState.foods[i].imageURL),
-                          itemCount: foodState.foods.length,
+                          itemBuilder: (context, i) => Slide(
+                            callback: () {
+                              
+                            },
+                            name: foodState[i].name, 
+                            image: foodState[i].imageURL
+                          ),
+                          itemCount: foodState.length,
                         );
                       },
                     )
@@ -112,15 +126,18 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                           );
                         }
 
-                        final trainerState = state is TrainerLoaded ? state : const TrainerLoaded(trainers: []);
+                        final trainerState = state is TrainerLoaded ? state.trainers : const TrainerLoaded(trainers: []).trainers;
                         return ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, i) => Slide(
-                            name: trainerState.trainers[i].name, 
-                            image: trainerState.trainers[i].image,
-                            isLocalImage: trainerState.trainers[i].isLocalImage,
+                            callback: () {
+                              
+                            },
+                            name: trainerState[i].name, 
+                            image: trainerState[i].image,
+                            isLocalImage: trainerState[i].isLocalImage,
                           ),
-                          itemCount: trainerState.trainers.length,
+                          itemCount: trainerState.length,
                         );
                       },
                     )
@@ -142,14 +159,17 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                           );
                         }
 
-                        final recipeState = state is RecipeLoaded ? state : const RecipeLoaded(recipes: []);
+                        final recipeState = state is RecipeLoaded ? state.recipes : const RecipeLoaded(recipes: []).recipes;
                         return ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, i) => Slide(
-                            name: recipeState.recipes[i].name, 
-                            image: recipeState.recipes[i].image,
+                            callback: () {
+                              
+                            },
+                            name: recipeState[i].name, 
+                            image: recipeState[i].image,
                           ),
-                          itemCount: recipeState.recipes.length,
+                          itemCount: recipeState.length,
                         );
                       },
                     )

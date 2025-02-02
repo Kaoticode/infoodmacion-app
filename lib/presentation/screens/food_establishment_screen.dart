@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
-import 'package:infoodmacion_app/presentation/blocs/foods_places_search/bloc/foods_places_search_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/foods_places_foods_search/bloc/foods_places_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/widgets/shared/element_container_custom.dart';
 import '../widgets/widgets.dart';
 

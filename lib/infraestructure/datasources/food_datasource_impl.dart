@@ -15,6 +15,14 @@ class FoodDatasourceImpl implements FoodDatasource {
   }
 
   @override
+  Future<List<FoodPlace>> getFoodsPlacesBByName(String name) async {
+    final foodPlaces = establecimientos
+      .where((foodPlace) => foodPlace['nombre'].toString().toLowerCase().contains(name.toLowerCase()))
+      .map((foodPlace) => FoodPlaceModel.fromJson(foodPlace)).toList();
+    return foodPlaces.map((foodPlaceModel) => FoodPlaceMapper.foodPlaceModelToEntity(foodPlaceModel)).toList();
+  }
+
+  @override
   Future<List<Food>> getFoods() async {
     final foods = productos.map((food) => FoodModel.fromJson(food)).toList();
     return foods.map((foodModel) => FoodMapper.foodModelToEntity(foodModel)).toList();
@@ -33,5 +41,4 @@ class FoodDatasourceImpl implements FoodDatasource {
     ).map((product) => FoodModel.fromJson(product)).toList();
     return foods.map((foodModel) => FoodMapper.foodModelToEntity(foodModel)).toList();
   }
-
 }

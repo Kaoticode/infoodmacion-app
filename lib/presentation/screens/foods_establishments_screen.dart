@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
-import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/foods_places_search/foods_places_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/widgets/widgets.dart';
 
 class FoodsEstablishmentsScreen extends StatefulWidget {
@@ -19,7 +19,7 @@ class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
   @override
   void initState() {
     try {
-      context.read<FoodPlaceBlocBloc>().add(GetFoodPlaces());
+      context.read<FoodsPlacesSearchByNameBloc>().add(const GetFoodsPlacesSearchByName(name: ''));
     } catch(e) {
       debugPrint(e.toString());
     }
@@ -35,9 +35,9 @@ class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
 
   void _onSearchQuery(String query) {
     if (_debounce?.isActive ?? false) _debounce!.cancel(); // Cancela si hay una ejecución activa
-        _debounce = Timer(const Duration(milliseconds: 500), () {
-          print("Ejecutando búsqueda para: $query"); // Aquí llamas a la API o realizas la búsqueda
-        });
+    _debounce = Timer(const Duration(milliseconds: 500), () {
+      context.read<FoodsPlacesSearchByNameBloc>().add(GetFoodsPlacesSearchByName(name: query));
+    });
   }
 
   @override
@@ -57,9 +57,9 @@ class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
           children: [
             InputSearch(controller: _controller, onSearchQuery: _onSearchQuery),
             Expanded(
-              child: BlocBuilder<FoodPlaceBlocBloc, FoodPlaceBlocState>(
+              child: BlocBuilder<FoodsPlacesSearchByNameBloc, FoodsPlacesSearchState>(
                 builder: (context, state) {
-                  if(state is FoodPlaceLoading  || state is FoodPlaceInitial || state is FoodPlaceLoadedError) {
+                  if(state is FoodsPlacesSearchLoading  || state is FoodsPlacesSearchInitial || state is FoodsPlacesSearchLoadedError) {
                     return CircularProgressIndicatorCustom(
                       width: screenWidth * 0.2, 
                       height: screenHeight * 0.2, 
@@ -67,20 +67,20 @@ class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
                     );
                   }
 
-                  final foodState = state is FoodPlaceLoaded ? state : const FoodPlaceLoaded(foods: []);
+                  final foodsPlaces = state is FoodsPlacesSearchByNameLoaded ? state.foodsPlaces : const FoodsPlacesSearchByNameLoaded(foodsPlaces: []).foodsPlaces;
                   return ListView.builder(
                     itemBuilder: (context, i) => ContainerCustom(
                       callback: () => Navigator.pushNamed(context, '/food-establishment', arguments: {
-                        'id': foodState.foods[i].id,
-                        'name': foodState.foods[i].name,
-                        'image': foodState.foods[i].image
+                        'id': foodsPlaces[i].id,
+                        'name': foodsPlaces[i].name,
+                        'image': foodsPlaces[i].image
                       }),
-                      url: foodState.foods[i].image, 
-                      title: foodState.foods[i].name, 
-                      subtitle: foodState.foods[i].description, 
+                      url: foodsPlaces[i].image, 
+                      title: foodsPlaces[i].name, 
+                      subtitle: foodsPlaces[i].description, 
                       height: screenHeight * 0.15
                     ),
-                    itemCount: foodState.foods.length,
+                    itemCount: foodsPlaces.length,
                   );
                 },
               )
