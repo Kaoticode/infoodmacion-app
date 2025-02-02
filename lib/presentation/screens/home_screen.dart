@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
-import 'package:infoodmacion_app/presentation/blocs/food/food_bloc_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/foods/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
-import 'package:infoodmacion_app/presentation/widgets/home_banner.dart';
-import 'package:infoodmacion_app/presentation/widgets/shared/circular_progress_indicator_custom.dart';
-import 'package:infoodmacion_app/presentation/widgets/shared/slide.dart';
-import 'package:infoodmacion_app/presentation/widgets/shared/title_selection.dart';
+import '../widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -17,8 +14,8 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
-
+class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMixin {
+  
   @override
   void initState() {
     super.initState();
@@ -34,12 +31,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    super.build(context);
+    
     final screenHeight = MediaQuery.of(context).size.height;
     final screenWidth = MediaQuery.of(context).size.width;
 
-    return Scaffold(
-      backgroundColor: AppStyle.backgroundColor,
-      body: SingleChildScrollView(
+    return SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -49,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
               padding: const EdgeInsets.symmetric(horizontal: 10),
               child: Column(
                 children: [
-                  TitleSelection(title: 'Establecimientos', callback: () {}),
+                  TitleSelection(title: 'Establecimientos', callback: () => Navigator.pushNamed(context, '/foods-establishments')),
                   const SizedBox(height: 5),
                   SizedBox(
                     height: screenHeight * 0.15,
@@ -58,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         if(state is FoodPlaceLoading  || state is FoodPlaceInitial || state is FoodPlaceLoadedError) {
                           return CircularProgressIndicatorCustom(
                             width: screenWidth * 0.2, 
-                            height: screenWidth * 0.2, 
+                            height: screenHeight * 0.2, 
                             color: AppStyle.primaryColor
                           );
                         }
@@ -84,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         if(state is FoodBlocLoading  || state is FoodBlocInitial || state is FoodBlocLoadedError) {
                           return CircularProgressIndicatorCustom(
                             width: screenWidth * 0.2, 
-                            height: screenWidth * 0.2, 
+                            height: screenHeight * 0.2, 
                             color: AppStyle.primaryColor
                           );
                         }
@@ -110,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         if(state is TrainerLoading  || state is TrainerInitial || state is TrainerLoadedError) {
                           return CircularProgressIndicatorCustom(
                             width: screenWidth * 0.2, 
-                            height: screenWidth * 0.2, 
+                            height: screenHeight * 0.2, 
                             color: AppStyle.primaryColor
                           );
                         }
@@ -140,7 +137,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         if(state is RecipeLoading  || state is RecipeInitial || state is RecipeLoadedError) {
                           return CircularProgressIndicatorCustom(
                             width: screenWidth * 0.2, 
-                            height: screenWidth * 0.2, 
+                            height: screenHeight * 0.2, 
                             color: AppStyle.primaryColor
                           );
                         }
@@ -157,12 +154,16 @@ class _HomeScreenState extends State<HomeScreen> {
                       },
                     )
                   ),
+
+                  const SizedBox(height: 15)
                 ],
               ),
             )
           ],
         ),
-      ),
-    );
+      );
   }
+  
+  @override
+  bool get wantKeepAlive => true;
 }

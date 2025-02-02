@@ -14,6 +14,9 @@ final class FoodBlocLoaded extends FoodBlocState {
   final List<Food> foods;
 
   const FoodBlocLoaded({required this.foods});
+
+  @override
+  List<Object> get props => [foods];
 }
 
 final class FoodBlocLoadedError extends FoodBlocState{

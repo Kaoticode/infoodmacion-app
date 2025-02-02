@@ -13,5 +13,10 @@ class FoodRepositiroyImpl implements FoodRepository {
 
   @override
   Future<List<Food>> getFoods() => datasource.getFoods();
-
+  
+  @override
+  Future<List<Food>> getFoodByFoodPlace(int id) => datasource.getFoodByFoodPlace(id);
+  
+  @override
+  Future<List<Food>> getFoodByFoodPlaceFilterByName(int id, String name) => datasource.getFoodByFoodPlaceFilterByName(id, name);
 }
