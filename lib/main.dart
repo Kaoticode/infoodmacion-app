@@ -9,6 +9,7 @@ import 'package:infoodmacion_app/presentation/blocs/foods_places_search/foods_pl
 import 'package:infoodmacion_app/presentation/blocs/foods_search/foods_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/trainers_search_by_name/trainers_search_bloc.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => RecipeBloc()),
         BlocProvider(create: (context) => FoodsPlacesSearchBloc()),
         BlocProvider(create: (context) => FoodsPlacesSearchByNameBloc()),
-        BlocProvider(create: (context) => FoodsSearchBloc())
+        BlocProvider(create: (context) => FoodsSearchBloc()),
+        BlocProvider(create: (ccontext) => TrainersSearchBloc())
       ],
       child: MaterialApp(
         title: 'Flutter Demo',

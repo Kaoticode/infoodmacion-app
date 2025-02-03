@@ -8,7 +8,8 @@ class AppRouter {
   static Map<String, Widget Function(BuildContext context)> routes = {
     '/' : (BuildContext context) => const MainView(),
     '/foods-establishments': (BuildContext context) => const FoodsEstablishmentsScreen(),
-    '/foods': (BuildContext context) => const FoodsScreen()
+    '/foods': (BuildContext context) => const FoodsScreen(),
+    '/trainers': (BuildContext context) => const TrainersScreen()
   };
 
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {

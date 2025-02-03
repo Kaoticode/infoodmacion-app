@@ -112,7 +112,7 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
 
                   const SizedBox(height: 25),
 
-                  TitleSelection(title: 'Entrenadores', callback: () {}),
+                  TitleSelection(title: 'Entrenadores', callback: () => Navigator.pushNamed(context, '/trainers')),
                   const SizedBox(height: 5),
                   SizedBox(
                     height: screenHeight * 0.15,

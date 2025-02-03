@@ -9,5 +9,7 @@ class TrainerRepositoryImpl implements TrainerRepository{
 
   @override
   Future<List<Trainer>> getTrainers() => datasource.getTrainers();
-
+  
+  @override
+  Future<List<Trainer>> getTrainersByName(String name) => datasource.getTrainersByName(name);
 }

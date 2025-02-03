@@ -10,4 +10,11 @@ class TrainerDatasourceImpl implements TrainerDatasource {
     final trainers = entrenadores.map((trainer) => TrainerModel.fromJson(trainer)).toList();
     return trainers.map((trainerModel) => TrainerMapper.trainerModelToEntity(trainerModel)).toList();
   }
+  
+  @override
+  Future<List<Trainer>> getTrainersByName(String name) async {
+    final trainers = entrenadores.where((trainer) => trainer['nombre'].toString().toLowerCase().contains(name.toLowerCase()))
+      .map((trainer) => TrainerModel.fromJson(trainer)).toList();
+    return trainers.map((trainerModel) => TrainerMapper.trainerModelToEntity(trainerModel)).toList();
+  }
 }
