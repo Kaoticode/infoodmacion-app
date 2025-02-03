@@ -7,4 +7,5 @@ abstract class FoodRepository {
   Future<List<Food>> getFoods();
   Future<List<Food>> getFoodByFoodPlace(int id);
   Future<List<Food>> getFoodByFoodPlaceFilterByName(int id, String name);
+  Future<List<Food>> getFoodsByName(String name);
 }

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:infoodmacion_app/presentation/screens/food_establishment_screen.dart';
 import '../../presentation/screens/screens.dart';
 
 class AppRouter {
@@ -9,6 +8,7 @@ class AppRouter {
   static Map<String, Widget Function(BuildContext context)> routes = {
     '/' : (BuildContext context) => const MainView(),
     '/foods-establishments': (BuildContext context) => const FoodsEstablishmentsScreen(),
+    '/foods': (BuildContext context) => const FoodsScreen()
   };
 
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {

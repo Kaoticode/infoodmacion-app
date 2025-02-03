@@ -1,17 +1,27 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
 
-class InputSearch extends StatelessWidget {
-  final TextEditingController controller;
-  final Function(String) onSearchQuery;
+class InputSearch extends StatefulWidget {
+  final Function(String) callback;
 
-  const InputSearch(
-      {super.key, required this.controller, required this.onSearchQuery});
+  const InputSearch({super.key, required this.callback});
+
+  @override
+  State<InputSearch> createState() => _InputSearchState();
+}
+
+class _InputSearchState extends State<InputSearch> {
+  final TextEditingController _controller = TextEditingController();
+  Timer? _debounce;
+
+
 
   @override
   Widget build(BuildContext context) {
     return TextField(
-      controller: controller,
+      controller: _controller,
       style: const TextStyle(color: AppStyle.primaryColor),
       cursorColor: AppStyle.primaryColor,
       decoration: InputDecoration(
@@ -21,7 +31,10 @@ class InputSearch extends StatelessWidget {
         enabledBorder: AppStyle.inpuBorder,
         focusedBorder: AppStyle.inpuBorder,
       ),
-      onChanged: onSearchQuery,
+      onChanged: (value) {
+        if (_debounce?.isActive ?? false) _debounce!.cancel();
+        _debounce = Timer(const Duration(milliseconds: 500), () => widget.callback(value));
+      }
     );
   }
 }

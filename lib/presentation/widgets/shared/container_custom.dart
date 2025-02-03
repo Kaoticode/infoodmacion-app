@@ -41,8 +41,7 @@ class ContainerCustom extends StatelessWidget {
             child: ListTile(
               contentPadding: const EdgeInsets.all(15),
               title: Text(title, style: AppStyle.containerTitleTextStyle),
-              subtitle: Text(subtitle, style: AppStyle.containerSubtitleTextStyle),
-              
+              subtitle: Text(subtitle, style: AppStyle.containerSubtitleTextStyle)
             ),
           ),
         ),

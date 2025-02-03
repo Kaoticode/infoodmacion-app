@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
@@ -13,9 +12,6 @@ class FoodsEstablishmentsScreen extends StatefulWidget {
 }
 
 class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
-  final TextEditingController _controller = TextEditingController();
-  Timer? _debounce;
-
   @override
   void initState() {
     try {
@@ -26,19 +22,7 @@ class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
     super.initState();
   }
 
-  @override
-  void dispose() {
-    _controller.dispose();
-    _debounce?.cancel();
-    super.dispose();
-  }
-
-  void _onSearchQuery(String query) {
-    if (_debounce?.isActive ?? false) _debounce!.cancel(); // Cancela si hay una ejecución activa
-    _debounce = Timer(const Duration(milliseconds: 500), () {
-      context.read<FoodsPlacesSearchByNameBloc>().add(GetFoodsPlacesSearchByName(name: query));
-    });
-  }
+  void _onSearchQuery(String query) => context.read<FoodsPlacesSearchByNameBloc>().add(GetFoodsPlacesSearchByName(name: query));
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +39,7 @@ class _FoodsEstablishmentsScreenState extends State<FoodsEstablishmentsScreen> {
         padding: const EdgeInsets.only(top: 15, left: 15, right: 15),
         child: Column(
           children: [
-            InputSearch(controller: _controller, onSearchQuery: _onSearchQuery),
+            InputSearch(callback: _onSearchQuery),
             Expanded(
               child: BlocBuilder<FoodsPlacesSearchByNameBloc, FoodsPlacesSearchState>(
                 builder: (context, state) {

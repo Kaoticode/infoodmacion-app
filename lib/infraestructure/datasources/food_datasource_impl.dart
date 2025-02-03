@@ -41,4 +41,11 @@ class FoodDatasourceImpl implements FoodDatasource {
     ).map((product) => FoodModel.fromJson(product)).toList();
     return foods.map((foodModel) => FoodMapper.foodModelToEntity(foodModel)).toList();
   }
+  
+  @override
+  Future<List<Food>> getFoodsByName(String name) async {
+    final foods = productos.where((product) => product['nombre'].toString().toLowerCase().contains(name.toLowerCase()))
+      .map((product) => FoodModel.fromJson(product)).toList();
+    return foods.map((foodModel) => FoodMapper.foodModelToEntity(foodModel)).toList();
+  }
 }
