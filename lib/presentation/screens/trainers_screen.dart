@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
+import 'package:infoodmacion_app/config/util/utils.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainers_search_by_name/trainers_search_bloc.dart';
 
 import '../widgets/widgets.dart';
@@ -58,7 +59,13 @@ class _TrainersScreenState extends State<TrainersScreen> {
                   return ListView.builder(
                     itemCount: trainers.length,
                     itemBuilder: (context, i) => ContainerCustom(
-                      callback: (){}, 
+                      callback: (){
+                        try {
+                          Utils.openInstagramProfile(trainers[i].ig);
+                        } catch(e) {
+                          debugPrint(e.toString());
+                        }
+                      }, 
                       url: trainers[i].image, 
                       title: trainers[i].name, 
                       subtitle: '', 

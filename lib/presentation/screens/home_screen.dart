@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
+import 'package:infoodmacion_app/config/util/utils.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
@@ -131,7 +132,11 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, i) => Slide(
                             callback: () {
-                              
+                              try {
+                                Utils.openInstagramProfile(trainerState[i].ig);
+                              } catch(e) {
+                                debugPrint(e.toString());
+                              }
                             },
                             name: trainerState[i].name, 
                             image: trainerState[i].image,
