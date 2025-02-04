@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
-
 import '../screens/screens.dart';
 
 class MainView extends StatefulWidget {
@@ -42,7 +41,7 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
         children: const [
           HomeScreen(),
           Center(child: Text("🛒 Shopping Cart")),
-          Center(child: Text("❤️ Favorites")),
+          NotificationScreen(),
           SupportScreen()
         ],
       ),
