@@ -1,7 +1,8 @@
+export 'package:infoodmacion_app/presentation/widgets/recipes/card_recipe.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/circular_progress_indicator_custom.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/container_custom.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/app_bar.dart';
-export 'package:infoodmacion_app/presentation/widgets/home_banner.dart';
+export 'package:infoodmacion_app/presentation/widgets/shared/home_banner.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/input_search.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/no_data.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/slide.dart';

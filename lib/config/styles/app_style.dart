@@ -21,4 +21,10 @@ class AppStyle {
   static final containerSubtitleTextStyle = TextStyle(color: Colors.grey[300]);
 
   static const secondContainerTitleTextStyle = TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18);
+
+  static const modalBottomSheetTitle = TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white);
+
+  static const modalBottomSheetSubTitle = TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white);
+
+  static const modalBottomSheetParagraph = TextStyle(fontSize: 18, color: Colors.white);
 }

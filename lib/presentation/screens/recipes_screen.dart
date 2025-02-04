@@ -85,7 +85,18 @@ class _RecipesScreenState extends State<RecipesScreen> {
                   return ListView.builder(
                     itemCount: recipes.length,
                     itemBuilder: (context, i) => ContainerCustom(
-                      callback: (){}, 
+                      callback: () => showModalBottomSheet(
+                        context: context,
+                        isScrollControlled: true,
+                        builder: (context) => CardRecipe(
+                          width: double.infinity, 
+                          height: screenHeight * 0.5, 
+                          image: recipes[i].image, 
+                          title: recipes[i].name, 
+                          ingredients: recipes[i].ingredients, 
+                          description: recipes[i].description
+                        ),
+                      ), 
                       url: recipes[i].image, 
                       title: recipes[i].name, 
                       subtitle: '', 

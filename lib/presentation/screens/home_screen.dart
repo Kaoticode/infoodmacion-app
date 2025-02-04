@@ -163,9 +163,18 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                         return ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, i) => Slide(
-                            callback: () {
-                              
-                            },
+                            callback: () => showModalBottomSheet(
+                              context: context,
+                              isScrollControlled: true,
+                              builder: (context) => CardRecipe(
+                                width: double.infinity, 
+                                height: screenHeight * 0.5, 
+                                image: recipeState[i].image, 
+                                title: recipeState[i].name, 
+                                ingredients: recipeState[i].ingredients, 
+                                description: recipeState[i].description
+                              ),
+                            ),
                             name: recipeState[i].name, 
                             image: recipeState[i].image,
                           ),
