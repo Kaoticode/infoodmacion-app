@@ -72,10 +72,10 @@ class FoodModel {
             ? json['promoted']
             : json['promoted'].toString() == 'true',
       );
-    } catch (e, stackTrace) {
-      print('Error parsing FoodModel from JSON: $e');
-      print('StackTrace: $stackTrace');
-      print('JSON causing error: $json');
+    } catch (e, _) {
+      //print('Error parsing FoodModel from JSON: $e');
+      //print('StackTrace: $stackTrace');
+      //print('JSON causing error: $json');
       rethrow;
     }
   }

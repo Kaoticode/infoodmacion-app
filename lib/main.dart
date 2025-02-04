@@ -8,6 +8,7 @@ import 'package:infoodmacion_app/presentation/blocs/foods_places_foods_search/bl
 import 'package:infoodmacion_app/presentation/blocs/foods_places_search/foods_places_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods_search/foods_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/recipes_search_by_name_and_filter/bloc/recipes_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainers_search_by_name/trainers_search_bloc.dart';
 
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => FoodsPlacesSearchBloc()),
         BlocProvider(create: (context) => FoodsPlacesSearchByNameBloc()),
         BlocProvider(create: (context) => FoodsSearchBloc()),
-        BlocProvider(create: (ccontext) => TrainersSearchBloc())
+        BlocProvider(create: (context) => TrainersSearchBloc()),
+        BlocProvider(create: (context) => RecipesSearchBloc())
       ],
       child: MaterialApp(
         title: 'Flutter Demo',

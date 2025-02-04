@@ -11,4 +11,10 @@ class RecipeDatasourceImpl implements RecipeDatasource {
     final recipesModel = recetas.map((recipeData) => RecipeModel.fromJson(recipeData)).toList();
     return recipesModel.map((recipeModel) => RecipeMapper.recipeModelToEntity(recipeModel)).toList();
   }
+  
+  @override
+  Future<List<Recipe>> getRecipesByTypeAndName(String name, String type) async {
+     return recetas.where((recipe) => recipe['type'].toString().toUpperCase() == type.toUpperCase())
+      .map((recipe) => RecipeMapper.recipeModelToEntity(RecipeModel.fromJson(recipe))).toList();
+  }
 }

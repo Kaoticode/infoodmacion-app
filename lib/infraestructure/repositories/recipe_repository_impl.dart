@@ -9,5 +9,7 @@ class RecipeRepositoryImpl implements RecipeRepository {
 
   @override
   Future<List<Recipe>> getRecipes() => datasource.getRecipes();
-
+  
+  @override
+  Future<List<Recipe>> getRecipesByTypeAndName(String name, String type) => datasource.getRecipesByTypeAndName(name, type);
 }

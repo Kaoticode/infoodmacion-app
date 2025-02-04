@@ -42,7 +42,7 @@ class _FoodsScreenState extends State<FoodsScreen> {
         padding: const EdgeInsets.only(top: 10, left: 15, right: 15),
         child: Column(
           children: [
-            InputSearch(callback: _onSearchQuery),
+            InputSearch(callback: _onSearchQuery, hintText: 'Buscar Productos...',),
             Expanded(
               child: BlocBuilder<FoodsSearchBloc, FoodsSearchState>(
                 builder: (context, state) {

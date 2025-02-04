@@ -41,7 +41,7 @@ class _FoodEstablishmentScreenState extends State<FoodEstablishmentScreen> {
         child: Column(
           children: [
             const SizedBox(height: 15),
-            InputSearch(callback: onSearchQuery),
+            InputSearch(callback: onSearchQuery, hintText: 'Buscar Productos...',),
             Expanded(
               child: BlocBuilder<FoodsPlacesSearchBloc, FoodsPlacesSearchState>(
                 builder: (context, state) {

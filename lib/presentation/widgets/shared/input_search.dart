@@ -5,8 +5,9 @@ import 'package:infoodmacion_app/config/styles/app_style.dart';
 
 class InputSearch extends StatefulWidget {
   final Function(String) callback;
+  final String hintText;
 
-  const InputSearch({super.key, required this.callback});
+  const InputSearch({super.key, required this.callback, required this.hintText});
 
   @override
   State<InputSearch> createState() => _InputSearchState();
@@ -25,7 +26,7 @@ class _InputSearchState extends State<InputSearch> {
       style: const TextStyle(color: AppStyle.primaryColor),
       cursorColor: AppStyle.primaryColor,
       decoration: InputDecoration(
-        hintText: 'Buscar Establecimientos...',
+        hintText: widget.hintText,
         hintStyle: const TextStyle(color: AppStyle.primaryColor),
         prefixIcon: AppStyle.inputIcon,
         enabledBorder: AppStyle.inpuBorder,

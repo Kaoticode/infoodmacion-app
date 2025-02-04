@@ -9,7 +9,8 @@ class AppRouter {
     '/' : (BuildContext context) => const MainView(),
     '/foods-establishments': (BuildContext context) => const FoodsEstablishmentsScreen(),
     '/foods': (BuildContext context) => const FoodsScreen(),
-    '/trainers': (BuildContext context) => const TrainersScreen()
+    '/trainers': (BuildContext context) => const TrainersScreen(),
+    '/recipes': (BuildContext context) => const RecipesScreen()
   };
 
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {
