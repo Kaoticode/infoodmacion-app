@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
-import 'package:infoodmacion_app/presentation/screens/home_screen.dart';
+
+import '../screens/screens.dart';
 
 class MainView extends StatefulWidget {
   const MainView({super.key});
@@ -16,6 +17,10 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
   void initState() {
     super.initState();
     _tabController = TabController(length: 4, vsync: this);
+    _tabController.addListener(() {
+      setState(() {});
+    });
+
   }
 
   @override
@@ -26,14 +31,19 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
+      appBar: _tabController.index == 0 ? null : AppBar(
+        backgroundColor: AppStyle.primaryColor,
+        title: Text(_tabController.index == 1 ? 'Carrito' : _tabController.index == 2 ? 'Notificaciones': 'Soporte'),
+      ),
       body: TabBarView(
         controller: _tabController, 
         children: const [
           HomeScreen(),
           Center(child: Text("🛒 Shopping Cart")),
           Center(child: Text("❤️ Favorites")),
-          Center(child: Text("💰 Monetization")),
+          SupportScreen()
         ],
       ),
       bottomNavigationBar: Material(

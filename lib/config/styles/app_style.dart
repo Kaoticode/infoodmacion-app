@@ -22,9 +22,9 @@ class AppStyle {
 
   static const secondContainerTitleTextStyle = TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18);
 
-  static const modalBottomSheetTitle = TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white);
+  static const generalTitle = TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white);
 
-  static const modalBottomSheetSubTitle = TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white);
+  static const generalSubtitle = TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white);
 
-  static const modalBottomSheetParagraph = TextStyle(fontSize: 18, color: Colors.white);
+  static const generalParagraph = TextStyle(fontSize: 18, color: Colors.white);
 }

@@ -34,21 +34,21 @@ class CardRecipe extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Center(
-                child: Text(title, style: AppStyle.modalBottomSheetTitle)
+                child: Text(title, style: AppStyle.generalTitle)
               ),
               const SizedBox(height: 15),
-              const Text('Ingredentes', style: AppStyle.modalBottomSheetSubTitle),
+              const Text('Ingredentes', style: AppStyle.generalSubtitle),
               const SizedBox(height: 10),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: ingredients.map((ingredient) => 
-                    Text('- ${ingredient.ingredient}', style: AppStyle.modalBottomSheetParagraph,)
+                    Text('- ${ingredient.ingredient}', style: AppStyle.generalParagraph,)
                   ).toList()
               ),
               const SizedBox(height: 15),
-              const Text('Descripción', style: AppStyle.modalBottomSheetSubTitle),
+              const Text('Descripción', style: AppStyle.generalSubtitle),
               const SizedBox(height: 10),
-              Text(description, style: AppStyle.modalBottomSheetParagraph)
+              Text(description, style: AppStyle.generalParagraph)
             ]
           )
         )
