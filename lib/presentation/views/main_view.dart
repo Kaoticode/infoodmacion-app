@@ -35,12 +35,18 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
       appBar: _tabController.index == 0 ? null : AppBar(
         backgroundColor: AppStyle.primaryColor,
         title: Text(_tabController.index == 1 ? 'Carrito' : _tabController.index == 2 ? 'Notificaciones': 'Soporte'),
+        actions: [
+          _tabController.index == 1 ? IconButton(
+            icon: const Icon(Icons.calculate),
+            onPressed: (){},
+          ) : const SizedBox.shrink()
+        ],
       ),
       body: TabBarView(
         controller: _tabController, 
         children: const [
           HomeScreen(),
-          Center(child: Text("🛒 Shopping Cart")),
+          CartScreen(),
           NotificationScreen(),
           SupportScreen()
         ],

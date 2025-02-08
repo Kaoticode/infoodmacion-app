@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
+import 'package:infoodmacion_app/presentation/blocs/food_local/food_local_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods_places_foods_search/bloc/foods_places_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/widgets/shared/element_container_custom.dart';
 import '../widgets/widgets.dart';
@@ -60,6 +61,7 @@ class _FoodEstablishmentScreenState extends State<FoodEstablishmentScreen> {
                   return ListView.builder(
                     itemCount: foodsPlacesSearch.length,
                     itemBuilder: (context, i) => ElementContainerCustom(
+                      callback: () => context.read<FoodLocalBloc>().add(AddFoodToCart(food: foodsPlacesSearch[i])),
                       height: screenHeight * 0.075, 
                       width: double.infinity, 
                       child: Text(foodsPlacesSearch[i].name, style: AppStyle.secondContainerTitleTextStyle)

@@ -15,3 +15,15 @@ class AddFoodToCart extends FoodLocalEvent {
   @override
   List<Object> get props => [food];
 }
+
+class GetFoodCart extends FoodLocalEvent {}
+
+class UpdateFoodCart extends FoodLocalEvent {
+  final String name;
+  final int newAmount;
+
+  const UpdateFoodCart({required this.name, required this.newAmount});
+
+  @override 
+  List<Object> get props => [name, newAmount];
+}
