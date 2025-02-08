@@ -10,7 +10,9 @@ import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({super.key});
+  final TabController controller;
+
+  const HomeScreen({super.key, required this.controller});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -100,7 +102,10 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                       return ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, i) => Slide(
-                          callback: () => context.read<FoodLocalBloc>().add(AddFoodToCart(food: foodState[i])),
+                          callback: () {
+                            context.read<FoodLocalBloc>().add(AddFoodToCart(food: foodState[i]));
+                            CustomSnackbar.show(context, "El producto ${foodState[i].name} ha sido añadido correctamente.");
+                          },
                           name: foodState[i].name, 
                           image: foodState[i].imageURL
                         ),

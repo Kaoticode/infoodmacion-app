@@ -44,11 +44,11 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
       ),
       body: TabBarView(
         controller: _tabController, 
-        children: const [
-          HomeScreen(),
-          CartScreen(),
-          NotificationScreen(),
-          SupportScreen()
+        children: [
+          HomeScreen(controller: _tabController),
+          const CartScreen(),
+          const NotificationScreen(),
+          const SupportScreen()
         ],
       ),
       bottomNavigationBar: Material(

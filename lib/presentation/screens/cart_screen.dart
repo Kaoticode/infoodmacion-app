@@ -47,7 +47,7 @@ class _CartScreenState extends State<CartScreen> with AutomaticKeepAliveClientMi
             itemCount: foodLocal.length,
             itemBuilder: (context, i) => Container(
               margin: const EdgeInsets.only(top: 10),
-              padding: const EdgeInsets.symmetric(horizontal: 10), // 🔹 Espaciado interno
+              padding: const EdgeInsets.symmetric(horizontal: 10), 
               width: double.infinity,
               height: screenHeight * 0.075,
               decoration: BoxDecoration(
@@ -55,7 +55,7 @@ class _CartScreenState extends State<CartScreen> with AutomaticKeepAliveClientMi
                 borderRadius: BorderRadius.circular(15),
               ),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween, // 🔹 Distribuir elementos
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Expanded(
                     child: Text(
@@ -69,6 +69,9 @@ class _CartScreenState extends State<CartScreen> with AutomaticKeepAliveClientMi
                   IconButton(
                     icon: const Icon(Icons.remove, color: AppStyle.primaryColor),
                     onPressed: () {
+                      if(foodLocal[i].quantity == 1) {
+                        CustomSnackbar.show(context, "El producto ${foodLocal[i].name} ha sido eliminado correctamente.");
+                      }
                       context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: -1));
                     },
                   ),
@@ -80,9 +83,7 @@ class _CartScreenState extends State<CartScreen> with AutomaticKeepAliveClientMi
 
                   IconButton(
                     icon: const Icon(Icons.add, color: AppStyle.primaryColor),
-                    onPressed: () {
-                      context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: 1));
-                    },
+                    onPressed: () => context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: 1))
                   ),
                 ],
               ),
@@ -94,5 +95,5 @@ class _CartScreenState extends State<CartScreen> with AutomaticKeepAliveClientMi
   }
   
   @override
-  bool get wantKeepAlive => true;
+  bool get wantKeepAlive => false;
 }

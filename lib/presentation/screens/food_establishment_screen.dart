@@ -61,7 +61,10 @@ class _FoodEstablishmentScreenState extends State<FoodEstablishmentScreen> {
                   return ListView.builder(
                     itemCount: foodsPlacesSearch.length,
                     itemBuilder: (context, i) => ElementContainerCustom(
-                      callback: () => context.read<FoodLocalBloc>().add(AddFoodToCart(food: foodsPlacesSearch[i])),
+                      callback: () {
+                        context.read<FoodLocalBloc>().add(AddFoodToCart(food: foodsPlacesSearch[i]));
+                        CustomSnackbar.show(context, "El producto ${foodsPlacesSearch[i].name} ha sido añadido correctamente.");
+                      },
                       height: screenHeight * 0.075, 
                       width: double.infinity, 
                       child: Text(foodsPlacesSearch[i].name, style: AppStyle.secondContainerTitleTextStyle)
