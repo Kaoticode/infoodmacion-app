@@ -60,4 +60,3 @@ class _NotificationScreenState extends State<NotificationScreen> with AutomaticK
   @override
   bool get wantKeepAlive => true;
 }
-

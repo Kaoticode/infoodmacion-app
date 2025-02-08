@@ -15,9 +15,10 @@ class Food extends Equatable {
   final String productBy;
   final String type;
   final bool promoted;
+  final int quantity;
 
-  const Food({required this.name, required this.imageURL, required this.portion, required this.kcal, required this.kJ, required this.fat, required this.saturatedFat, required this.carbohydrates, required this.sugar, required this.fiber, required this.proteins, required this.productBy, required this.type, required this.promoted});
+  const Food({required this.name, required this.imageURL, required this.portion, required this.kcal, required this.kJ, required this.fat, required this.saturatedFat, required this.carbohydrates, required this.sugar, required this.fiber, required this.proteins, required this.productBy, required this.type, required this.promoted, this.quantity = 1});
 
   @override
-  List<Object?> get props => [name, imageURL, portion, kcal, kJ, fat, saturatedFat, carbohydrates, sugar, fiber, proteins, productBy, type, promoted];
+  List<Object?> get props => [name, imageURL, portion, kcal, kJ, fat, saturatedFat, carbohydrates, sugar, fiber, proteins, productBy, type, promoted, quantity];
 }
