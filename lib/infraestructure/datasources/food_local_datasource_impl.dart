@@ -5,15 +5,31 @@ import 'package:infoodmacion_app/infraestructure/database/food_hive.dart';
 
 class FoodLocalDatasourceImpl implements FoodLocalDatasource {
   @override
-  Future<void> addFoodToCart(FoodHive food) async {
+  Future<void> addFoodToCart(Food food) async {
     final box = Hive.box<FoodHive>('foodsBox');
 
     int index = box.values.toList().indexWhere(
         (foodData) => foodData.name.toLowerCase() == food.name.toLowerCase());
 
     if (index == -1) {
-      print('entre como nuevo');
-      await box.add(food);
+      await box.add(FoodHive(
+          name: food.name,
+          imageURL: food.imageURL,
+          portion: food.portion,
+          kcal: food.kcal,
+          kJ: food.kJ,
+          fat: food.fat,
+          saturatedFat: food.saturatedFat,
+          carbohydrates: food.carbohydrates,
+          sugar: food.sugar,
+          fiber: food.fiber,
+          proteins: food.proteins,
+          productBy: food.productBy,
+          type: food.type,
+          promoted: food.promoted,
+          quantity: 1
+        )
+      );
       return;
     }
 
@@ -38,7 +54,6 @@ class FoodLocalDatasourceImpl implements FoodLocalDatasource {
           quantity: existingFood.quantity + 1);
 
       await box.putAt(index, updatedFood);
-      print('me actualizaron');
     }
   }
 

@@ -4,6 +4,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:infoodmacion_app/config/router/app_router.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
 import 'package:infoodmacion_app/infraestructure/database/food_hive.dart';
+import 'package:infoodmacion_app/presentation/blocs/food_local/food_local_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods_places_foods_search/bloc/foods_places_search_bloc.dart';
@@ -40,7 +41,8 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => FoodsSearchBloc()),
         BlocProvider(create: (context) => TrainersSearchBloc()),
         BlocProvider(create: (context) => RecipesSearchBloc()),
-        BlocProvider(create: (context) => NotificationBloc())
+        BlocProvider(create: (context) => NotificationBloc()),
+        BlocProvider(create: (context) => FoodLocalBloc())
       ],
       child: MaterialApp(
         title: 'Flutter Demo',

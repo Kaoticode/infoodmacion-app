@@ -2,12 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
 import 'package:infoodmacion_app/config/util/utils.dart';
-import 'package:infoodmacion_app/infraestructure/database/food_hive.dart';
+import 'package:infoodmacion_app/presentation/blocs/food_local/food_local_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods/food_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/food_place/food_place_bloc_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
-import 'package:infoodmacion_app/presentation/repositories_provider.dart';
 import '../widgets/widgets.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -101,26 +100,7 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                       return ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, i) => Slide(
-                          callback: () {
-                            FoodHive food = FoodHive(
-                              name: foodState[i].name, 
-                              imageURL: foodState[i].imageURL, 
-                              portion: foodState[i].portion, 
-                              kcal: foodState[i].kcal, 
-                              kJ: foodState[i].kJ, 
-                              fat: foodState[i].fat, 
-                              saturatedFat: foodState[i].saturatedFat, 
-                              carbohydrates: foodState[i].carbohydrates, 
-                              sugar: foodState[i].sugar, 
-                              fiber: foodState[i].fiber, 
-                              proteins: foodState[i].proteins, 
-                              productBy: foodState[i].productBy, 
-                              type: foodState[i].type, 
-                              promoted: foodState[i].promoted,
-                              quantity: 1
-                            );
-                            foodLocalRepositoryProvider.addFoodToCart(food);
-                          },
+                          callback: () => context.read<FoodLocalBloc>().add(AddFoodToCart(food: foodState[i])),
                           name: foodState[i].name, 
                           image: foodState[i].imageURL
                         ),
