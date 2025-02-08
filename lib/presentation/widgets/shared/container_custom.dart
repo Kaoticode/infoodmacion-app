@@ -9,15 +9,16 @@ class ContainerCustom extends StatelessWidget {
   final String subtitle;
   final double height;
   final double width;
+  final double margin;
 
-  const ContainerCustom({super.key, required this.callback, this.isLocalImage = false, required this.url, required this.title, required this.subtitle, required this.height, this.width = double.infinity});
+  const ContainerCustom({super.key, required this.callback, this.isLocalImage = false, required this.url, required this.title, required this.subtitle, required this.height, this.width = double.infinity, this.margin = 20});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: callback,
       child: Container(
-        margin: const EdgeInsets.only(top: 20),
+        margin: EdgeInsets.only(top: margin),
         width: width,
         height: height,
         decoration: BoxDecoration(
