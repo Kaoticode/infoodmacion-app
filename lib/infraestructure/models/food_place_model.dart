@@ -9,6 +9,6 @@ class FoodPlaceModel {
 
   factory FoodPlaceModel.fromJson(Map<String, dynamic> json) => 
     FoodPlaceModel(
-      id: json['id'], name: json['nombre'], image: json['imagen'], description: json['descripcion'], isPromoted: json['promoted']
+      id: json['id'], name: json['nombre'], image: json['imagen'] ?? 'assets/logo.png', description: json['descripcion'], isPromoted: json['promoted']
     );
 }

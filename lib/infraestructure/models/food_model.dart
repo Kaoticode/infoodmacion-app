@@ -20,7 +20,7 @@ class FoodModel {
     try {
       return FoodModel(
         name: json['nombre'] ?? 'Unknown',
-        imageURL: json['imagen'] ?? 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Image-not-found.png',
+        imageURL: json['imagen'] ?? 'assets/logo.png',
         portion: json['porcion'] != null
             ? (json['porcion'] is double
                 ? json['porcion']

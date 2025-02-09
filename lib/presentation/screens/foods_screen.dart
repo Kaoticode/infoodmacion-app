@@ -58,6 +58,7 @@ class _FoodsScreenState extends State<FoodsScreen> {
                   return ListView.builder(
                     itemCount: foods.length,
                     itemBuilder: (context, i) => ContainerCustom(
+                      isLocalImage: foods[i].imageURL == "assets/logo.png",
                       callback: (){}, 
                       url: foods[i].imageURL, 
                       title: foods[i].name, 

@@ -37,7 +37,7 @@ class Slide extends StatelessWidget {
             child: Container(
               alignment: Alignment.center,
               decoration: const BoxDecoration(color: Colors.black54),
-              child: Text(name, style: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold)),
+              child: Text(name, style: const TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
             ),
           ),
         ),
