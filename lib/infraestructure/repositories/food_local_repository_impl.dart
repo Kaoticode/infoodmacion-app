@@ -1,5 +1,6 @@
 import 'package:infoodmacion_app/domain/datasources/food_local_datasource.dart';
 import 'package:infoodmacion_app/domain/entities/food.dart';
+import 'package:infoodmacion_app/domain/entities/nutritrion_stats.dart';
 import 'package:infoodmacion_app/domain/repositories/food_local_repository.dart';
 
 class FoodLocalRepositoryImpl implements FoodLocalRepository {
@@ -15,4 +16,7 @@ class FoodLocalRepositoryImpl implements FoodLocalRepository {
 
   @override
   Future<void> updateFoodCart(String name, int amount) => datasource.updateFoodCart(name, amount);
+
+  @override
+  Future<NutritionStats> getNutritionStats() => datasource.getNutritionStats();
 }

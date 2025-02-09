@@ -11,6 +11,7 @@ import 'package:infoodmacion_app/presentation/blocs/foods_places_foods_search/bl
 import 'package:infoodmacion_app/presentation/blocs/foods_places_search/foods_places_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods_search/foods_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/notification/notification_bloc.dart';
+import 'package:infoodmacion_app/presentation/blocs/nutriotion_stats/nutrition_stats_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipe/recipe_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/recipes_search_by_name_and_filter/bloc/recipes_search_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/trainer/trainer_bloc.dart';
@@ -42,7 +43,8 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (context) => TrainersSearchBloc()),
         BlocProvider(create: (context) => RecipesSearchBloc()),
         BlocProvider(create: (context) => NotificationBloc()),
-        BlocProvider(create: (context) => FoodLocalBloc())
+        BlocProvider(create: (context) => FoodLocalBloc()),
+        BlocProvider(create: (context) => NutritionStatsBloc())
       ],
       child: MaterialApp(
         title: 'Flutter Demo',

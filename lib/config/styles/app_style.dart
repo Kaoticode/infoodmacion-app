@@ -26,5 +26,9 @@ class AppStyle {
 
   static const generalSubtitle = TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white);
 
+  static const generalParagraphBold = TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold);
+
   static const generalParagraph = TextStyle(fontSize: 18, color: Colors.white);
+
+  static const generalParagraphPrimaryColor = TextStyle(fontSize: 18, color: AppStyle.primaryColor);
 }

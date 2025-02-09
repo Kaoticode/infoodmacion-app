@@ -1,6 +1,7 @@
 import 'package:hive/hive.dart';
 import 'package:infoodmacion_app/domain/datasources/food_local_datasource.dart';
 import 'package:infoodmacion_app/domain/entities/food.dart';
+import 'package:infoodmacion_app/domain/entities/nutritrion_stats.dart';
 import 'package:infoodmacion_app/infraestructure/database/food_hive.dart';
 
 class FoodLocalDatasourceImpl implements FoodLocalDatasource {
@@ -27,9 +28,7 @@ class FoodLocalDatasourceImpl implements FoodLocalDatasource {
           productBy: food.productBy,
           type: food.type,
           promoted: food.promoted,
-          quantity: 1
-        )
-      );
+          quantity: 1));
       return;
     }
 
@@ -121,5 +120,41 @@ class FoodLocalDatasourceImpl implements FoodLocalDatasource {
             ))
         .toList();
     return foodCart;
+  }
+
+  @override
+  Future<NutritionStats> getNutritionStats() async {
+    final box = Hive.box<FoodHive>('foodsBox');
+
+    double totalKcal = 0;
+    double totalKJ = 0;
+    double totalFat = 0;
+    double totalSaturatedFat = 0;
+    double totalCarbohydrates = 0;
+    double totalSugar = 0;
+    double totalFiber = 0;
+    double totalProteins = 0;
+
+    for (var food in box.values) {
+      totalKcal += food.kcal * food.quantity;
+      totalKJ += food.kJ * food.quantity;
+      totalFat += food.fat * food.quantity;
+      totalSaturatedFat += food.saturatedFat * food.quantity;
+      totalCarbohydrates += food.carbohydrates * food.quantity;
+      totalSugar += food.sugar * food.quantity;
+      totalFiber += food.fiber * food.quantity;
+      totalProteins += food.proteins * food.quantity;
+    }
+
+    return NutritionStats(
+      kcal: totalKcal,
+      kJ: totalKJ,
+      fat: totalFat,
+      saturatedFat: totalSaturatedFat,
+      carbohydrates: totalCarbohydrates,
+      sugar: totalSugar,
+      fiber: totalFiber,
+      totalProteins: totalProteins,
+    );
   }
 }

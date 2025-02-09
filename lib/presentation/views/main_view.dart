@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
+import 'package:infoodmacion_app/config/util/utils.dart';
 import '../screens/screens.dart';
 
 class MainView extends StatefulWidget {
@@ -38,7 +39,7 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
         actions: [
           _tabController.index == 1 ? IconButton(
             icon: const Icon(Icons.calculate),
-            onPressed: (){},
+            onPressed: () => Utils.showModalNutritionStats(context),
           ) : const SizedBox.shrink()
         ],
       ),
