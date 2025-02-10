@@ -2741,7 +2741,7 @@ final List<Map<String, dynamic>> productos = [
 
   {
     "nombre": "Hamburguesa",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 253,
     "KJ": 1063,
@@ -2756,7 +2756,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Big Mac",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 503,
     "KJ": 2106,
@@ -2771,7 +2771,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cuarto de libra",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 521,
     "KJ": 2179,
@@ -2786,7 +2786,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Doble cuarto de libra",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 758,
     "KJ": 3767,
@@ -2801,7 +2801,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McPollo",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 428,
     "KJ": 1788,
@@ -2816,7 +2816,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McCrispy Original",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 730,
     "KJ": 3063,
@@ -2831,7 +2831,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McRoyal Deluxe",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 530,
     "KJ": 2214,
@@ -2846,7 +2846,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Chicken&Cheese",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 354,
     "KJ": 1484,
@@ -2861,7 +2861,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Chicken burger BBQ",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 304,
     "KJ": 1279,
@@ -2876,7 +2876,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Chicken Burger Kids",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 309,
     "KJ": 1298,
@@ -2891,7 +2891,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "CBO",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 603,
     "KJ": 2525,
@@ -2906,7 +2906,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cheeseburger",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 302,
     "KJ": 1266,
@@ -2921,7 +2921,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Doble Cheesburger",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 446,
     "KJ": 1864,
@@ -2936,7 +2936,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Triple Cheeseburger",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 587,
     "KJ": 2453,
@@ -2951,7 +2951,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Chicken Mayo",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 362,
     "KJ": 1516,
@@ -2966,7 +2966,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Doble Chicken mayo",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 505,
     "KJ": 2112,
@@ -2981,7 +2981,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McWrap Chicken & Bacon",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 582,
     "KJ": 2436,
@@ -2996,7 +2996,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McExtreme Bacon",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 787,
     "KJ": 3286,
@@ -3011,7 +3011,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McExtreme Bacon Doble",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 951,
     "KJ": 3968,
@@ -3026,7 +3026,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McExtreme Intense Cheddar",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 681,
     "KJ": 2849,
@@ -3041,7 +3041,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McExtreme Intense Cheddar Doble",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 911,
     "KJ": 3805,
@@ -3056,7 +3056,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Filete de pescado",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 331,
     "KJ": 1391,
@@ -3071,7 +3071,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFish",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 281,
     "KJ": 1185,
@@ -3086,7 +3086,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McNuggets de Pollo (4uds.)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 176,
     "KJ": 740,
@@ -3101,7 +3101,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McNuggets de Pollo (6uds.)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 265,
     "KJ": 1109,
@@ -3116,7 +3116,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McNuggets de Pollo (9uds.)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 397,
     "KJ": 1664,
@@ -3131,7 +3131,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "ShareBox McNuggets (25uds.)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 1091,
     "KJ": 4570,
@@ -3146,7 +3146,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Ensalada de la huerta",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 14,
     "KJ": 59,
@@ -3161,7 +3161,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Ensalada Chicken César",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 442,
     "KJ": 1849,
@@ -3176,7 +3176,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Ensalada César",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 88,
     "KJ": 363,
@@ -3191,7 +3191,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Ensalada Chicken Honey Mustard",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 391,
     "KJ": 1626,
@@ -3206,7 +3206,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Ensalada Honey Mustard",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 185,
     "KJ": 765,
@@ -3221,7 +3221,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Alitas de pollo (4 und.)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 292,
     "KJ": 1223,
@@ -3236,7 +3236,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Chicken McBites (9 und.)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 140,
     "KJ": 588,
@@ -3251,7 +3251,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "ShareBox 10 Alitas + 1o McNuggets",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 1168,
     "KJ": 4888,
@@ -3266,7 +3266,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Top Fries Bacon & Cheese (individual)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 422,
     "KJ": 1761,
@@ -3281,7 +3281,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Top Fries Bacon & Cheese Deluxe (individual)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 413,
     "KJ": 1724,
@@ -3296,7 +3296,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Top Fries Bacon & Cheese (compartir)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 840,
     "KJ": 3510,
@@ -3311,7 +3311,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Top Fries Bacon & Cheese Deluxe (compartirl)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 825,
     "KJ": 3448,
@@ -3326,7 +3326,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Happy Cherritos",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 17,
     "KJ": 73,
@@ -3341,7 +3341,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Gazpacho",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 120,
     "KJ": 502,
@@ -3356,7 +3356,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Salsa Barbacoa",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 41,
     "KJ": 175,
@@ -3371,7 +3371,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Salsa de Patatas Deluxe",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 83,
     "KJ": 341,
@@ -3386,7 +3386,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Ketchup bolsitas",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 12,
     "KJ": 49,
@@ -3401,7 +3401,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Salsa Búfalo (25ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 88,
     "KJ": 364,
@@ -3416,7 +3416,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Patatas fritas pequeñas",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 231,
     "KJ": 968,
@@ -3431,7 +3431,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Patatas fritas medianas",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 330,
     "KJ": 1379,
@@ -3446,7 +3446,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Patatas fritas grandes",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 434,
     "KJ": 1815,
@@ -3461,7 +3461,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Patatas Deluxe medianas",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 220,
     "KJ": 923,
@@ -3476,7 +3476,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Patatas Deluxe grandes",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 321,
     "KJ": 1343,
@@ -3491,7 +3491,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry kit kat sirope chocolate",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 396,
     "KJ": 1667,
@@ -3506,7 +3506,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry kit kat sirope chocolate blanco",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 422,
     "KJ": 1772,
@@ -3521,7 +3521,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry kit kat sirope caramelo",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 404,
     "KJ": 1702,
@@ -3536,7 +3536,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry Oreo sirope chocolate",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 407,
     "KJ": 1715,
@@ -3551,7 +3551,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry Oreo sirope chocolate blanco",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 414,
     "KJ": 1739,
@@ -3566,7 +3566,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry Oreo sirope caramelo",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 415,
     "KJ": 1752,
@@ -3581,7 +3581,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry Oreo sirope chocolate",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 407,
     "KJ": 1715,
@@ -3596,7 +3596,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McFlurry Lotus Biscoff",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 420,
     "KJ": 1772,
@@ -3611,7 +3611,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Mini McFlurry Kit Kat",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 168,
     "KJ": 709,
@@ -3626,7 +3626,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Mini McFlurry Oreo",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 180,
     "KJ": 758,
@@ -3641,7 +3641,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Mini McFlurry Lotus Biscoff",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 187,
     "KJ": 757,
@@ -3656,7 +3656,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Sundae de chocolate caliente",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 284,
     "KJ": 1194,
@@ -3671,7 +3671,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Sundae de chocolate blanco",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 317,
     "KJ": 1331,
@@ -3686,7 +3686,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cono de helado",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 157,
     "KJ": 662,
@@ -3701,7 +3701,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cacahuetes",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 43,
     "KJ": 178,
@@ -3716,7 +3716,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Bolsa de manzana",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 41,
     "KJ": 175,
@@ -3731,7 +3731,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Danonino para llevar",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 63,
     "KJ": 266,
@@ -3746,7 +3746,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Apple piña ¿revisar?",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 230,
     "KJ": 999,
@@ -3761,7 +3761,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Coca-Cola (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 105,
     "KJ": 450,
@@ -3776,7 +3776,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Coca-Cola Zero (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 0,
     "KJ": 2,
@@ -3791,7 +3791,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Coca-Cola Zero-Zero (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 1,
     "KJ": 2,
@@ -3806,7 +3806,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Aquarius Zero Limón (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 2,
     "KJ": 12,
@@ -3821,7 +3821,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Sprite Zero (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 2,
     "KJ": 12,
@@ -3836,7 +3836,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Fanta Naranja Zero (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 8,
     "KJ": 34,
@@ -3851,7 +3851,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Lipton Ice Tea (250ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 64,
     "KJ": 269,
@@ -3866,7 +3866,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Mineral Aquarel (330ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 0,
     "KJ": 0,
@@ -3881,7 +3881,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Tropicana Pure Premium Naranja",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 104,
     "KJ": 441,
@@ -3896,7 +3896,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Tropicana Pure Premium Manzana",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 114,
     "KJ": 483,
@@ -3911,7 +3911,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cerveza (330ml)",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 147,
     "KJ": 675,
@@ -3926,7 +3926,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cerveza  0,0 Tostada",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 83,
     "KJ": 350,
@@ -3941,7 +3941,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cerveza sin gluten",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 162,
     "KJ": 677,
@@ -3956,7 +3956,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Espresso",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 0,
     "KJ": 0,
@@ -3971,7 +3971,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Espresso cortado",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 23,
     "KJ": 96,
@@ -3986,7 +3986,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Café con leche",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 63,
     "KJ": 268,
@@ -4001,7 +4001,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Capuccino",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 63,
     "KJ": 265,
@@ -4016,7 +4016,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Café americano",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 0,
     "KJ": 0,
@@ -4031,7 +4031,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Café con helado",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 245,
     "KJ": 1039,
@@ -4046,7 +4046,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Chocolate caliente Nesquik",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 148,
     "KJ": 625,
@@ -4061,7 +4061,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Tostadas con mantequilla y mermelada",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 296,
     "KJ": 1241,
@@ -4076,7 +4076,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Tostadas con tomate natural y aceite de oliva",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 292,
     "KJ": 1225,
@@ -4091,7 +4091,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Tostadas con tomate y jamón",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 347,
     "KJ": 1450,
@@ -4106,7 +4106,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Tostadas con totilla",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 554,
     "KJ": 2318,
@@ -4121,7 +4121,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Croissant",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 227,
     "KJ": 946,
@@ -4136,7 +4136,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McDalena Chocolate",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 386,
     "KJ": 1511,
@@ -4151,7 +4151,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Redondo glaseado",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 206,
     "KJ": 860,
@@ -4166,7 +4166,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McPop chocolate blanco",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 107,
     "KJ": 448,
@@ -4181,7 +4181,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McPop Lotus Biscoll",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 107,
     "KJ": 445,
@@ -4196,7 +4196,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "McPop Nocilla",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 104,
     "KJ": 435,
@@ -4211,7 +4211,7 @@ final List<Map<String, dynamic>> productos = [
   },
   {
     "nombre": "Cookie chocolate",
-    "imagen": "ENLACE IMAGEN",
+    "imagen": "",
     "porcion": 0,
     "Kcal": 336,
     "KJ": 1416,

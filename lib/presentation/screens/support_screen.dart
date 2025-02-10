@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../widgets/widgets.dart';
+
 class SupportScreen extends StatelessWidget {
   const SupportScreen({super.key});
 
-  Future<void> _viewWeb() async {
-    final Uri donateUrl = Uri.parse('https://www.kaoticode.com');
+  Future<void> _viewWeb(String url) async {
+    final Uri donateUrl = Uri.parse(url);
     if (!await launchUrl(donateUrl)) {
       throw Exception('Could not launch $donateUrl');
     }
@@ -28,21 +30,9 @@ class SupportScreen extends StatelessWidget {
               style: TextStyle(fontSize: 16, color: AppStyle.lightColor), textAlign: TextAlign.center
             ),
             const SizedBox(height: 25),
-            ElevatedButton(
-              onPressed: _viewWeb, 
-              style: ElevatedButton.styleFrom(
-                foregroundColor: Colors.white,
-                backgroundColor: AppStyle.primaryColor,
-                padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 12),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
-                ),
-              ),
-              child: const Text(
-                'Ver mas proyectos de la compañía',
-                style: TextStyle(fontSize: 18, color: Colors.black),
-              ),
-            )
+            ButtonCustom(text: 'Ver mas proyectos de la compañía', callback: () => _viewWeb('https://www.kaoticode.com')),
+            const SizedBox(height: 15),
+            ButtonCustom(text: 'Visita la pagina web', callback: () => _viewWeb('https://www.infoodmacion.com')),
           ],
         ),
       ),

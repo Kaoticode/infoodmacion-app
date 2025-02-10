@@ -1,4 +1,5 @@
 export 'package:infoodmacion_app/presentation/widgets/cart/build_nutrient_row.dart';
+export 'package:infoodmacion_app/presentation/widgets/shared/butoon_custom.dart';
 export 'package:infoodmacion_app/presentation/widgets/recipes/card_recipe.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/circular_progress_indicator_custom.dart';
 export 'package:infoodmacion_app/presentation/widgets/shared/container_custom.dart';

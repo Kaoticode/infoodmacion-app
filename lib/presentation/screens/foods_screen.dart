@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:infoodmacion_app/config/styles/app_style.dart';
+import 'package:infoodmacion_app/presentation/blocs/food_local/food_local_bloc.dart';
 import 'package:infoodmacion_app/presentation/blocs/foods_search/foods_search_bloc.dart';
 import '../widgets/widgets.dart';
 
@@ -59,7 +60,10 @@ class _FoodsScreenState extends State<FoodsScreen> {
                     itemCount: foods.length,
                     itemBuilder: (context, i) => ContainerCustom(
                       isLocalImage: foods[i].imageURL == "assets/logo.png",
-                      callback: (){}, 
+                      callback: (){
+                        context.read<FoodLocalBloc>().add(AddFoodToCart(food: foods[i]));
+                        CustomSnackbar.show(context, "El producto ${foods[i].name} ha sido añadido correctamente.");
+                      }, 
                       url: foods[i].imageURL, 
                       title: foods[i].name, 
                       subtitle: '', 
