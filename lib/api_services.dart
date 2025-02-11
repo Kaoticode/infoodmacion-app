@@ -61,6 +61,7 @@ final List<Map<String, dynamic>> establecimientos = [
         "Fanquicia que vende el primer yogur helado bajo en grasa, rico en fibra y sin gluten.",
     "promoted": false
   },
+  /*
   {
     "id": pizzahutId,
     "nombre": "Pizza Hut",
@@ -70,6 +71,7 @@ final List<Map<String, dynamic>> establecimientos = [
         "Cadena de pizzerías conocida por su masa y variedad de toppings.",
     "promoted": true
   },
+  */
   {
     "id": pansId,
     "nombre": "Pans & Company",
@@ -78,10 +80,11 @@ final List<Map<String, dynamic>> establecimientos = [
         "Los mejores bocadillos al mejor precio. Y además, menús, complementos, cafés y desayunos, postres, Zona 1€... ¡Disfruta ya de Pans and Company!",
     "promoted": true
   },
-    {
+  {
     "id": tacobellId,
     "nombre": "Tacobell",
-    "imagen": "https://assets.turbologo.com/blog/es/2020/02/19132624/Taco-Bell-958x575.png",
+    "imagen":
+        "https://assets.turbologo.com/blog/es/2020/02/19132624/Taco-Bell-958x575.png",
     "descripcion":
         "Los mejores bocadillos al mejor precio. Y además, menús, complementos, cafés y desayunos, postres, Zona 1€... ¡Disfruta ya de Pans and Company!",
     "promoted": true
@@ -8176,15 +8179,14 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
 /* Tacobell */
 
-{
+  {
     "nombre": "CRUNCHY TACO SUPREME Carne picada",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "Kcal": 222 * 103 / 100,
-    "KJ":  928 * 103 / 100,
+    "KJ": 928 * 103 / 100,
     "Grasa": 13.6 * 103 / 100,
     "Grasa_saturada": 3.1 * 103 / 100,
     "Hidratos_de_carbono": 13.5 * 103 / 100,
@@ -8194,12 +8196,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO SUPREME Pollo picante",
-    "imagen":"",
-    "porcion":103, 
+    "imagen": "",
+    "porcion": 103,
     "Kcal": 197 * 103 / 100,
-    "KJ":  823 * 103 / 100,
+    "KJ": 823 * 103 / 100,
     "Grasa": 12.4 * 103 / 100,
     "Grasa_saturada": 3 * 103 / 100,
     "Hidratos_de_carbono": 7.3 * 103 / 100,
@@ -8209,12 +8211,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO SUPREME Pollo asado",
-    "imagen":"",
-    "porcion":103, 
+    "imagen": "",
+    "porcion": 103,
     "Kcal": 196 * 103 / 100,
-    "KJ":  822 * 103 / 100,
+    "KJ": 822 * 103 / 100,
     "Grasa": 9.4 * 103 / 100,
     "Grasa_saturada": 1.7 * 103 / 100,
     "Hidratos_de_carbono": 15.6 * 103 / 100,
@@ -8225,12 +8227,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CRUNCHY TACO SUPREME Veggie",
-    "imagen":"",
-    "porcion":101, 
+    "imagen": "",
+    "porcion": 101,
     "Kcal": 186 * 101 / 100,
-    "KJ":  785 * 101 / 100,
+    "KJ": 785 * 101 / 100,
     "Grasa": 6.1 * 101 / 100,
     "Grasa_saturada": 1.5 * 101 / 100,
     "Hidratos_de_carbono": 24.8 * 101 / 100,
@@ -8240,27 +8242,27 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO SUPREME Arroz",
-    "imagen":"",
-    "porcion":103, 
+    "imagen": "",
+    "porcion": 103,
     "Kcal": 210 * 103 / 100,
-    "KJ":  880 * 103 / 100,
+    "KJ": 880 * 103 / 100,
     "Grasa": 9.56 * 103 / 100,
     "Grasa_saturada": 1.9 * 103 / 100,
     "Hidratos_de_carbono": 28.6 * 103 / 100,
     "azucar": 0.8 * 103 / 100,
     "fibra": 0.0,
-    "proteinas": 2.4  * 103 / 100,
+    "proteinas": 2.4 * 103 / 100,
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO SUPREME Frijoles",
-    "imagen":"",
-    "porcion":103, 
+    "imagen": "",
+    "porcion": 103,
     "Kcal": 200 * 95 / 100,
-    "KJ":  838 * 95 / 100,
+    "KJ": 838 * 95 / 100,
     "Grasa": 11.2 * 95 / 100,
     "Grasa_saturada": 2.8 * 95 / 100,
     "Hidratos_de_carbono": 19.7 * 95 / 100,
@@ -8271,12 +8273,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CRUNCHY TACO Carne picada",
-    "imagen":"",
-    "porcion":72, 
+    "imagen": "",
+    "porcion": 72,
     "Kcal": 239 * 72 / 100,
-    "KJ":  1000 * 72 / 100,
+    "KJ": 1000 * 72 / 100,
     "Grasa": 14.3 * 72 / 100,
     "Grasa_saturada": 3.9 * 72 / 100,
     "Hidratos_de_carbono": 14.6 * 72 / 100,
@@ -8286,12 +8288,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO Pollo picante",
-    "imagen":"",
-    "porcion":72, 
+    "imagen": "",
+    "porcion": 72,
     "Kcal": 194 * 72 / 100,
-    "KJ":  817 * 72 / 100,
+    "KJ": 817 * 72 / 100,
     "Grasa": 7.7 * 72 / 100,
     "Grasa_saturada": 2.4 * 72 / 100,
     "Hidratos_de_carbono": 13.9 * 72 / 100,
@@ -8301,12 +8303,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO Pollo asado",
-    "imagen":"",
-    "porcion":72, 
+    "imagen": "",
+    "porcion": 72,
     "Kcal": 231 * 72 / 100,
-    "KJ":  966 * 72 / 100,
+    "KJ": 966 * 72 / 100,
     "Grasa": 11.7 * 72 / 100,
     "Grasa_saturada": 4.0 * 72 / 100,
     "Hidratos_de_carbono": 13.9 * 72 / 100,
@@ -8317,12 +8319,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CRUNCHY TACO Veggie",
-    "imagen":"",
-    "porcion":70, 
+    "imagen": "",
+    "porcion": 70,
     "Kcal": 185 * 70 / 100,
-    "KJ":  774 * 70 / 100,
+    "KJ": 774 * 70 / 100,
     "Grasa": 10 * 70 / 100,
     "Grasa_saturada": 2.6 * 70 / 100,
     "Hidratos_de_carbono": 14.1 * 70 / 100,
@@ -8332,12 +8334,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO Frijoles",
-    "imagen":"",
-    "porcion":63, 
+    "imagen": "",
+    "porcion": 63,
     "Kcal": 208 * 63 / 100,
-    "KJ":  874 * 63 / 100,
+    "KJ": 874 * 63 / 100,
     "Grasa": 8.5 * 63 / 100,
     "Grasa_saturada": 2.6 * 63 / 100,
     "Hidratos_de_carbono": 24.5 * 63 / 100,
@@ -8347,12 +8349,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHY TACO Arroz",
-    "imagen":"",
-    "porcion":72, 
+    "imagen": "",
+    "porcion": 72,
     "Kcal": 188 * 72 / 100,
-    "KJ":  789 * 72 / 100,
+    "KJ": 789 * 72 / 100,
     "Grasa": 7.05 * 72 / 100,
     "Grasa_saturada": 2.2 * 72 / 100,
     "Hidratos_de_carbono": 25.2 * 72 / 100,
@@ -8363,12 +8365,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "SOFTTACO SUPREME Carne picada",
-    "imagen":"",
-    "porcion":117, 
+    "imagen": "",
+    "porcion": 117,
     "Kcal": 226 * 117 / 100,
-    "KJ":  941 * 117 / 100,
+    "KJ": 941 * 117 / 100,
     "Grasa": 16.8 * 117 / 100,
     "Grasa_saturada": 2.5 * 117 / 100,
     "Hidratos_de_carbono": 5.7 * 117 / 100,
@@ -8378,12 +8380,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO SUPREME Pollo picante",
-    "imagen":"",
-    "porcion":117, 
+    "imagen": "",
+    "porcion": 117,
     "Kcal": 163 * 117 / 100,
-    "KJ":  688 * 117 / 100,
+    "KJ": 688 * 117 / 100,
     "Grasa": 16.8 * 117 / 100,
     "Grasa_saturada": 0.8 * 117 / 100,
     "Hidratos_de_carbono": 12.3 * 117 / 100,
@@ -8393,12 +8395,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO SUPREME Pollo asado",
-    "imagen":"",
-    "porcion":117, 
+    "imagen": "",
+    "porcion": 117,
     "Kcal": 172 * 117 / 100,
-    "KJ":  726 * 117 / 100,
+    "KJ": 726 * 117 / 100,
     "Grasa": 5.9 * 117 / 100,
     "Grasa_saturada": 0.9 * 117 / 100,
     "Hidratos_de_carbono": 13.8 * 117 / 100,
@@ -8409,12 +8411,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "SOFTTACO SUPREME Veggie",
-    "imagen":"",
-    "porcion":115, 
+    "imagen": "",
+    "porcion": 115,
     "Kcal": 191 * 115 / 100,
-    "KJ":  803 * 115 / 100,
+    "KJ": 803 * 115 / 100,
     "Grasa": 6.8 * 115 / 100,
     "Grasa_saturada": 1 * 115 / 100,
     "Hidratos_de_carbono": 26.7 * 115 / 100,
@@ -8424,12 +8426,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO SUPREME Frijoles",
-    "imagen":"",
-    "porcion":108, 
+    "imagen": "",
+    "porcion": 108,
     "Kcal": 161 * 108 / 100,
-    "KJ":  677 * 108 / 100,
+    "KJ": 677 * 108 / 100,
     "Grasa": 6.8 * 108 / 100,
     "Grasa_saturada": 0.8 * 108 / 100,
     "Hidratos_de_carbono": 26.3 * 108 / 100,
@@ -8439,12 +8441,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO SUPREME Arroz",
-    "imagen":"",
-    "porcion":117, 
+    "imagen": "",
+    "porcion": 117,
     "Kcal": 148 * 117 / 100,
-    "KJ":  625 * 117 / 100,
+    "KJ": 625 * 117 / 100,
     "Grasa": 3 * 117 / 100,
     "Grasa_saturada": 0.5 * 117 / 100,
     "Hidratos_de_carbono": 24.8 * 117 / 100,
@@ -8455,12 +8457,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "SOFTTACO Carne picada",
-    "imagen":"",
-    "porcion":86, 
+    "imagen": "",
+    "porcion": 86,
     "Kcal": 190 * 86 / 100,
-    "KJ":  791 * 86 / 100,
+    "KJ": 791 * 86 / 100,
     "Grasa": 13.2 * 86 / 100,
     "Grasa_saturada": 3.3 * 86 / 100,
     "Hidratos_de_carbono": 6.4 * 86 / 100,
@@ -8470,27 +8472,27 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO Pollo picante",
-    "imagen":"",
-    "porcion":86, 
+    "imagen": "",
+    "porcion": 86,
     "Kcal": 158 * 86 / 100,
-    "KJ":  663 * 86 / 100,
+    "KJ": 663 * 86 / 100,
     "Grasa": 5.7 * 86 / 100,
     "Grasa_saturada": 1.3 * 86 / 100,
-    "Hidratos_de_carbono":14.2 * 86 / 100,
+    "Hidratos_de_carbono": 14.2 * 86 / 100,
     "azucar": 2.1 * 86 / 100,
     "fibra": 0.0,
     "proteinas": 12.4 * 86 / 100,
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO Pollo asado",
-    "imagen":"",
-    "porcion":86, 
+    "imagen": "",
+    "porcion": 86,
     "Kcal": 174 * 86 / 100,
-    "KJ":  735 * 86 / 100,
+    "KJ": 735 * 86 / 100,
     "Grasa": 4.2 * 86 / 100,
     "Grasa_saturada": 1.2 * 86 / 100,
     "Hidratos_de_carbono": 25.2 * 86 / 100,
@@ -8501,12 +8503,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "SOFTTACO Veggie",
-    "imagen":"",
-    "porcion":84, 
+    "imagen": "",
+    "porcion": 84,
     "Kcal": 209 * 84 / 100,
-    "KJ":  880 * 84 / 100,
+    "KJ": 880 * 84 / 100,
     "Grasa": 8.1 * 84 / 100,
     "Grasa_saturada": 1.8 * 84 / 100,
     "Hidratos_de_carbono": 22.7 * 84 / 100,
@@ -8516,12 +8518,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO Frijoles",
-    "imagen":"",
-    "porcion":77, 
+    "imagen": "",
+    "porcion": 77,
     "Kcal": 184 * 77 / 100,
-    "KJ":  773 * 77 / 100,
+    "KJ": 773 * 77 / 100,
     "Grasa": 7.1 * 77 / 100,
     "Grasa_saturada": 3 * 77 / 100,
     "Hidratos_de_carbono": 21.5 * 77 / 100,
@@ -8531,12 +8533,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "SOFTTACO Arroz",
-    "imagen":"",
-    "porcion":86, 
+    "imagen": "",
+    "porcion": 86,
     "Kcal": 189 * 86 / 100,
-    "KJ":  797 * 86 / 100,
+    "KJ": 797 * 86 / 100,
     "Grasa": 4.2 * 86 / 100,
     "Grasa_saturada": 1 * 86 / 100,
     "Hidratos_de_carbono": 30.8 * 86 / 100,
@@ -8546,12 +8548,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "TWINS BC Carne picada",
-    "imagen":"",
-    "porcion":168, 
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 288 * 168 / 100,
-    "KJ":  1209 * 168 / 100,
+    "KJ": 1209 * 168 / 100,
     "Grasa": 15.7 * 168 / 100,
     "Grasa_saturada": 5.1 * 168 / 100,
     "Hidratos_de_carbono": 24.7 * 168 / 100,
@@ -8561,12 +8563,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "TWINS BC Pollo picante",
-    "imagen":"",
-    "porcion":168, 
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 269 * 168 / 100,
-    "KJ":  1128 * 168 / 100,
+    "KJ": 1128 * 168 / 100,
     "Grasa": 12.8 * 168 / 100,
     "Grasa_saturada": 4.4 * 168 / 100,
     "Hidratos_de_carbono": 24.4 * 168 / 100,
@@ -8576,12 +8578,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "TWINS BC Pollo asado",
-    "imagen":"",
-    "porcion":168, 
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 285 * 168 / 100,
-    "KJ":  1194 * 168 / 100,
+    "KJ": 1194 * 168 / 100,
     "Grasa": 14.6 * 168 / 100,
     "Grasa_saturada": 5.1 * 168 / 100,
     "Hidratos_de_carbono": 24.1 * 168 / 100,
@@ -8590,13 +8592,13 @@ final List<Map<String, dynamic>> productos = [
     "proteinas": 14.4 * 168 / 100,
     "product_by": tacobellId,
     "promoted": false
-  }, 
-{
+  },
+  {
     "nombre": "TWINS BC Veggie",
-    "imagen":"",
-    "porcion":166, 
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 268 * 166 / 100,
-    "KJ":  1123 * 166 / 100,
+    "KJ": 1123 * 166 / 100,
     "Grasa": 14 * 166 / 100,
     "Grasa_saturada": 4.6 * 166 / 100,
     "Hidratos_de_carbono": 25 * 166 / 100,
@@ -8606,12 +8608,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BELL / SAN DIEGO Carne Picada ",
-    "imagen":"",
-    "porcion":204,
+    "imagen": "",
+    "porcion": 204,
     "Kcal": 214 * 204 / 100,
-    "KJ":  897 * 204 / 100,
+    "KJ": 897 * 204 / 100,
     "Grasa": 11.2 * 204 / 100,
     "Grasa_saturada": 1.2 * 204 / 100,
     "Hidratos_de_carbono": 17 * 204 / 100,
@@ -8621,12 +8623,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BELL / SAN DIEGO Pollo picante ",
-    "imagen":"",
-    "porcion":204,
+    "imagen": "",
+    "porcion": 204,
     "Kcal": 171 * 204 / 100,
-    "KJ":  720 * 204 / 100,
+    "KJ": 720 * 204 / 100,
     "Grasa": 4.7 * 204 / 100,
     "Grasa_saturada": 0.9 * 204 / 100,
     "Hidratos_de_carbono": 17.5 * 204 / 100,
@@ -8637,12 +8639,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BURRITO BELL / SAN DIEGO Pollo asado ",
-    "imagen":"",
-    "porcion":204,
+    "imagen": "",
+    "porcion": 204,
     "Kcal": 185 * 204 / 100,
-    "KJ":  777 * 204 / 100,
+    "KJ": 777 * 204 / 100,
     "Grasa": 6.8 * 204 / 100,
     "Grasa_saturada": 1.6 * 204 / 100,
     "Hidratos_de_carbono": 17.4 * 204 / 100,
@@ -8652,12 +8654,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BELL / SAN DIEGO Veggie ",
-    "imagen":"",
-    "porcion":202, 
+    "imagen": "",
+    "porcion": 202,
     "Kcal": 198 * 202 / 100,
-    "KJ":  836 * 202 / 100,
+    "KJ": 836 * 202 / 100,
     "Grasa": 5.5 * 202 / 100,
     "Grasa_saturada": 1.1 * 202 / 100,
     "Hidratos_de_carbono": 32 * 202 / 100,
@@ -8667,12 +8669,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO Carne Picada ",
-    "imagen":"",
-    "porcion":281, 
+    "imagen": "",
+    "porcion": 281,
     "Kcal": 225 * 281 / 100,
-    "KJ":  945 * 281 / 100,
+    "KJ": 945 * 281 / 100,
     "Grasa": 10.2 * 281 / 100,
     "Grasa_saturada": 2.2 * 281 / 100,
     "Hidratos_de_carbono": 19.9 * 281 / 100,
@@ -8682,12 +8684,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO Pollo picante ",
-    "imagen":"",
-    "porcion":281,
+    "imagen": "",
+    "porcion": 281,
     "Kcal": 206 * 281 / 100,
-    "KJ":  869 * 281 / 100,
+    "KJ": 869 * 281 / 100,
     "Grasa": 5.3 * 281 / 100,
     "Grasa_saturada": 1.4 * 281 / 100,
     "Hidratos_de_carbono": 23.4 * 281 / 100,
@@ -8697,12 +8699,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO Pollo asado ",
-    "imagen":"",
-    "porcion":281, 
+    "imagen": "",
+    "porcion": 281,
     "Kcal": 224 * 281 / 100,
-    "KJ":  946 * 281 / 100,
+    "KJ": 946 * 281 / 100,
     "Grasa": 6.2 * 281 / 100,
     "Grasa_saturada": 1.6 * 281 / 100,
     "Hidratos_de_carbono": 24.9 * 281 / 100,
@@ -8712,12 +8714,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO Arroz ",
-    "imagen":"",
-    "porcion":281, 
+    "imagen": "",
+    "porcion": 281,
     "Kcal": 159 * 281 / 100,
-    "KJ":  670 * 281 / 100,
+    "KJ": 670 * 281 / 100,
     "Grasa": 3.1 * 281 / 100,
     "Grasa_saturada": 0.7 * 281 / 100,
     "Hidratos_de_carbono": 28.1 * 281 / 100,
@@ -8728,12 +8730,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "QUESARITO Veggie ",
-    "imagen":"",
-    "porcion":279,
+    "imagen": "",
+    "porcion": 279,
     "Kcal": 195 * 279 / 100,
-    "KJ":  824 * 279 / 100,
+    "KJ": 824 * 279 / 100,
     "Grasa": 3.2 * 279 / 100,
     "Grasa_saturada": 0.5 * 279 / 100,
     "Hidratos_de_carbono": 29.9 * 279 / 100,
@@ -8743,12 +8745,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO Frijoles ",
-    "imagen":"",
-    "porcion":272, 
+    "imagen": "",
+    "porcion": 272,
     "Kcal": 130 * 272 / 100,
-    "KJ":  546 * 272 / 100,
+    "KJ": 546 * 272 / 100,
     "Grasa": 6.2 * 272 / 100,
     "Grasa_saturada": 1.2 * 272 / 100,
     "Hidratos_de_carbono": 13.5 * 272 / 100,
@@ -8758,12 +8760,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO 2.0 Carne picada ",
-    "imagen":"",
-    "porcion":283, 
+    "imagen": "",
+    "porcion": 283,
     "Kcal": 246 * 283 / 100,
-    "KJ":  1035 * 283 / 100,
+    "KJ": 1035 * 283 / 100,
     "Grasa": 11.1 * 283 / 100,
     "Grasa_saturada": 5.0 * 283 / 100,
     "Hidratos_de_carbono": 25.7 * 283 / 100,
@@ -8774,13 +8776,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "QUESARITO 2.0 Pollo picante ",
-    "imagen":"",
-    "porcion":283,
+    "imagen": "",
+    "porcion": 283,
     "Kcal": 234 * 283 / 100,
-    "KJ":  986 * 283 / 100,
+    "KJ": 986 * 283 / 100,
     "Grasa": 9.3 * 283 / 100,
     "Grasa_saturada": 4.6 * 283 / 100,
     "Hidratos_de_carbono": 25.5 * 283 / 100,
@@ -8790,12 +8791,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO 2.0 Pollo asado",
-    "imagen":"",
-    "porcion":283, 
+    "imagen": "",
+    "porcion": 283,
     "Kcal": 244 * 283 / 100,
-    "KJ":  1026 * 283 / 100,
+    "KJ": 1026 * 283 / 100,
     "Grasa": 10.4 * 283 / 100,
     "Grasa_saturada": 5.1 * 283 / 100,
     "Hidratos_de_carbono": 25.3 * 283 / 100,
@@ -8805,12 +8806,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESARITO 2.0 Veggie",
-    "imagen":"",
-    "porcion":294,
+    "imagen": "",
+    "porcion": 294,
     "Kcal": 225 * 294 / 100,
-    "KJ":  946 * 294 / 100,
+    "KJ": 946 * 294 / 100,
     "Grasa": 7.6 * 294 / 100,
     "Grasa_saturada": 3.9 * 294 / 100,
     "Hidratos_de_carbono": 25.6 * 294 / 100,
@@ -8821,12 +8822,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CHICKEN BURRITO Pollo crujiente ",
-    "imagen":"",
-    "porcion":256,
+    "imagen": "",
+    "porcion": 256,
     "Kcal": 241 * 256 / 100,
-    "KJ":  595 * 256 / 100,
+    "KJ": 595 * 256 / 100,
     "Grasa": 3.9 * 256 / 100,
     "Grasa_saturada": 0.7 * 256 / 100,
     "Hidratos_de_carbono": 15.2 * 256 / 100,
@@ -8836,12 +8837,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHICKEN BURRITO Veggie ",
-    "imagen":"",
-    "porcion":237, 
+    "imagen": "",
+    "porcion": 237,
     "Kcal": 152 * 237 / 100,
-    "KJ":  640 * 237 / 100,
+    "KJ": 640 * 237 / 100,
     "Grasa": 5.9 * 237 / 100,
     "Grasa_saturada": 1 * 237 / 100,
     "Hidratos_de_carbono": 19.8 * 237 / 100,
@@ -8851,12 +8852,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BC Pollo crujiente ",
-    "imagen":"",
-    "porcion":299,
+    "imagen": "",
+    "porcion": 299,
     "Kcal": 241 * 299 / 100,
-    "KJ":  1010 * 299 / 100,
+    "KJ": 1010 * 299 / 100,
     "Grasa": 12.8 * 299 / 100,
     "Grasa_saturada": 5.4 * 299 / 100,
     "Hidratos_de_carbono": 21.9 * 299 / 100,
@@ -8867,12 +8868,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BURRITO BC Veggie ",
-    "imagen":"",
-    "porcion":280,
+    "imagen": "",
+    "porcion": 280,
     "Kcal": 223 * 280 / 100,
-    "KJ":  931 * 280 / 100,
+    "KJ": 931 * 280 / 100,
     "Grasa": 12.4 * 280 / 100,
     "Grasa_saturada": 14.1 * 280 / 100,
     "Hidratos_de_carbono": 59 * 280 / 100,
@@ -8882,12 +8883,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN BURRITO Carne picada ",
-    "imagen":"",
-    "porcion":284,
+    "imagen": "",
+    "porcion": 284,
     "Kcal": 223 * 284 / 100,
-    "KJ":  930 * 284 / 100,
+    "KJ": 930 * 284 / 100,
     "Grasa": 13.2 * 284 / 100,
     "Grasa_saturada": 2.5 * 284 / 100,
     "Hidratos_de_carbono": 18.1 * 284 / 100,
@@ -8897,12 +8898,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN BURRITO Pollo picante ",
-    "imagen":"",
-    "porcion":284,
+    "imagen": "",
+    "porcion": 284,
     "Kcal": 160 * 284 / 100,
-    "KJ":  673 * 284 / 100,
+    "KJ": 673 * 284 / 100,
     "Grasa": 4.3 * 284 / 100,
     "Grasa_saturada": 0.8 * 284 / 100,
     "Hidratos_de_carbono": 19.1 * 284 / 100,
@@ -8913,12 +8914,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "GRAN BURRITO Pollo asado ",
-    "imagen":"",
-    "porcion":284,
+    "imagen": "",
+    "porcion": 284,
     "Kcal": 177 * 284 / 100,
-    "KJ":  747 * 284 / 100,
+    "KJ": 747 * 284 / 100,
     "Grasa": 5.5 * 284 / 100,
     "Grasa_saturada": 1.1 * 284 / 100,
     "Hidratos_de_carbono": 19.6 * 284 / 100,
@@ -8928,12 +8929,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN BURRITO Veggie ",
-    "imagen":"",
-    "porcion":279,
+    "imagen": "",
+    "porcion": 279,
     "Kcal": 210 * 279 / 100,
-    "KJ":  883 * 279 / 100,
+    "KJ": 883 * 279 / 100,
     "Grasa": 6.5 * 279 / 100,
     "Grasa_saturada": 1.3 * 279 / 100,
     "Hidratos_de_carbono": 31.9 * 279 / 100,
@@ -8943,12 +8944,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN BURRITO Frijoles ",
-    "imagen":"",
-    "porcion":265,
+    "imagen": "",
+    "porcion": 265,
     "Kcal": 140 * 265 / 100,
-    "KJ":  589 * 265 / 100,
+    "KJ": 589 * 265 / 100,
     "Grasa": 5.2 * 265 / 100,
     "Grasa_saturada": 1 * 265 / 100,
     "Hidratos_de_carbono": 17.3 * 265 / 100,
@@ -8959,12 +8960,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "GRAN BURRITO Arroz ",
-    "imagen":"",
-    "porcion":284,
+    "imagen": "",
+    "porcion": 284,
     "Kcal": 161 * 284 / 100,
-    "KJ":  681 * 284 / 100,
+    "KJ": 681 * 284 / 100,
     "Grasa": 2.21 * 284 / 100,
     "Grasa_saturada": 0.5 * 284 / 100,
     "Hidratos_de_carbono": 31.1 * 284 / 100,
@@ -8974,12 +8975,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHEESY SNACK Carne picada ",
-    "imagen":"",
-    "porcion":79,
+    "imagen": "",
+    "porcion": 79,
     "Kcal": 256 * 79 / 100,
-    "KJ":  1075 * 79 / 100,
+    "KJ": 1075 * 79 / 100,
     "Grasa": 14 * 79 / 100,
     "Grasa_saturada": 6 * 79 / 100,
     "Hidratos_de_carbono": 17.5 * 79 / 100,
@@ -8989,12 +8990,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHEESY SNACK Pollo picante ",
-    "imagen":"",
-    "porcion":79,
+    "imagen": "",
+    "porcion": 79,
     "Kcal": 224 * 79 / 100,
-    "KJ":  941 * 79 / 100,
+    "KJ": 941 * 79 / 100,
     "Grasa": 9.2 * 79 / 100,
     "Grasa_saturada": 4.8 * 79 / 100,
     "Hidratos_de_carbono": 16.9 * 79 / 100,
@@ -9005,12 +9006,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CHEESY SNACK Veggie ",
-    "imagen":"",
-    "porcion":77,
+    "imagen": "",
+    "porcion": 77,
     "Kcal": 219 * 77 / 100,
-    "KJ":  918 * 77 / 100,
+    "KJ": 918 * 77 / 100,
     "Grasa": 10.8 * 77 / 100,
     "Grasa_saturada": 5.2 * 77 / 100,
     "Hidratos_de_carbono": 17.4 * 77 / 100,
@@ -9020,12 +9021,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHEESY BURRITO Carne picada ",
-    "imagen":"",
-    "porcion":169,
+    "imagen": "",
+    "porcion": 169,
     "Kcal": 195 * 169 / 100,
-    "KJ":  815 * 169 / 100,
+    "KJ": 815 * 169 / 100,
     "Grasa": 11.2 * 169 / 100,
     "Grasa_saturada": 3.6 * 169 / 100,
     "Hidratos_de_carbono": 15.1 * 169 / 100,
@@ -9035,12 +9036,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHEESY BURRITO Pollo picante ",
-    "imagen":"",
-    "porcion":169,
+    "imagen": "",
+    "porcion": 169,
     "Kcal": 210 * 169 / 100,
-    "KJ":  886 * 169 / 100,
+    "KJ": 886 * 169 / 100,
     "Grasa": 5.25 * 169 / 100,
     "Grasa_saturada": 2.4 * 169 / 100,
     "Hidratos_de_carbono": 29.3 * 169 / 100,
@@ -9051,12 +9052,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CHEESY BURRITO Veggie ",
-    "imagen":"",
-    "porcion":167,
+    "imagen": "",
+    "porcion": 167,
     "Kcal": 207 * 167 / 100,
-    "KJ":  871 * 167 / 100,
+    "KJ": 871 * 167 / 100,
     "Grasa": 6.1 * 167 / 100,
     "Grasa_saturada": 2.5 * 167 / 100,
     "Hidratos_de_carbono": 30 * 167 / 100,
@@ -9066,12 +9067,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHEESY BURRITO Frijoles ",
-    "imagen":"",
-    "porcion":197,
+    "imagen": "",
+    "porcion": 197,
     "Kcal": 215 * 197 / 100,
-    "KJ":  903 * 197 / 100,
+    "KJ": 903 * 197 / 100,
     "Grasa": 7.7 * 197 / 100,
     "Grasa_saturada": 2.8 * 197 / 100,
     "Hidratos_de_carbono": 29.5 * 197 / 100,
@@ -9081,12 +9082,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO CARNE Y PATATAS Carne picada ",
-    "imagen":"",
-    "porcion":157,
+    "imagen": "",
+    "porcion": 157,
     "Kcal": 265 * 15 / 100,
-    "KJ":  1116 * 157 / 100,
+    "KJ": 1116 * 157 / 100,
     "Grasa": 9.2 * 157 / 100,
     "Grasa_saturada": 3.3 * 157 / 100,
     "Hidratos_de_carbono": 36.5 * 157 / 100,
@@ -9097,12 +9098,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BURRITO CARNE Y PATATAS Pollo picante ",
-    "imagen":"",
-    "porcion":157,
+    "imagen": "",
+    "porcion": 157,
     "Kcal": 275 * 157 / 100,
-    "KJ":  1153 * 157 / 100,
+    "KJ": 1153 * 157 / 100,
     "Grasa": 11.2 * 157 / 100,
     "Grasa_saturada": 2.2 * 157 / 100,
     "Hidratos_de_carbono": 34.3 * 157 / 100,
@@ -9112,12 +9113,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO CARNE Y PATATAS Veggie ",
-    "imagen":"",
-    "porcion":155,
+    "imagen": "",
+    "porcion": 155,
     "Kcal": 256 * 155 / 100,
-    "KJ":  1074 * 155 / 100,
+    "KJ": 1074 * 155 / 100,
     "Grasa": 10.3 * 155 / 100,
     "Grasa_saturada": 2.6 * 155 / 100,
     "Hidratos_de_carbono": 33.6 * 155 / 100,
@@ -9127,12 +9128,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN PACIFIC Carne picada ",
-    "imagen":"",
-    "porcion":214,
+    "imagen": "",
+    "porcion": 214,
     "Kcal": 236 * 214 / 100,
-    "KJ":  987 * 214 / 100,
+    "KJ": 987 * 214 / 100,
     "Grasa": 12.5 * 214 / 100,
     "Grasa_saturada": 2.6 * 214 / 100,
     "Hidratos_de_carbono": 24.8 * 214 / 100,
@@ -9143,12 +9144,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "GRAN PACIFIC Pollo picante ",
-    "imagen":"",
-    "porcion":214,
+    "imagen": "",
+    "porcion": 214,
     "Kcal": 202 * 214 / 100,
-    "KJ":  845 * 214 / 100,
+    "KJ": 845 * 214 / 100,
     "Grasa": 8.3 * 214 / 100,
     "Grasa_saturada": 1.9 * 214 / 100,
     "Hidratos_de_carbono": 23.6 * 214 / 100,
@@ -9158,12 +9159,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN PACIFIC Pollo asado ",
-    "imagen":"",
-    "porcion":214,
+    "imagen": "",
+    "porcion": 214,
     "Kcal": 227 * 214 / 100,
-    "KJ":  949 * 214 / 100,
+    "KJ": 949 * 214 / 100,
     "Grasa": 11.7 * 214 / 100,
     "Grasa_saturada": 2.4 * 214 / 100,
     "Hidratos_de_carbono": 23.6 * 214 / 100,
@@ -9173,12 +9174,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRAN PACIFIC Veggie ",
-    "imagen":"",
-    "porcion":212,
+    "imagen": "",
+    "porcion": 212,
     "Kcal": 225 * 212 / 100,
-    "KJ":  943 * 212 / 100,
+    "KJ": 943 * 212 / 100,
     "Grasa": 10.7 * 212 / 100,
     "Grasa_saturada": 2.1 * 212 / 100,
     "Hidratos_de_carbono": 25.3 * 212 / 100,
@@ -9189,13 +9190,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "BURRITO CAESAR Pollo crujiente ",
-    "imagen":"",
-    "porcion":252,
+    "imagen": "",
+    "porcion": 252,
     "Kcal": 246 * 252 / 100,
-    "KJ":  1031 * 252 / 100,
+    "KJ": 1031 * 252 / 100,
     "Grasa": 11 * 252 / 100,
     "Grasa_saturada": 2.5 * 252 / 100,
     "Hidratos_de_carbono": 26.5 * 252 / 100,
@@ -9205,12 +9205,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO CAESAR Veggie ",
-    "imagen":"",
-    "porcion":228,
+    "imagen": "",
+    "porcion": 228,
     "Kcal": 241 * 228 / 100,
-    "KJ":  1013 * 228 / 100,
+    "KJ": 1013 * 228 / 100,
     "Grasa": 9.4 * 228 / 100,
     "Grasa_saturada": 1.7 * 228 / 100,
     "Hidratos_de_carbono": 25 * 228 / 100,
@@ -9220,12 +9220,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES HABANERO Carne picada",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 247 * 168 / 100,
-    "KJ":  1035 * 168 / 100,
+    "KJ": 1035 * 168 / 100,
     "Grasa": 11.9 * 168 / 100,
     "Grasa_saturada": 2.5 * 168 / 100,
     "Hidratos_de_carbono": 28.7 * 168 / 100,
@@ -9236,14 +9236,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BEEFRIES HABANERO Pollo picante",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 221 * 168 / 100,
-    "KJ":  928 * 168 / 100,
+    "KJ": 928 * 168 / 100,
     "Grasa": 8.6 * 168 / 100,
     "Grasa_saturada": 1.9 * 168 / 100,
     "Hidratos_de_carbono": 25.7 * 168 / 100,
@@ -9253,12 +9251,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES HABANERO Veggie",
-    "imagen":"",
-    "porcion":166,
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 207 * 166 / 100,
-    "KJ":  1018 * 166 / 100,
+    "KJ": 1018 * 166 / 100,
     "Grasa": 6.9 * 166 / 100,
     "Grasa_saturada": 2.6 * 166 / 100,
     "Hidratos_de_carbono": 28.8 * 166 / 100,
@@ -9268,12 +9266,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES HABANERO Frijoles",
-    "imagen":"",
-    "porcion":161,
+    "imagen": "",
+    "porcion": 161,
     "Kcal": 254 * 161 / 100,
-    "KJ":  1067 * 161 / 100,
+    "KJ": 1067 * 161 / 100,
     "Grasa": 10 * 161 / 100,
     "Grasa_saturada": 2 * 161 / 100,
     "Hidratos_de_carbono": 32.9 * 161 / 100,
@@ -9284,13 +9282,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "BEEFRIES HABANERO Arroz",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 236 * 168 / 100,
-    "KJ":  994 * 168 / 100,
+    "KJ": 994 * 168 / 100,
     "Grasa": 8.7 * 168 / 100,
     "Grasa_saturada": 2.1 * 168 / 100,
     "Hidratos_de_carbono": 34.3 * 168 / 100,
@@ -9301,12 +9298,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BEEFRIES BRAVA Carne picada",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 236 * 168 / 100,
-    "KJ":  988 * 168 / 100,
+    "KJ": 988 * 168 / 100,
     "Grasa": 12.8 * 168 / 100,
     "Grasa_saturada": 2.8 * 168 / 100,
     "Hidratos_de_carbono": 22 * 168 / 100,
@@ -9316,12 +9313,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES BRAVA Pollo picante",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 217 * 168 / 100,
-    "KJ":  910 * 168 / 100,
+    "KJ": 910 * 168 / 100,
     "Grasa": 9.2 * 168 / 100,
     "Grasa_saturada": 2 * 168 / 100,
     "Hidratos_de_carbono": 26.4 * 168 / 100,
@@ -9332,12 +9329,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BEEFRIES BRAVA Veggie",
-    "imagen":"",
-    "porcion":166,
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 204 * 166 / 100,
-    "KJ":  1003 * 166 / 100,
+    "KJ": 1003 * 166 / 100,
     "Grasa": 6.9 * 166 / 100,
     "Grasa_saturada": 2.6 * 166 / 100,
     "Hidratos_de_carbono": 27.8 * 166 / 100,
@@ -9347,12 +9344,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES BRAVA Frijoles",
-    "imagen":"",
-    "porcion":161,
+    "imagen": "",
+    "porcion": 161,
     "Kcal": 232 * 161 / 100,
-    "KJ":  970 * 161 / 100,
+    "KJ": 970 * 161 / 100,
     "Grasa": 10.8 * 161 / 100,
     "Grasa_saturada": 2.3 * 161 / 100,
     "Hidratos_de_carbono": 26.5 * 161 / 100,
@@ -9362,12 +9359,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES BRAVA Arroz",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 249 * 168 / 100,
-    "KJ":  1044 * 168 / 100,
+    "KJ": 1044 * 168 / 100,
     "Grasa": 10.2 * 168 / 100,
     "Grasa_saturada": 2.2 * 168 / 100,
     "Hidratos_de_carbono": 34.4 * 168 / 100,
@@ -9378,14 +9375,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BEEFRIES BARBACOA Carne picada",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 245 * 168 / 100,
-    "KJ":  1028 * 168 / 100,
+    "KJ": 1028 * 168 / 100,
     "Grasa": 12 * 168 / 100,
     "Grasa_saturada": 2.3 * 168 / 100,
     "Hidratos_de_carbono": 27.1 * 168 / 100,
@@ -9395,12 +9390,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES BARBACOA Pollo picante",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 216 * 168 / 100,
-    "KJ":  905 * 168 / 100,
+    "KJ": 905 * 168 / 100,
     "Grasa": 10.8 * 168 / 100,
     "Grasa_saturada": 1.9 * 168 / 100,
     "Hidratos_de_carbono": 20.9 * 168 / 100,
@@ -9410,12 +9405,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES BARBACOA Veggie",
-    "imagen":"",
-    "porcion":166,
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 208 * 166 / 100,
-    "KJ":  1023 * 166 / 100,
+    "KJ": 1023 * 166 / 100,
     "Grasa": 6.9 * 166 / 100,
     "Grasa_saturada": 2.6 * 166 / 100,
     "Hidratos_de_carbono": 29.2 * 166 / 100,
@@ -9426,12 +9421,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BEEFRIES BARBACOA Frijoles",
-    "imagen":"",
-    "porcion":161,
+    "imagen": "",
+    "porcion": 161,
     "Kcal": 246 * 161 / 100,
-    "KJ":  1031 * 161 / 100,
+    "KJ": 1031 * 161 / 100,
     "Grasa": 11.8 * 161 / 100,
     "Grasa_saturada": 2.6 * 161 / 100,
     "Hidratos_de_carbono": 27.5 * 161 / 100,
@@ -9441,12 +9436,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEFRIES BARBACOA Arroz",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 237 * 168 / 100,
-    "KJ":  994 * 168 / 100,
+    "KJ": 994 * 168 / 100,
     "Grasa": 10.6 * 168 / 100,
     "Grasa_saturada": 2.2 * 168 / 100,
     "Hidratos_de_carbono": 29.1 * 168 / 100,
@@ -9456,12 +9451,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF STAR CREMA AGRIA Carne picada",
-    "imagen":"",
-    "porcion":166,
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 207 * 166 / 100,
-    "KJ":  869 * 166 / 100,
+    "KJ": 869 * 166 / 100,
     "Grasa": 8.3 * 166 / 100,
     "Grasa_saturada": 2.8 * 166 / 100,
     "Hidratos_de_carbono": 24.2 * 166 / 100,
@@ -9472,14 +9467,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BEEF STAR CREMA AGRIA Pollo picante",
-    "imagen":"",
-    "porcion":166,
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 187 * 166 / 100,
-    "KJ":  787 * 166 / 100,
+    "KJ": 787 * 166 / 100,
     "Grasa": 5.3 * 166 / 100,
     "Grasa_saturada": 2.1 * 166 / 100,
     "Hidratos_de_carbono": 23.8 * 166 / 100,
@@ -9489,12 +9482,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF STAR CREMA AGRIA Veggie",
-    "imagen":"",
-    "porcion":164,
+    "imagen": "",
+    "porcion": 164,
     "Kcal": 182 * 164 / 100,
-    "KJ":  767 * 164 / 100,
+    "KJ": 767 * 164 / 100,
     "Grasa": 6.2 * 164 / 100,
     "Grasa_saturada": 2.2 * 164 / 100,
     "Hidratos_de_carbono": 24.4 * 164 / 100,
@@ -9504,12 +9497,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF STAR GUACAMOLE Carne picada",
-    "imagen":"",
-    "porcion":170,
+    "imagen": "",
+    "porcion": 170,
     "Kcal": 194 * 170 / 100,
-    "KJ":  813 * 170 / 100,
+    "KJ": 813 * 170 / 100,
     "Grasa": 7.1 * 170 / 100,
     "Grasa_saturada": 1.6 * 170 / 100,
     "Hidratos_de_carbono": 23.5 * 170 / 100,
@@ -9520,12 +9513,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BEEF STAR GUACAMOLE Pollo picante",
-    "imagen":"",
-    "porcion":170,
+    "imagen": "",
+    "porcion": 170,
     "Kcal": 174 * 170 / 100,
-    "KJ":  733 * 170 / 100,
+    "KJ": 733 * 170 / 100,
     "Grasa": 4.2 * 170 / 100,
     "Grasa_saturada": 1.6 * 170 / 100,
     "Hidratos_de_carbono": 23.1 * 170 / 100,
@@ -9535,12 +9528,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF STAR GUACAMOLE Veggie",
-    "imagen":"",
-    "porcion":168,
+    "imagen": "",
+    "porcion": 168,
     "Kcal": 169 * 168 / 100,
-    "KJ":  711 * 168 / 100,
+    "KJ": 711 * 168 / 100,
     "Grasa": 5 * 168 / 100,
     "Grasa_saturada": 1 * 168 / 100,
     "Hidratos_de_carbono": 23.6 * 168 / 100,
@@ -9550,12 +9543,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF STAR MEXICAN Carne picada",
-    "imagen":"",
-    "porcion":177,
+    "imagen": "",
+    "porcion": 177,
     "Kcal": 172 * 177 / 100,
-    "KJ":  726 * 177 / 100,
+    "KJ": 726 * 177 / 100,
     "Grasa": 5.5 * 177 / 100,
     "Grasa_saturada": 1.2 * 177 / 100,
     "Hidratos_de_carbono": 22.5 * 177 / 100,
@@ -9566,12 +9559,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BEEF STAR MEXICAN Pollo picante",
-    "imagen":"",
-    "porcion":177,
+    "imagen": "",
+    "porcion": 177,
     "Kcal": 154 * 177 / 100,
-    "KJ":  648 * 177 / 100,
+    "KJ": 648 * 177 / 100,
     "Grasa": 2.7 * 177 / 100,
     "Grasa_saturada": 0.6 * 177 / 100,
     "Hidratos_de_carbono": 22.1 * 177 / 100,
@@ -9581,12 +9574,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF STAR MEXICAN Veggie",
-    "imagen":"",
-    "porcion":175,
+    "imagen": "",
+    "porcion": 175,
     "Kcal": 148 * 175 / 100,
-    "KJ":  624 * 175 / 100,
+    "KJ": 624 * 175 / 100,
     "Grasa": 3.4 * 175 / 100,
     "Grasa_saturada": 0.6 * 175 / 100,
     "Hidratos_de_carbono": 22.6 * 175 / 100,
@@ -9596,12 +9589,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRILLER BARBACOA Carne picada",
-    "imagen":"",
-    "porcion":190,
+    "imagen": "",
+    "porcion": 190,
     "Kcal": 232 * 190 / 100,
-    "KJ":  974 * 190 / 100,
+    "KJ": 974 * 190 / 100,
     "Grasa": 8.1 * 190 / 100,
     "Grasa_saturada": 2.9 * 190 / 100,
     "Hidratos_de_carbono": 31 * 190 / 100,
@@ -9612,14 +9605,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "GRILLER BARBACOA Pollo picante",
-    "imagen":"",
-    "porcion":190,
+    "imagen": "",
+    "porcion": 190,
     "Kcal": 214 * 190 / 100,
-    "KJ":  902 * 190 / 100,
+    "KJ": 902 * 190 / 100,
     "Grasa": 5.5 * 190 / 100,
     "Grasa_saturada": 2.3 * 190 / 100,
     "Hidratos_de_carbono": 30.7 * 190 / 100,
@@ -9629,12 +9620,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRILLER BARBACOA Veggie",
-    "imagen":"",
-    "porcion":188,
+    "imagen": "",
+    "porcion": 188,
     "Kcal": 211 * 188 / 100,
-    "KJ":  889 * 188 / 100,
+    "KJ": 889 * 188 / 100,
     "Grasa": 6.3 * 188 / 100,
     "Grasa_saturada": 2.4 * 188 / 100,
     "Hidratos_de_carbono": 31.4 * 188 / 100,
@@ -9644,12 +9635,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRILLER BRAVA Carne picada",
-    "imagen":"",
-    "porcion":190,
+    "imagen": "",
+    "porcion": 190,
     "Kcal": 228 * 190 / 100,
-    "KJ":  957 * 190 / 100,
+    "KJ": 957 * 190 / 100,
     "Grasa": 8.1 * 190 / 100,
     "Grasa_saturada": 2.9 * 190 / 100,
     "Hidratos_de_carbono": 29.9 * 190 / 100,
@@ -9660,14 +9651,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "GRILLER BRAVA Pollo picante",
-    "imagen":"",
-    "porcion":190,
+    "imagen": "",
+    "porcion": 190,
     "Kcal": 210 * 190 / 100,
-    "KJ":  885 * 190 / 100,
+    "KJ": 885 * 190 / 100,
     "Grasa": 5.5 * 190 / 100,
     "Grasa_saturada": 2.3 * 190 / 100,
     "Hidratos_de_carbono": 29.6 * 190 / 100,
@@ -9677,12 +9666,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRILLER BRAVA Veggie",
-    "imagen":"",
-    "porcion":188,
+    "imagen": "",
+    "porcion": 188,
     "Kcal": 207 * 188 / 100,
-    "KJ":  871 * 188/ 100,
+    "KJ": 871 * 188 / 100,
     "Grasa": 6.3 * 188 / 100,
     "Grasa_saturada": 2.4 * 188 / 100,
     "Hidratos_de_carbono": 30.3 * 188 / 100,
@@ -9692,12 +9681,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRILLER HABANERO Carne picada",
-    "imagen":"",
-    "porcion":190,
+    "imagen": "",
+    "porcion": 190,
     "Kcal": 231 * 190 / 100,
-    "KJ":  970 * 190 / 100,
+    "KJ": 970 * 190 / 100,
     "Grasa": 8.1 * 190 / 100,
     "Grasa_saturada": 2.9 * 190 / 100,
     "Hidratos_de_carbono": 30.7 * 190 / 100,
@@ -9708,13 +9697,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "GRILLER HABANERO Pollo picante",
-    "imagen":"",
-    "porcion":190,
+    "imagen": "",
+    "porcion": 190,
     "Kcal": 213 * 190 / 100,
-    "KJ":  898 * 190 / 100,
+    "KJ": 898 * 190 / 100,
     "Grasa": 5.5 * 190 / 100,
     "Grasa_saturada": 2.3 * 190 / 100,
     "Hidratos_de_carbono": 30.4 * 190 / 100,
@@ -9724,12 +9712,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "GRILLER HABANERO Veggie",
-    "imagen":"",
-    "porcion":188,
+    "imagen": "",
+    "porcion": 188,
     "Kcal": 210 * 188 / 100,
-    "KJ":  885 * 188 / 100,
+    "KJ": 885 * 188 / 100,
     "Grasa": 6.3 * 188 / 100,
     "Grasa_saturada": 2.4 * 188 / 100,
     "Hidratos_de_carbono": 31.1 * 188 / 100,
@@ -9739,12 +9727,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF SQUARE GUACAMOLE Carne picada",
-    "imagen":"",
-    "porcion":158,
+    "imagen": "",
+    "porcion": 158,
     "Kcal": 264 * 158 / 100,
-    "KJ":  1105 * 158 / 100,
+    "KJ": 1105 * 158 / 100,
     "Grasa": 12.2 * 158 / 100,
     "Grasa_saturada": 4.6 * 158 / 100,
     "Hidratos_de_carbono": 25.5 * 158 / 100,
@@ -9755,13 +9743,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "BEEF SQUARE GUACAMOLE Pollo picante",
-    "imagen":"",
-    "porcion":158,
+    "imagen": "",
+    "porcion": 158,
     "Kcal": 242 * 158 / 100,
-    "KJ":  1017 * 158 / 100,
+    "KJ": 1017 * 158 / 100,
     "Grasa": 9 * 158 / 100,
     "Grasa_saturada": 3.8 * 158 / 100,
     "Hidratos_de_carbono": 25.1 * 158 / 100,
@@ -9771,12 +9758,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF SQUARE GUACAMOLE Veggie",
-    "imagen":"",
-    "porcion":154,
+    "imagen": "",
+    "porcion": 154,
     "Kcal": 240 * 154 / 100,
-    "KJ":  1007 * 154 / 100,
+    "KJ": 1007 * 154 / 100,
     "Grasa": 10.1 * 154 / 100,
     "Grasa_saturada": 4 * 154 / 100,
     "Hidratos_de_carbono": 25.7 * 154 / 100,
@@ -9786,12 +9773,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF SQUARE MEXICAN Carne picada",
-    "imagen":"",
-    "porcion":158,
+    "imagen": "",
+    "porcion": 158,
     "Kcal": 237 * 158 / 100,
-    "KJ":  997 * 158 / 100,
+    "KJ": 997 * 158 / 100,
     "Grasa": 10.3 * 158 / 100,
     "Grasa_saturada": 4 * 158 / 100,
     "Hidratos_de_carbono": 24.3 * 158 / 100,
@@ -9802,14 +9789,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BEEF SQUARE MEXICAN Pollo picante",
-    "imagen":"",
-    "porcion":158,
+    "imagen": "",
+    "porcion": 158,
     "Kcal": 217 * 158 / 100,
-    "KJ":  914 * 158 / 100,
+    "KJ": 914 * 158 / 100,
     "Grasa": 7.2 * 158 / 100,
     "Grasa_saturada": 3.3 * 158 / 100,
     "Hidratos_de_carbono": 23.9 * 158 / 100,
@@ -9819,12 +9804,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF SQUARE MEXICAN Veggie",
-    "imagen":"",
-    "porcion":154,
+    "imagen": "",
+    "porcion": 154,
     "Kcal": 214 * 154 / 100,
-    "KJ":  898 * 154 / 100,
+    "KJ": 898 * 154 / 100,
     "Grasa": 8.2 * 154 / 100,
     "Grasa_saturada": 3.4 * 154 / 100,
     "Hidratos_de_carbono": 24.5 * 154 / 100,
@@ -9834,12 +9819,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF SQUARE PICO DE GALLO Carne picada",
-    "imagen":"",
-    "porcion":158,
+    "imagen": "",
+    "porcion": 158,
     "Kcal": 251 * 158 / 100,
-    "KJ":  1056 * 158 / 100,
+    "KJ": 1056 * 158 / 100,
     "Grasa": 10.8 * 158 / 100,
     "Grasa_saturada": 4.2 * 158 / 100,
     "Hidratos_de_carbono": 25.7 * 158 / 100,
@@ -9850,14 +9835,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BEEF SQUARE PICO DE GALLO Pollo picante",
-    "imagen":"",
-    "porcion":158,
+    "imagen": "",
+    "porcion": 158,
     "Kcal": 230 * 158 / 100,
-    "KJ":  968 * 158 / 100,
+    "KJ": 968 * 158 / 100,
     "Grasa": 7.7 * 158 / 100,
     "Grasa_saturada": 3.5 * 158 / 100,
     "Hidratos_de_carbono": 25.4 * 158 / 100,
@@ -9867,12 +9850,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BEEF SQUARE PICO DE GALLO Veggie",
-    "imagen":"",
-    "porcion":154,
+    "imagen": "",
+    "porcion": 154,
     "Kcal": 227 * 154 / 100,
-    "KJ":  955 * 154 / 100,
+    "KJ": 955 * 154 / 100,
     "Grasa": 8.7 * 154 / 100,
     "Grasa_saturada": 3.6 * 154 / 100,
     "Hidratos_de_carbono": 25.9 * 154 / 100,
@@ -9882,12 +9865,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "WRAP SLIDER Carne picada",
-    "imagen":"",
-    "porcion":151,
+    "imagen": "",
+    "porcion": 151,
     "Kcal": 227 * 151 / 100,
-    "KJ":  949 * 151 / 100,
+    "KJ": 949 * 151 / 100,
     "Grasa": 11.7 * 151 / 100,
     "Grasa_saturada": 2.2 * 151 / 100,
     "Hidratos_de_carbono": 20.7 * 151 / 100,
@@ -9898,14 +9881,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "WRAP SLIDER Pollo picante",
-    "imagen":"",
-    "porcion":151,
+    "imagen": "",
+    "porcion": 151,
     "Kcal": 271 * 151 / 100,
-    "KJ":  913 * 151 / 100,
+    "KJ": 913 * 151 / 100,
     "Grasa": 8.4 * 151 / 100,
     "Grasa_saturada": 1.8 * 151 / 100,
     "Hidratos_de_carbono": 23.7 * 151 / 100,
@@ -9915,12 +9896,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "WRAP SLIDER Veggie",
-    "imagen":"",
-    "porcion":149,
+    "imagen": "",
+    "porcion": 149,
     "Kcal": 202 * 149 / 100,
-    "KJ":  848 * 149 / 100,
+    "KJ": 848 * 149 / 100,
     "Grasa": 8.1 * 149 / 100,
     "Grasa_saturada": 1.7 * 149 / 100,
     "Hidratos_de_carbono": 25.2 * 149 / 100,
@@ -9930,12 +9911,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BOWL GUACAMOLE Carne picada",
-    "imagen":"",
-    "porcion":302,
+    "imagen": "",
+    "porcion": 302,
     "Kcal": 146 * 302 / 100,
-    "KJ":  613 * 302 / 100,
+    "KJ": 613 * 302 / 100,
     "Grasa": 7.2 * 302 / 100,
     "Grasa_saturada": 2.6 * 302 / 100,
     "Hidratos_de_carbono": 12.3 * 302 / 100,
@@ -9946,14 +9927,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BURRITO BOWL GUACAMOLE Pollo asado",
-    "imagen":"",
-    "porcion":302,
+    "imagen": "",
+    "porcion": 302,
     "Kcal": 142 * 302 / 100,
-    "KJ":  595 * 302 / 100,
+    "KJ": 595 * 302 / 100,
     "Grasa": 6 * 302 / 100,
     "Grasa_saturada": 2.6 * 302 / 100,
     "Hidratos_de_carbono": 11.7 * 302 / 100,
@@ -9963,12 +9942,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BOWL GUACAMOLE Pollo picante",
-    "imagen":"",
-    "porcion":302,
+    "imagen": "",
+    "porcion": 302,
     "Kcal": 124 * 302 / 100,
-    "KJ":  522 * 302 / 100,
+    "KJ": 522 * 302 / 100,
     "Grasa": 4 * 302 / 100,
     "Grasa_saturada": 1.8 * 302 / 100,
     "Hidratos_de_carbono": 11.9 * 302 / 100,
@@ -9978,12 +9957,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BOWL GUACAMOLE Veggie",
-    "imagen":"",
-    "porcion":302,
+    "imagen": "",
+    "porcion": 302,
     "Kcal": 116 * 302 / 100,
-    "KJ":  487 * 302 / 100,
+    "KJ": 487 * 302 / 100,
     "Grasa": 4.8 * 302 / 100,
     "Grasa_saturada": 1.9 * 302 / 100,
     "Hidratos_de_carbono": 11.9 * 302 / 100,
@@ -9994,14 +9973,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "BURRITO BOWL MEXICAN Carne picada",
-    "imagen":"",
-    "porcion":309,
+    "imagen": "",
+    "porcion": 309,
     "Kcal": 135 * 309 / 100,
-    "KJ":  569 * 309 / 100,
+    "KJ": 569 * 309 / 100,
     "Grasa": 5.9 * 309 / 100,
     "Grasa_saturada": 2.3 * 309 / 100,
     "Hidratos_de_carbono": 12.8 * 309 / 100,
@@ -10011,12 +9988,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BOWL MEXICAN Pollo asado",
-    "imagen":"",
-    "porcion":309,
+    "imagen": "",
+    "porcion": 309,
     "Kcal": 131 * 309 / 100,
-    "KJ":  553 * 309 / 100,
+    "KJ": 553 * 309 / 100,
     "Grasa": 4.7 * 309 / 100,
     "Grasa_saturada": 2.3 * 309 / 100,
     "Hidratos_de_carbono": 12.2 * 309 / 100,
@@ -10026,12 +10003,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BURRITO BOWL MEXICAN Pollo picante",
-    "imagen":"",
-    "porcion":309,
+    "imagen": "",
+    "porcion": 309,
     "Kcal": 114 * 309 / 100,
-    "KJ":  481 * 309 / 100,
+    "KJ": 481 * 309 / 100,
     "Grasa": 2.8 * 309 / 100,
     "Grasa_saturada": 1.5 * 309 / 100,
     "Hidratos_de_carbono": 12.5 * 309 / 100,
@@ -10042,12 +10019,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "BURRITO BOWL MEXICAN Veggie",
-    "imagen":"",
-    "porcion":304,
+    "imagen": "",
+    "porcion": 304,
     "Kcal": 105 * 304 / 100,
-    "KJ":  446 * 304 / 100,
+    "KJ": 446 * 304 / 100,
     "Grasa": 3.6 * 304 / 100,
     "Grasa_saturada": 1.6 * 304 / 100,
     "Hidratos_de_carbono": 12.5 * 304 / 100,
@@ -10057,12 +10034,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESADILLA Solo queso",
-    "imagen":"",
-    "porcion":166,
+    "imagen": "",
+    "porcion": 166,
     "Kcal": 330 * 166 / 100,
-    "KJ":  1383 * 166 / 100,
+    "KJ": 1383 * 166 / 100,
     "Grasa": 18.6 * 166 / 100,
     "Grasa_saturada": 9.1 * 166 / 100,
     "Hidratos_de_carbono": 25.5 * 166 / 100,
@@ -10072,12 +10049,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESADILLA Carne picada",
-    "imagen":"",
-    "porcion":219,
+    "imagen": "",
+    "porcion": 219,
     "Kcal": 272 * 219 / 100,
-    "KJ":  1137 * 219 / 100,
+    "KJ": 1137 * 219 / 100,
     "Grasa": 14.7 * 219 / 100,
     "Grasa_saturada": 5.3 * 219 / 100,
     "Hidratos_de_carbono": 20.9 * 219 / 100,
@@ -10088,12 +10065,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "QUESADILLA Pollo picante",
-    "imagen":"",
-    "porcion":219,
+    "imagen": "",
+    "porcion": 219,
     "Kcal": 241 * 219 / 100,
-    "KJ":  1011 * 219 / 100,
+    "KJ": 1011 * 219 / 100,
     "Grasa": 10.2 * 219 / 100,
     "Grasa_saturada": 4.2 * 219 / 100,
     "Hidratos_de_carbono": 20.3 * 219 / 100,
@@ -10103,12 +10080,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESADILLA Pollo asado",
-    "imagen":"",
-    "porcion":219,
+    "imagen": "",
+    "porcion": 219,
     "Kcal": 266 * 219 / 100,
-    "KJ":  1113 * 219 / 100,
+    "KJ": 1113 * 219 / 100,
     "Grasa": 12.9 * 219 / 100,
     "Grasa_saturada": 5.3 * 219 / 100,
     "Hidratos_de_carbono": 19.9 * 219 / 100,
@@ -10118,12 +10095,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESADILLA Veggie",
-    "imagen":"",
-    "porcion":210,
+    "imagen": "",
+    "porcion": 210,
     "Kcal": 238 * 210 / 100,
-    "KJ":  995 * 210 / 100,
+    "KJ": 995 * 210 / 100,
     "Grasa": 11.8 * 210 / 100,
     "Grasa_saturada": 4.5 * 210 / 100,
     "Hidratos_de_carbono": 20.9 * 210 / 100,
@@ -10134,14 +10111,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "QUESADILLA Arroz",
-    "imagen":"",
-    "porcion":219,
+    "imagen": "",
+    "porcion": 219,
     "Kcal": 292 * 219 / 100,
-    "KJ":  1225 * 219 / 100,
+    "KJ": 1225 * 219 / 100,
     "Grasa": 11.2 * 219 / 100,
     "Grasa_saturada": 3.1 * 219 / 100,
     "Hidratos_de_carbono": 42.1 * 219 / 100,
@@ -10151,12 +10126,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "QUESADILLA Frijoles",
-    "imagen":"",
-    "porcion":203,
+    "imagen": "",
+    "porcion": 203,
     "Kcal": 275 * 203 / 100,
-    "KJ":  1155 * 203 / 100,
+    "KJ": 1155 * 203 / 100,
     "Grasa": 10.7 * 203 / 100,
     "Grasa_saturada": 38.5 * 203 / 100,
     "Hidratos_de_carbono": 38.6 * 203 / 100,
@@ -10166,12 +10141,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "KIDSADILLA Solo queso",
-    "imagen":"",
-    "porcion":56,
+    "imagen": "",
+    "porcion": 56,
     "Kcal": 248 * 56 / 100,
-    "KJ":  1030 * 56 / 100,
+    "KJ": 1030 * 56 / 100,
     "Grasa": 18.4 * 56 / 100,
     "Grasa_saturada": 2.8 * 56 / 100,
     "Hidratos_de_carbono": 8.5 * 56 / 100,
@@ -10182,14 +10157,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "KIDSADILLA Jamón york",
-    "imagen":"",
-    "porcion":70,
+    "imagen": "",
+    "porcion": 70,
     "Kcal": 212 * 70 / 100,
-    "KJ":  885 * 70 / 100,
+    "KJ": 885 * 70 / 100,
     "Grasa": 13.6 * 70 / 100,
     "Grasa_saturada": 1.8 * 70 / 100,
     "Hidratos_de_carbono": 10.6 * 70 / 100,
@@ -10199,12 +10172,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "KIDSADILLA Carne picada",
-    "imagen":"",
-    "porcion":93,
+    "imagen": "",
+    "porcion": 93,
     "Kcal": 202 * 93 / 100,
-    "KJ":  844 * 93 / 100,
+    "KJ": 844 * 93 / 100,
     "Grasa": 12.1 * 93 / 100,
     "Grasa_saturada": 2.2 * 93 / 100,
     "Hidratos_de_carbono": 15.8 * 93 / 100,
@@ -10214,12 +10187,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "KIDSADILLA Pollo asado",
-    "imagen":"",
-    "porcion":93,
+    "imagen": "",
+    "porcion": 93,
     "Kcal": 155 * 93 / 100,
-    "KJ":  652 * 93 / 100,
+    "KJ": 652 * 93 / 100,
     "Grasa": 5.5 * 93 / 100,
     "Grasa_saturada": 0.9 * 93 / 100,
     "Hidratos_de_carbono": 14.3 * 93 / 100,
@@ -10230,12 +10203,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "KIDSADILLA Pollo picante",
-    "imagen":"",
-    "porcion":93,
+    "imagen": "",
+    "porcion": 93,
     "Kcal": 136 * 93 / 100,
-    "KJ":  573 * 93 / 100,
+    "KJ": 573 * 93 / 100,
     "Grasa": 3.9 * 93 / 100,
     "Grasa_saturada": 0.7 * 93 / 100,
     "Hidratos_de_carbono": 16.2 * 93 / 100,
@@ -10245,12 +10218,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "KIDSADILLA Veggie",
-    "imagen":"",
-    "porcion":91,
+    "imagen": "",
+    "porcion": 91,
     "Kcal": 203 * 91 / 100,
-    "KJ":  854 * 91 / 100,
+    "KJ": 854 * 91 / 100,
     "Grasa": 6.3 * 91 / 100,
     "Grasa_saturada": 1.2 * 91 / 100,
     "Hidratos_de_carbono": 31.6 * 91 / 100,
@@ -10260,12 +10233,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "KIDSADILLA Frijoles",
-    "imagen":"",
-    "porcion":84,
+    "imagen": "",
+    "porcion": 84,
     "Kcal": 160 * 84 / 100,
-    "KJ":  676 * 84 / 100,
+    "KJ": 676 * 84 / 100,
     "Grasa": 3.2 * 84 / 100,
     "Grasa_saturada": 0.9 * 84 / 100,
     "Hidratos_de_carbono": 27.6 * 84 / 100,
@@ -10276,12 +10249,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "KIDSADILLA Arroz",
-    "imagen":"",
-    "porcion":93,
+    "imagen": "",
+    "porcion": 93,
     "Kcal": 165 * 93 / 100,
-    "KJ":  697 * 93 / 100,
+    "KJ": 697 * 93 / 100,
     "Grasa": 3.2 * 93 / 100,
     "Grasa_saturada": 0.6 * 93 / 100,
     "Hidratos_de_carbono": 28.8 * 93 / 100,
@@ -10291,12 +10264,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ROLL UP QUESO Solo queso",
-    "imagen":"",
-    "porcion":56,
+    "imagen": "",
+    "porcion": 56,
     "Kcal": 317 * 56 / 100,
-    "KJ":  1330 * 56 / 100,
+    "KJ": 1330 * 56 / 100,
     "Grasa": 15.9 * 56 / 100,
     "Grasa_saturada": 8.7 * 56 / 100,
     "Hidratos_de_carbono": 27.7 * 56 / 100,
@@ -10306,12 +10279,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ROLL UP QUESO Jamón york",
-    "imagen":"",
-    "porcion":70,
+    "imagen": "",
+    "porcion": 70,
     "Kcal": 273 * 70 / 100,
-    "KJ":  1146 * 70 / 100,
+    "KJ": 1146 * 70 / 100,
     "Grasa": 13.2 * 70 / 100,
     "Grasa_saturada": 7.2 * 70 / 100,
     "Hidratos_de_carbono": 22.3 * 70 / 100,
@@ -10322,14 +10295,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "ROLL UP QUESO Carne picada",
-    "imagen":"",
-    "porcion":77,
+    "imagen": "",
+    "porcion": 77,
     "Kcal": 289 * 77 / 100,
-    "KJ":  1213 * 77 / 100,
+    "KJ": 1213 * 77 / 100,
     "Grasa": 15.3 * 77 / 100,
     "Grasa_saturada": 7.3 * 77 / 100,
     "Hidratos_de_carbono": 21.9 * 77 / 100,
@@ -10339,12 +10310,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ROLL UP QUESO Pollo picante",
-    "imagen":"",
-    "porcion":77,
+    "imagen": "",
+    "porcion": 77,
     "Kcal": 267 * 77 / 100,
-    "KJ":  1122 * 77 / 100,
+    "KJ": 1122 * 77 / 100,
     "Grasa": 12 * 77 / 100,
     "Grasa_saturada": 6.5 * 77 / 100,
     "Hidratos_de_carbono": 21.6 * 77 / 100,
@@ -10354,12 +10325,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ROLL UP QUESO Pollo asado",
-    "imagen":"",
-    "porcion":77,
+    "imagen": "",
+    "porcion": 77,
     "Kcal": 285 * 77 / 100,
-    "KJ":  1196 * 77 / 100,
+    "KJ": 1196 * 77 / 100,
     "Grasa": 14 * 77 / 100,
     "Grasa_saturada": 7.3 * 77 / 100,
     "Hidratos_de_carbono": 16.4 * 77 / 100,
@@ -10370,14 +10341,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "ROLL UP QUESO Veggie",
-    "imagen":"",
-    "porcion":73,
+    "imagen": "",
+    "porcion": 73,
     "Kcal": 266 * 73 / 100,
-    "KJ":  1116 * 73 / 100,
+    "KJ": 1116 * 73 / 100,
     "Grasa": 13.3 * 73 / 100,
     "Grasa_saturada": 6.8 * 73 / 100,
     "Hidratos_de_carbono": 22.1 * 73 / 100,
@@ -10387,12 +10356,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "STACKER Carne picada",
-    "imagen":"",
-    "porcion":155,
+    "imagen": "",
+    "porcion": 155,
     "Kcal": 276 * 155 / 100,
-    "KJ":  1158 * 155 / 100,
+    "KJ": 1158 * 155 / 100,
     "Grasa": 13.3 * 155 / 100,
     "Grasa_saturada": 6.2 * 155 / 100,
     "Hidratos_de_carbono": 26.1 * 155 / 100,
@@ -10402,12 +10371,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "STACKER Pollo picante",
-    "imagen":"",
-    "porcion":155,
+    "imagen": "",
+    "porcion": 155,
     "Kcal": 254 * 155 / 100,
-    "KJ":  1070 * 155 / 100,
+    "KJ": 1070 * 155 / 100,
     "Grasa": 10.1 * 155 / 100,
     "Grasa_saturada": 5.4 * 155 / 100,
     "Hidratos_de_carbono": 25.7 * 155 / 100,
@@ -10418,14 +10387,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "STACKER Veggie",
-    "imagen":"",
-    "porcion":153,
+    "imagen": "",
+    "porcion": 153,
     "Kcal": 253 * 153 / 100,
-    "KJ":  1061 * 153 / 100,
+    "KJ": 1061 * 153 / 100,
     "Grasa": 11.2 * 153 / 100,
     "Grasa_saturada": 5.6 * 153 / 100,
     "Hidratos_de_carbono": 26.4 * 153 / 100,
@@ -10435,12 +10402,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP SUPREME Carne picada",
-    "imagen":"", 
-    "porcion":278,
+    "imagen": "",
+    "porcion": 278,
     "Kcal": 218 * 278 / 100,
-    "KJ":  912 * 278 / 100,
+    "KJ": 912 * 278 / 100,
     "Grasa": 12.8 * 278 / 100,
     "Grasa_saturada": 3.2 * 278 / 100,
     "Hidratos_de_carbono": 10.2 * 278 / 100,
@@ -10450,12 +10417,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP SUPREME Pollo picante",
-    "imagen":"", 
-    "porcion":278,
+    "imagen": "",
+    "porcion": 278,
     "Kcal": 178 * 278 / 100,
-    "KJ":  744 * 278 / 100,
+    "KJ": 744 * 278 / 100,
     "Grasa": 6 * 278 / 100,
     "Grasa_saturada": 1.5 * 278 / 100,
     "Hidratos_de_carbono": 12.7 * 278 / 100,
@@ -10466,14 +10433,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "CRUNCHYWRAP SUPREME Pollo asado",
-    "imagen":"", 
-    "porcion":278,
+    "imagen": "",
+    "porcion": 278,
     "Kcal": 172 * 278 / 100,
-    "KJ":  725 * 278 / 100,
+    "KJ": 725 * 278 / 100,
     "Grasa": 5.8 * 278 / 100,
     "Grasa_saturada": 1.4 * 278 / 100,
     "Hidratos_de_carbono": 12.2 * 278 / 100,
@@ -10483,12 +10448,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP SUPREME Veggie",
-    "imagen":"", 
-    "porcion":273,
+    "imagen": "",
+    "porcion": 273,
     "Kcal": 186 * 273 / 100,
-    "KJ":  785 * 273 / 100,
+    "KJ": 785 * 273 / 100,
     "Grasa": 3.3 * 273 / 100,
     "Grasa_saturada": 0.5 * 273 / 100,
     "Hidratos_de_carbono": 28.1 * 273 / 100,
@@ -10498,12 +10463,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP SUPREME Frijoles",
-    "imagen":"", 
-    "porcion":266,
+    "imagen": "",
+    "porcion": 266,
     "Kcal": 189 * 266 / 100,
-    "KJ":  797 * 266 / 100,
+    "KJ": 797 * 266 / 100,
     "Grasa": 4.2 * 266 / 100,
     "Grasa_saturada": 0.6 * 266 / 100,
     "Hidratos_de_carbono": 26.6 * 266 / 100,
@@ -10514,12 +10479,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "CRUNCHYWRAP SUPREME Arroz",
-    "imagen":"", 
-    "porcion":278,
+    "imagen": "",
+    "porcion": 278,
     "Kcal": 127 * 278 / 100,
-    "KJ":  534 * 278 / 100,
+    "KJ": 534 * 278 / 100,
     "Grasa": 3.1 * 278 / 100,
     "Grasa_saturada": 0.4 * 278 / 100,
     "Hidratos_de_carbono": 21.8 * 278 / 100,
@@ -10529,12 +10494,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP BC Carne picada",
-    "imagen":"", 
-    "porcion":345,
+    "imagen": "",
+    "porcion": 345,
     "Kcal": 228 * 345 / 100,
-    "KJ":  958 * 345 / 100,
+    "KJ": 958 * 345 / 100,
     "Grasa": 11.2 * 345 / 100,
     "Grasa_saturada": 5.2 * 345 / 100,
     "Hidratos_de_carbono": 21.7 * 345 / 100,
@@ -10544,12 +10509,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP BC Pollo asado",
-    "imagen":"", 
-    "porcion":345,
+    "imagen": "",
+    "porcion": 345,
     "Kcal": 225 * 345 / 100,
-    "KJ":  943 * 345 / 100,
+    "KJ": 943 * 345 / 100,
     "Grasa": 10 * 345 / 100,
     "Grasa_saturada": 5.2 * 345 / 100,
     "Hidratos_de_carbono": 21.1 * 345 / 100,
@@ -10560,14 +10525,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "CRUNCHYWRAP BC Pollo picante",
-    "imagen":"", 
-    "porcion":345,
+    "imagen": "",
+    "porcion": 345,
     "Kcal": 209 * 345 / 100,
-    "KJ":  878 * 345 / 100,
+    "KJ": 878 * 345 / 100,
     "Grasa": 8.3 * 345 / 100,
     "Grasa_saturada": 4.5 * 345 / 100,
     "Hidratos_de_carbono": 21.3 * 345 / 100,
@@ -10577,12 +10540,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CRUNCHYWRAP BC Veggie",
-    "imagen":"", 
-    "porcion":329,
+    "imagen": "",
+    "porcion": 329,
     "Kcal": 206 * 329 / 100,
-    "KJ":  862 * 329 / 100,
+    "KJ": 862 * 329 / 100,
     "Grasa": 9.3 * 329 / 100,
     "Grasa_saturada": 4.7 * 329 / 100,
     "Hidratos_de_carbono": 21.7 * 329 / 100,
@@ -10592,12 +10555,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "NACHOS SUPREME Nachos supreme",
-    "imagen":"", 
-    "porcion":229,
+    "imagen": "",
+    "porcion": 229,
     "Kcal": 278 * 229 / 100,
-    "KJ":  1163 * 229 / 100,
+    "KJ": 1163 * 229 / 100,
     "Grasa": 16.6 * 229 / 100,
     "Grasa_saturada": 6.1 * 229 / 100,
     "Hidratos_de_carbono": 28.1 * 229 / 100,
@@ -10608,14 +10571,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "NACHOS BELL GRANDES Carne picada",
-    "imagen":"", 
-    "porcion":221,
+    "imagen": "",
+    "porcion": 221,
     "Kcal": 297 * 221 / 100,
-    "KJ":  1247 * 221 / 100,
+    "KJ": 1247 * 221 / 100,
     "Grasa": 16.2 * 221 / 100,
     "Grasa_saturada": 5.5 * 221 / 100,
     "Hidratos_de_carbono": 30.8 * 221 / 100,
@@ -10625,12 +10586,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "NACHOS BELL GRANDES Pollo picante",
-    "imagen":"", 
-    "porcion":221,
+    "imagen": "",
+    "porcion": 221,
     "Kcal": 282 * 221 / 100,
-    "KJ":  1185 * 221 / 100,
+    "KJ": 1185 * 221 / 100,
     "Grasa": 13.9 * 221 / 100,
     "Grasa_saturada": 5 * 221 / 100,
     "Hidratos_de_carbono": 30.6 * 221 / 100,
@@ -10640,12 +10601,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "NACHOS BELL GRANDES Pollo asado",
-    "imagen":"", 
-    "porcion":221,
+    "imagen": "",
+    "porcion": 221,
     "Kcal": 294 * 221 / 100,
-    "KJ":  1235 * 221 / 100,
+    "KJ": 1235 * 221 / 100,
     "Grasa": 15.3 * 221 / 100,
     "Grasa_saturada": 5.5 * 221 / 100,
     "Hidratos_de_carbono": 30.3 * 221 / 100,
@@ -10656,14 +10617,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "NACHOS BELL GRANDES Veggie",
-    "imagen":"", 
-    "porcion":219,
+    "imagen": "",
+    "porcion": 219,
     "Kcal": 282 * 219 / 100,
-    "KJ":  1182 * 219 / 100,
+    "KJ": 1182 * 219 / 100,
     "Grasa": 14.8 * 219 / 100,
     "Grasa_saturada": 5.1 * 219 / 100,
     "Hidratos_de_carbono": 31.2 * 219 / 100,
@@ -10673,12 +10632,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "NACHOS FIRE Nachos fire",
-    "imagen":"", 
-    "porcion":198,
+    "imagen": "",
+    "porcion": 198,
     "Kcal": 196 * 198 / 100,
-    "KJ":  826 * 198 / 100,
+    "KJ": 826 * 198 / 100,
     "Grasa": 7.3 * 198 / 100,
     "Grasa_saturada": 3.4 * 198 / 100,
     "Hidratos_de_carbono": 27.8 * 198 / 100,
@@ -10688,12 +10647,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHICKEN NACHOS 6 uds",
-    "imagen":"", 
-    "porcion":90,
+    "imagen": "",
+    "porcion": 90,
     "Kcal": 358 * 90 / 100,
-    "KJ":  1493 * 90 / 100,
+    "KJ": 1493 * 90 / 100,
     "Grasa": 24.1 * 90 / 100,
     "Grasa_saturada": 3.1 * 90 / 100,
     "Hidratos_de_carbono": 27.7 * 90 / 100,
@@ -10704,12 +10663,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "NACHOS Pequeños",
-    "imagen":"", 
-    "porcion":35,
+    "imagen": "",
+    "porcion": 35,
     "Kcal": 499 * 35 / 100,
-    "KJ":  2092 * 35 / 100,
+    "KJ": 2092 * 35 / 100,
     "Grasa": 23.8 * 35 / 100,
     "Grasa_saturada": 3.9 * 35 / 100,
     "Hidratos_de_carbono": 64.7 * 35 / 100,
@@ -10719,12 +10678,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "NACHOS Medianos",
-    "imagen":"", 
-    "porcion":50,
+    "imagen": "",
+    "porcion": 50,
     "Kcal": 499 * 50 / 100,
-    "KJ":  2092 * 50 / 100,
+    "KJ": 2092 * 50 / 100,
     "Grasa": 23.8 * 50 / 100,
     "Grasa_saturada": 3.9 * 50 / 100,
     "Hidratos_de_carbono": 64.7 * 50 / 100,
@@ -10734,12 +10693,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "NACHOS Grandes",
-    "imagen":"", 
-    "porcion":70,
+    "imagen": "",
+    "porcion": 70,
     "Kcal": 499 * 70 / 100,
-    "KJ":  2092 * 70 / 100,
+    "KJ": 2092 * 70 / 100,
     "Grasa": 23.8 * 70 / 100,
     "Grasa_saturada": 3.9 * 70 / 100,
     "Hidratos_de_carbono": 64.7 * 70 / 100,
@@ -10750,14 +10709,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "NACHOS Extra grandes",
-    "imagen":"", 
-    "porcion":90,
+    "imagen": "",
+    "porcion": 90,
     "Kcal": 499 * 90 / 100,
-    "KJ":  2092 * 90 / 100,
+    "KJ": 2092 * 90 / 100,
     "Grasa": 23.8 * 90 / 100,
     "Grasa_saturada": 3.9 * 90 / 100,
     "Hidratos_de_carbono": 64.7 * 90 / 100,
@@ -10767,12 +10724,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "PATATAS MEXICAN Pequeñas",
-    "imagen":"", 
-    "porcion":95,
+    "imagen": "",
+    "porcion": 95,
     "Kcal": 293 * 95 / 100,
-    "KJ":  1224 * 95 / 100,
+    "KJ": 1224 * 95 / 100,
     "Grasa": 18.1 * 95 / 100,
     "Grasa_saturada": 1.6 * 95 / 100,
     "Hidratos_de_carbono": 28.8 * 95 / 100,
@@ -10782,12 +10739,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "PATATAS MEXICAN Medianas",
-    "imagen":"", 
-    "porcion":125,
+    "imagen": "",
+    "porcion": 125,
     "Kcal": 293 * 125 / 100,
-    "KJ":  1224 * 125 / 100,
+    "KJ": 1224 * 125 / 100,
     "Grasa": 18.1 * 125 / 100,
     "Grasa_saturada": 1.6 * 125 / 100,
     "Hidratos_de_carbono": 28.8 * 125 / 100,
@@ -10798,14 +10755,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "PATATAS MEXICAN Grandes",
-    "imagen":"", 
-    "porcion":175,
+    "imagen": "",
+    "porcion": 175,
     "Kcal": 293 * 175 / 100,
-    "KJ":  1224 * 175 / 100,
+    "KJ": 1224 * 175 / 100,
     "Grasa": 18.1 * 175 / 100,
     "Grasa_saturada": 1.6 * 175 / 100,
     "Hidratos_de_carbono": 28.8 * 175 / 100,
@@ -10815,12 +10770,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BACON TOP FRIES Normal",
-    "imagen":"", 
-    "porcion":250,
+    "imagen": "",
+    "porcion": 250,
     "Kcal": 312 * 250 / 100,
-    "KJ":  1298 * 250 / 100,
+    "KJ": 1298 * 250 / 100,
     "Grasa": 21.2 * 250 / 100,
     "Grasa_saturada": 5.2 * 250 / 100,
     "Hidratos_de_carbono": 16.4 * 250 / 100,
@@ -10830,12 +10785,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "BACON TOP FRIES Veggie",
-    "imagen":"", 
-    "porcion":261,
+    "imagen": "",
+    "porcion": 261,
     "Kcal": 285 * 261 / 100,
-    "KJ":  1193 * 261 / 100,
+    "KJ": 1193 * 261 / 100,
     "Grasa": 15.2 * 261 / 100,
     "Grasa_saturada": 3.1 * 261 / 100,
     "Hidratos_de_carbono": 22.2 * 261 / 100,
@@ -10846,14 +10801,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "EXTRAS Salsa de queso",
-    "imagen":"", 
-    "porcion":40,
+    "imagen": "",
+    "porcion": 40,
     "Kcal": 218 * 40 / 100,
-    "KJ":  912 * 40 / 100,
+    "KJ": 912 * 40 / 100,
     "Grasa": 19.7 * 40 / 100,
     "Grasa_saturada": 15.3 * 40 / 100,
     "Hidratos_de_carbono": 7.9 * 40 / 100,
@@ -10863,12 +10816,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "EXTRAS Crema agria",
-    "imagen":"", 
-    "porcion":34,
+    "imagen": "",
+    "porcion": 34,
     "Kcal": 173 * 34 / 100,
-    "KJ":  717 * 34 / 100,
+    "KJ": 717 * 34 / 100,
     "Grasa": 15 * 34 / 100,
     "Grasa_saturada": 9.3 * 34 / 100,
     "Hidratos_de_carbono": 6.6 * 34 / 100,
@@ -10878,12 +10831,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "EXTRAS Jalapeños",
-    "imagen":"", 
-    "porcion":21,
+    "imagen": "",
+    "porcion": 21,
     "Kcal": 23 * 21 / 100,
-    "KJ":  99 * 21 / 100,
+    "KJ": 99 * 21 / 100,
     "Grasa": 0 * 21 / 100,
     "Grasa_saturada": 0 * 21 / 100,
     "Hidratos_de_carbono": 4 * 21 / 100,
@@ -10894,14 +10847,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "EXTRAS Guacamole",
-    "imagen":"", 
-    "porcion":42,
+    "imagen": "",
+    "porcion": 42,
     "Kcal": 176 * 42 / 100,
-    "KJ":  724 * 42 / 100,
+    "KJ": 724 * 42 / 100,
     "Grasa": 17 * 42 / 100,
     "Grasa_saturada": 4.4 * 42 / 100,
     "Hidratos_de_carbono": 1.3 * 42 / 100,
@@ -10911,12 +10862,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "EXTRAS Salsa mexican",
-    "imagen":"", 
-    "porcion":28,
+    "imagen": "",
+    "porcion": 28,
     "Kcal": 49 * 28 / 100,
-    "KJ":  209 * 28 / 100,
+    "KJ": 209 * 28 / 100,
     "Grasa": 0.3 * 28 / 100,
     "Grasa_saturada": 0 * 28 / 100,
     "Hidratos_de_carbono": 10 * 28 / 100,
@@ -10926,12 +10877,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "EXTRAS Salsa barbacoa",
-    "imagen":"", 
-    "porcion":28,
+    "imagen": "",
+    "porcion": 28,
     "Kcal": 130 * 28 / 100,
-    "KJ":  551 * 28 / 100,
+    "KJ": 551 * 28 / 100,
     "Grasa": 0 * 28 / 100,
     "Grasa_saturada": 0 * 28 / 100,
     "Hidratos_de_carbono": 32 * 28 / 100,
@@ -10941,12 +10892,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ENSALADA DE POLLO Pollo asado",
-    "imagen":"", 
-    "porcion":301,
+    "imagen": "",
+    "porcion": 301,
     "Kcal": 105 * 301 / 100,
-    "KJ":  440 * 301 / 100,
+    "KJ": 440 * 301 / 100,
     "Grasa": 5.9 * 301 / 100,
     "Grasa_saturada": 2.3 * 301 / 100,
     "Hidratos_de_carbono": 2.7 * 301 / 100,
@@ -10956,12 +10907,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ENSALADA DE POLLO Pollo crujiente",
-    "imagen":"", 
-    "porcion":311,
+    "imagen": "",
+    "porcion": 311,
     "Kcal": 129 * 311 / 100,
-    "KJ":  538 * 311 / 100,
+    "KJ": 538 * 311 / 100,
     "Grasa": 7.7 * 311 / 100,
     "Grasa_saturada": 3 * 311 / 100,
     "Hidratos_de_carbono": 7.3 * 311 / 100,
@@ -10971,12 +10922,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "ENSALADA DE POLLO Veggie",
-    "imagen":"", 
-    "porcion":287,
+    "imagen": "",
+    "porcion": 287,
     "Kcal": 100 * 287 / 100,
-    "KJ":  417 * 287 / 100,
+    "KJ": 417 * 287 / 100,
     "Grasa": 6.8 * 287 / 100,
     "Grasa_saturada": 2.4 * 287 / 100,
     "Hidratos_de_carbono": 3.8 * 287 / 100,
@@ -10986,12 +10937,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
-    "nombre":"TAQUITO LUPITA Taquito lupita",
-    "imagen":"", 
-    "porcion":114,
+  {
+    "nombre": "TAQUITO LUPITA Taquito lupita",
+    "imagen": "",
+    "porcion": 114,
     "Kcal": 271 * 114 / 100,
-    "KJ":  1127 * 114 / 100,
+    "KJ": 1127 * 114 / 100,
     "Grasa": 19.7 * 114 / 100,
     "Grasa_saturada": 3.2 * 114 / 100,
     "Hidratos_de_carbono": 15 * 114 / 100,
@@ -11001,12 +10952,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "TARRINA BELL Chocolate",
-    "imagen":"", 
-    "porcion":140,
+    "imagen": "",
+    "porcion": 140,
     "Kcal": 173 * 140 / 100,
-    "KJ":  727 * 140 / 100,
+    "KJ": 727 * 140 / 100,
     "Grasa": 4.3 * 140 / 100,
     "Grasa_saturada": 3.1 * 140 / 100,
     "Hidratos_de_carbono": 29.8 * 140 / 100,
@@ -11016,12 +10967,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "TARRINA BELL Frutos del bosque",
-    "imagen":"", 
-    "porcion":140,
+    "imagen": "",
+    "porcion": 140,
     "Kcal": 178 * 140 / 100,
-    "KJ":  746 * 140 / 100,
+    "KJ": 746 * 140 / 100,
     "Grasa": 4.1 * 140 / 100,
     "Grasa_saturada": 2.9 * 140 / 100,
     "Hidratos_de_carbono": 33 * 140 / 100,
@@ -11031,12 +10982,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "TARRINA BELL Dulce de leche",
-    "imagen":"", 
-    "porcion":140,
+    "imagen": "",
+    "porcion": 140,
     "Kcal": 181 * 140 / 100,
-    "KJ":  763 * 140 / 100,
+    "KJ": 763 * 140 / 100,
     "Grasa": 4.7 * 140 / 100,
     "Grasa_saturada": 3.3 * 140 / 100,
     "Hidratos_de_carbono": 31.4 * 140 / 100,
@@ -11046,12 +10997,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CREA,Y BELL Chips ahoy sirope chocolate y avellana",
-    "imagen":"", 
-    "porcion":160,
+    "imagen": "",
+    "porcion": 160,
     "Kcal": 241 * 160 / 100,
-    "KJ":  1013 * 160 / 100,
+    "KJ": 1013 * 160 / 100,
     "Grasa": 11.2 * 160 / 100,
     "Grasa_saturada": 4.7 * 160 / 100,
     "Hidratos_de_carbono": 31 * 160 / 100,
@@ -11061,12 +11012,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CREA,Y BELL Oreo sirope de pistacho",
-    "imagen":"", 
-    "porcion":160,
+    "imagen": "",
+    "porcion": 160,
     "Kcal": 245 * 160 / 100,
-    "KJ":  1029 * 160 / 100,
+    "KJ": 1029 * 160 / 100,
     "Grasa": 11.7 * 160 / 100,
     "Grasa_saturada": 3.7 * 160 / 100,
     "Hidratos_de_carbono": 31 * 160 / 100,
@@ -11076,12 +11027,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "KIT KAT CHOCADILLA Kit kat chocadilla",
-    "imagen":"", 
-    "porcion":62,
+    "imagen": "",
+    "porcion": 62,
     "Kcal": 421 * 62 / 100,
-    "KJ":  1766 * 62 / 100,
+    "KJ": 1766 * 62 / 100,
     "Grasa": 17.9 * 62 / 100,
     "Grasa_saturada": 9.1 * 62 / 100,
     "Hidratos_de_carbono": 55.3 * 62 / 100,
@@ -11091,12 +11042,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CONO BELL Cono bell",
-    "imagen":"", 
-    "porcion":90,
+    "imagen": "",
+    "porcion": 90,
     "Kcal": 231 * 90 / 100,
-    "KJ":  961 * 90 / 100,
+    "KJ": 961 * 90 / 100,
     "Grasa": 15.2 * 90 / 100,
     "Grasa_saturada": 3.2 * 90 / 100,
     "Hidratos_de_carbono": 18.9 * 90 / 100,
@@ -11106,12 +11057,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CHOCOBALL Chocoball",
-    "imagen":"", 
-    "porcion":21,
+    "imagen": "",
+    "porcion": 21,
     "Kcal": 447 * 21 / 100,
-    "KJ":  1994 * 21 / 100,
+    "KJ": 1994 * 21 / 100,
     "Grasa": 29 * 21 / 100,
     "Grasa_saturada": 11 * 21 / 100,
     "Hidratos_de_carbono": 47 * 21 / 100,
@@ -11121,12 +11072,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "COCA COLA Normal",
-    "imagen":"", 
-    "porcion":100,
+    "imagen": "",
+    "porcion": 100,
     "Kcal": 42 * 100 / 100,
-    "KJ":  180 * 100 / 100,
+    "KJ": 180 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 10.6 * 100 / 100,
@@ -11136,27 +11087,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "COCA COLA Zero",
-    "imagen":"", 
-    "porcion":100,
+    "imagen": "",
+    "porcion": 100,
     "Kcal": 0.2 * 100 / 100,
-    "KJ":  0.9 * 100 / 100,
-    "Grasa": 0 * 100 / 100,
-    "Grasa_saturada": 0 * 100 / 100,
-    "Hidratos_de_carbono": 0 * 100 / 100,
-    "azucar": 0  * 100 / 100,
-    "fibra": 0.0,
-    "proteinas": 0 * 100 / 100,
-    "product_by": tacobellId,
-    "promoted": false
-  },
-{
-    "nombre": "COCA COLA Zero zero",
-    "imagen":"", 
-    "porcion":100,
-    "Kcal": 0.2 * 100 / 100,
-    "KJ":  0.9 * 100 / 100,
+    "KJ": 0.9 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 0 * 100 / 100,
@@ -11166,12 +11102,27 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
+    "nombre": "COCA COLA Zero zero",
+    "imagen": "",
+    "porcion": 100,
+    "Kcal": 0.2 * 100 / 100,
+    "KJ": 0.9 * 100 / 100,
+    "Grasa": 0 * 100 / 100,
+    "Grasa_saturada": 0 * 100 / 100,
+    "Hidratos_de_carbono": 0 * 100 / 100,
+    "azucar": 0 * 100 / 100,
+    "fibra": 0.0,
+    "proteinas": 0 * 100 / 100,
+    "product_by": tacobellId,
+    "promoted": false
+  },
+  {
     "nombre": "NESTEA Nestea",
-    "imagen":"",
-    "porcion":100,
+    "imagen": "",
+    "porcion": 100,
     "Kcal": 19 * 100 / 100,
-    "KJ":  80 * 100 / 100,
+    "KJ": 80 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 4.5 * 100 / 100,
@@ -11181,11 +11132,11 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "FANTA Naranja",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 19 * 100 / 100,
-    "KJ":  81 * 100 / 100,
+    "KJ": 81 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 4.5 * 100 / 100,
@@ -11195,11 +11146,11 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "FANTA Limón",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 19 * 100 / 100,
-    "KJ":  80 * 100 / 100,
+    "KJ": 80 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 4.4 * 100 / 100,
@@ -11210,11 +11161,11 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "AQUARIUS",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 18 * 100 / 100,
-    "KJ":  77 * 100 / 100,
+    "KJ": 77 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 4.4 * 100 / 100,
@@ -11224,11 +11175,11 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CERVEZA Con alcohol",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 49 * 100 / 100,
-    "KJ":  205 * 100 / 100,
+    "KJ": 205 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 3.9 * 100 / 100,
@@ -11238,11 +11189,11 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "CERVEZA Sin alcohol",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 25 * 100 / 100,
-    "KJ":  106 * 100 / 100,
+    "KJ": 106 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 4.6 * 100 / 100,
@@ -11253,11 +11204,11 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "RED BULL Normal",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 46 * 100 / 100,
-    "KJ":  195 * 100 / 100,
+    "KJ": 195 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 11 * 100 / 100,
@@ -11267,11 +11218,11 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "RED BULL Sin azúcar",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 13 * 100 / 100,
-    "KJ":  3 * 100 / 100,
+    "KJ": 3 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 0 * 100 / 100,
@@ -11281,11 +11232,11 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-{
+  {
     "nombre": "RED BULL Sandial",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 45 * 100 / 100,
-    "KJ":  190 * 100 / 100,
+    "KJ": 190 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 11 * 100 / 100,
@@ -11296,11 +11247,11 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "RED BULL Albaricoque",
-    "porcion":100,
+    "porcion": 100,
     "Kcal": 45 * 100 / 100,
-    "KJ":  191 * 100 / 100,
+    "KJ": 191 * 100 / 100,
     "Grasa": 0 * 100 / 100,
     "Grasa_saturada": 0 * 100 / 100,
     "Hidratos_de_carbono": 11 * 100 / 100,
@@ -11310,189 +11261,187 @@ final List<Map<String, dynamic>> productos = [
     "product_by": tacobellId,
     "promoted": false
   },
-
 
   {
     "nombre": "Americana individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 913 ,  
+    "porcion": 100,
+    "KJ": 913,
     "Kcal": 218,
     "Grasa": 9.2,
     "Grasa_saturada": 4.1,
     "Hidratos_de_carbono": 23.5,
     "azucar": 1.4,
-    "proteinas": 9.1,   
-     "fibra": 0,
+    "proteinas": 9.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 942 ,  
+    "porcion": 100,
+    "KJ": 942,
     "Kcal": 224,
     "Grasa": 8.9,
     "Grasa_saturada": 4,
     "Hidratos_de_carbono": 25.9,
     "azucar": 4.2,
-    "proteinas": 9.3,   
-     "fibra": 0,
+    "proteinas": 9.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa Bourbon individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 977 ,  
+    "porcion": 100,
+    "KJ": 977,
     "Kcal": 247,
     "Grasa": 11.6,
     "Grasa_saturada": 4.4,
     "Hidratos_de_carbono": 24.7,
     "azucar": 5.6,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
 
-{
+  {
     "nombre": "Carbonara individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 818 ,  
+    "porcion": 100,
+    "KJ": 818,
     "Kcal": 195,
     "Grasa": 8,
     "Grasa_saturada": 3.9,
     "Hidratos_de_carbono": 21.1,
     "azucar": 1.2,
-    "proteinas": 8.4,   
-     "fibra": 0,
+    "proteinas": 8.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Cheese lovers individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1015 ,  
+    "porcion": 100,
+    "KJ": 1015,
     "Kcal": 242,
     "Grasa": 10.0,
     "Grasa_saturada": 6.4,
     "Hidratos_de_carbono": 23.6,
     "azucar": 1.0,
-    "proteinas": 13.7,   
-     "fibra": 0,
+    "proteinas": 13.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Hawaiana individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 910 ,  
+    "porcion": 100,
+    "KJ": 910,
     "Kcal": 217,
     "Grasa": 9.1,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 23.1,
     "azucar": 1,
-    "proteinas": 10.1,   
-     "fibra": 0,
+    "proteinas": 10.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   
-{
+
+  {
     "nombre": "Infantil de bacon individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 996 ,  
+    "porcion": 100,
+    "KJ": 996,
     "Kcal": 238,
     "Grasa": 11.0,
     "Grasa_saturada": 5.5,
     "Hidratos_de_carbono": 23.3,
     "azucar": 1.1,
-    "proteinas": 10.7,   
-     "fibra": 0,
+    "proteinas": 10.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Infantil de jamon individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 887 ,  
+    "porcion": 100,
+    "KJ": 887,
     "Kcal": 211,
     "Grasa": 8.2,
     "Grasa_saturada": 4.4,
     "Hidratos_de_carbono": 23.3,
     "azucar": 0.9,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Kebab individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 816 ,  
+    "porcion": 100,
+    "KJ": 816,
     "Kcal": 195,
     "Grasa": 7.7,
     "Grasa_saturada": 3.0,
     "Hidratos_de_carbono": 22,
     "azucar": 1.9,
-    "proteinas": 8.3,   
-     "fibra": 0,
+    "proteinas": 8.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
-    {
+
+  {
     "nombre": "Margarita individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 943 ,  
+    "porcion": 100,
+    "KJ": 943,
     "Kcal": 225,
     "Grasa": 8.3,
     "Grasa_saturada": 4.7,
     "Hidratos_de_carbono": 26.4,
     "azucar": 1.1,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Marinera individual tradicional",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 906 ,  
+    "porcion": 100,
+    "KJ": 906,
     "Kcal": 216,
     "Grasa": 8.4,
     "Grasa_saturada": 3.4,
     "Hidratos_de_carbono": 24,
     "azucar": 1,
-    "proteinas": 10.2,   
-     "fibra": 0,
+    "proteinas": 10.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Meat lovers individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 954 ,  
+    "porcion": 100,
+    "KJ": 954,
     "Kcal": 228,
     "Grasa": 10.2,
     "Grasa_saturada": 4.7,
     "Hidratos_de_carbono": 22.7,
     "azucar": 1.1,
-    "proteinas": 10.8,   
-     "fibra": 0,
+    "proteinas": 10.8,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -11500,276 +11449,275 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Pepperoni lovers individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1024 ,  
+    "porcion": 100,
+    "KJ": 1024,
     "Kcal": 244,
     "Grasa": 10.6,
     "Grasa_saturada": 5.0,
     "Hidratos_de_carbono": 25.7,
     "azucar": 1.0,
-    "proteinas": 10.9,   
-     "fibra": 0,
+    "proteinas": 10.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Pollo a la parrilla individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 741 ,  
+    "porcion": 100,
+    "KJ": 741,
     "Kcal": 176,
     "Grasa": 5.2,
     "Grasa_saturada": 2.7,
     "Hidratos_de_carbono": 22.1,
     "azucar": 1.8,
-    "proteinas": 9.5,   
-     "fibra": 0,
+    "proteinas": 9.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   {
+  {
     "nombre": "Queso de cabra individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1022 ,  
+    "porcion": 100,
+    "KJ": 1022,
     "Kcal": 244,
     "Grasa": 10.2,
     "Grasa_saturada": 5.5,
     "Hidratos_de_carbono": 27.6,
     "azucar": 2.3,
-    "proteinas": 9.8,   
-     "fibra": 0,
+    "proteinas": 9.8,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
+
   {
     "nombre": "Smokey hot honey individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1032 ,  
+    "porcion": 100,
+    "KJ": 1032,
     "Kcal": 246,
     "Grasa": 10.1,
     "Grasa_saturada": 4.8,
     "Hidratos_de_carbono": 28,
     "azucar": 4.5,
-    "proteinas": 10.4,   
-     "fibra": 0,
+    "proteinas": 10.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Supreme individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 828 ,  
+    "porcion": 100,
+    "KJ": 828,
     "Kcal": 198,
     "Grasa": 7.9,
     "Grasa_saturada": 3.8,
     "Hidratos_de_carbono": 21.7,
     "azucar": 1.5,
-    "proteinas": 9.1,   
-     "fibra": 0,
+    "proteinas": 9.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Veggie lovers individual tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 728 ,  
+    "porcion": 100,
+    "KJ": 728,
     "Kcal": 173,
     "Grasa": 5.3,
     "Grasa_saturada": 2.7,
     "Hidratos_de_carbono": 22.8,
     "azucar": 1.8,
-    "proteinas": 7.5,   
-     "fibra": 0,
+    "proteinas": 7.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-{
+  {
     "nombre": "Americana individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1011 ,  
+    "porcion": 100,
+    "KJ": 1011,
     "Kcal": 242,
     "Grasa": 12.8,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 21.7,
     "azucar": 1.6,
-    "proteinas": 9.2,   
-     "fibra": 0,
+    "proteinas": 9.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1038 ,  
+    "porcion": 100,
+    "KJ": 1038,
     "Kcal": 248,
     "Grasa": 12.5,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 24,
     "azucar": 4.0,
-    "proteinas": 9.5,   
-     "fibra": 0,
+    "proteinas": 9.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa Bourbon individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1062 ,  
+    "porcion": 100,
+    "KJ": 1062,
     "Kcal": 253,
     "Grasa": 12.3,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 25.2,
     "azucar": 5.2,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
 
-{
+  {
     "nombre": "Carbonara individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 924 ,  
+    "porcion": 100,
+    "KJ": 924,
     "Kcal": 220,
     "Grasa": 11.5,
     "Grasa_saturada": 4.3,
     "Hidratos_de_carbono": 20.1,
     "azucar": 1.3,
-    "proteinas": 8.6,   
-     "fibra": 0,
+    "proteinas": 8.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Cheese lovers individual pan",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1100 ,  
+    "porcion": 100,
+    "KJ": 1100,
     "Kcal": 263,
     "Grasa": 13.6,
     "Grasa_saturada": 6.7,
     "Hidratos_de_carbono": 21.4,
     "azucar": 1.3,
-    "proteinas": 13.5,   
-     "fibra": 0,
+    "proteinas": 13.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Hawaiana individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1000 ,  
+    "porcion": 100,
+    "KJ": 1000,
     "Kcal": 239,
     "Grasa": 12.5,
     "Grasa_saturada": 4.6,
     "Hidratos_de_carbono": 21.2,
     "azucar": 1.2,
-    "proteinas": 10,   
-     "fibra": 0,
+    "proteinas": 10,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   
-{
+
+  {
     "nombre": "Infantil de bacon individual pan",
     "imagen": "",
-  "porcion":100, 
-    "KJ": 1080 ,  
+    "porcion": 100,
+    "KJ": 1080,
     "Kcal": 258,
     "Grasa": 14.4,
     "Grasa_saturada": 5.8,
     "Hidratos_de_carbono": 21.3,
     "azucar": 1.4,
-    "proteinas": 10.6,   
-     "fibra": 0,
+    "proteinas": 10.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Infantil de jamon individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 979 ,  
+    "porcion": 100,
+    "KJ": 979,
     "Kcal": 234,
     "Grasa": 11.7,
     "Grasa_saturada": 4.7,
     "Hidratos_de_carbono": 21.5,
     "azucar": 1.2,
-    "proteinas": 10.4,   
-     "fibra": 0,
+    "proteinas": 10.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Kebab individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 910 ,  
+    "porcion": 100,
+    "KJ": 910,
     "Kcal": 217,
     "Grasa": 11,
     "Grasa_saturada": 3.4,
     "Hidratos_de_carbono": 20.5,
     "azucar": 2,
-    "proteinas": 8.5,   
-     "fibra": 0,
+    "proteinas": 8.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
-    {
+
+  {
     "nombre": "Margarita individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1041 ,  
+    "porcion": 100,
+    "KJ": 1041,
     "Kcal": 249,
     "Grasa": 12.3,
     "Grasa_saturada": 5,
     "Hidratos_de_carbono": 23.9,
     "azucar": 1.3,
-    "proteinas": 10.4,   
-     "fibra": 0,
+    "proteinas": 10.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Marinera individual pan",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1004 ,  
+    "porcion": 100,
+    "KJ": 1004,
     "Kcal": 240,
     "Grasa": 12.4,
     "Grasa_saturada": 3.8,
     "Hidratos_de_carbono": 21.4,
     "azucar": 1.2,
-    "proteinas": 10.2,   
-     "fibra": 0,
+    "proteinas": 10.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Meat lovers individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1038 ,  
+    "porcion": 100,
+    "KJ": 1038,
     "Kcal": 248,
     "Grasa": 13.5,
     "Grasa_saturada": 5,
     "Hidratos_de_carbono": 20.8,
     "azucar": 1.3,
-    "proteinas": 10.7,   
-     "fibra": 0,
+    "proteinas": 10.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -11777,230 +11725,229 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Pepperoni lovers individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1116 ,  
+    "porcion": 100,
+    "KJ": 1116,
     "Kcal": 267,
     "Grasa": 14.4,
     "Grasa_saturada": 5.3,
     "Hidratos_de_carbono": 23.2,
     "azucar": 1.2,
-    "proteinas": 10.7,   
-     "fibra": 0,
+    "proteinas": 10.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Pollo a la parrilla individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 840 ,  
+    "porcion": 100,
+    "KJ": 840,
     "Kcal": 200,
     "Grasa": 8.7,
     "Grasa_saturada": 3.1,
     "Hidratos_de_carbono": 20.5,
     "azucar": 2,
-    "proteinas": 9.6,   
-     "fibra": 0,
+    "proteinas": 9.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   {
+  {
     "nombre": "Queso de cabra individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1121 ,  
+    "porcion": 100,
+    "KJ": 1121,
     "Kcal": 268,
     "Grasa": 14,
     "Grasa_saturada": 5.8,
     "Hidratos_de_carbono": 25.5,
     "azucar": 2.5,
-    "proteinas": 9.8,   
-     "fibra": 0,
+    "proteinas": 9.8,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
+
   {
     "nombre": "Smokey hot honey individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1120 ,  
+    "porcion": 100,
+    "KJ": 1120,
     "Kcal": 268,
     "Grasa": 13.8,
     "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 25.5,
     "azucar": 4.4,
-    "proteinas": 10.3,   
-     "fibra": 0,
+    "proteinas": 10.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Supreme individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 929 ,  
+    "porcion": 100,
+    "KJ": 929,
     "Kcal": 222,
     "Grasa": 11.4,
     "Grasa_saturada": 4.1,
     "Hidratos_de_carbono": 20.3,
     "azucar": 1.7,
-    "proteinas": 9.3,   
-     "fibra": 0,
+    "proteinas": 9.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Veggie lovers individual pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 840 ,  
+    "porcion": 100,
+    "KJ": 840,
     "Kcal": 200,
     "Grasa": 9.1,
     "Grasa_saturada": 3.2,
     "Hidratos_de_carbono": 21.4,
     "azucar": 1.9,
-    "proteinas": 7.7,   
-     "fibra": 0,
+    "proteinas": 7.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-{
+  {
     "nombre": "Americana mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 914 ,  
+    "porcion": 100,
+    "KJ": 914,
     "Kcal": 218,
     "Grasa": 9.2,
     "Grasa_saturada": 4.1,
     "Hidratos_de_carbono": 23.6,
     "azucar": 1.4,
-    "proteinas": 9.2,   
-     "fibra": 0,
+    "proteinas": 9.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 940 ,  
+    "porcion": 100,
+    "KJ": 940,
     "Kcal": 224,
     "Grasa": 8.8,
     "Grasa_saturada": 4.0,
     "Hidratos_de_carbono": 26.1,
     "azucar": 4.1,
-    "proteinas": 9.3,   
-     "fibra": 0,
+    "proteinas": 9.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa Bourbon mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 971 ,  
+    "porcion": 100,
+    "KJ": 971,
     "Kcal": 246,
     "Grasa": 11.6,
     "Grasa_saturada": 4.4,
     "Hidratos_de_carbono": 24.4,
     "azucar": 5.2,
-    "proteinas": 10.6,   
-     "fibra": 0,
+    "proteinas": 10.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
 
-{
+  {
     "nombre": "Carbonara mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 815 ,  
+    "porcion": 100,
+    "KJ": 815,
     "Kcal": 194,
     "Grasa": 7.8,
     "Grasa_saturada": 3.8,
     "Hidratos_de_carbono": 21.5,
     "azucar": 1.2,
-    "proteinas": 8.5,   
-     "fibra": 0,
+    "proteinas": 8.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Cheese lovers mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1012 ,  
+    "porcion": 100,
+    "KJ": 1012,
     "Kcal": 241,
     "Grasa": 9.9,
     "Grasa_saturada": 6.4,
     "Hidratos_de_carbono": 23.8,
     "azucar": 1,
-    "proteinas": 13.7,   
-     "fibra": 0,
+    "proteinas": 13.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Hawaiana mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 907 ,  
+    "porcion": 100,
+    "KJ": 907,
     "Kcal": 216,
     "Grasa": 8.9,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 23.2,
     "azucar": 1,
-    "proteinas": 10.1,   
-     "fibra": 0,
+    "proteinas": 10.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   
+
   {
     "nombre": "Kebab mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 804 ,  
+    "porcion": 100,
+    "KJ": 804,
     "Kcal": 192,
     "Grasa": 7.4,
     "Grasa_saturada": 3.0,
     "Hidratos_de_carbono": 21.9,
     "azucar": 1.8,
-    "proteinas": 8.4,   
-     "fibra": 0,
+    "proteinas": 8.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Margarita mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 941 ,  
+    "porcion": 100,
+    "KJ": 941,
     "Kcal": 224,
     "Grasa": 8.1,
     "Grasa_saturada": 4.6,
     "Hidratos_de_carbono": 26.6,
     "azucar": 1.1,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Marinera mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 908 ,  
+    "porcion": 100,
+    "KJ": 908,
     "Kcal": 217,
     "Grasa": 8.4,
     "Grasa_saturada": 3.4,
     "Hidratos_de_carbono": 24.1,
     "azucar": 1.0,
-    "proteinas": 10.3,   
-     "fibra": 0,
+    "proteinas": 10.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12008,137 +11955,137 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Meat lovers mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 953 ,  
+    "porcion": 100,
+    "KJ": 953,
     "Kcal": 228,
     "Grasa": 10.1,
     "Grasa_saturada": 4.7,
     "Hidratos_de_carbono": 22.9,
     "azucar": 1.1,
-    "proteinas": 10.8,   
-     "fibra": 0,
+    "proteinas": 10.8,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Pepperoni lovers mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1028 ,  
+    "porcion": 100,
+    "KJ": 1028,
     "Kcal": 245,
     "Grasa": 10.7,
     "Grasa_saturada": 5.0,
     "Hidratos_de_carbono": 25.6,
     "azucar": 0.9,
-    "proteinas": 10.9,   
-     "fibra": 0,
+    "proteinas": 10.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Pollo a la parrilla mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 740 ,  
+    "porcion": 100,
+    "KJ": 740,
     "Kcal": 176,
     "Grasa": 5.1,
     "Grasa_saturada": 2.7,
     "Hidratos_de_carbono": 22.3,
     "azucar": 1.8,
-    "proteinas": 9.5,   
-     "fibra": 0,
+    "proteinas": 9.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-   {
+  {
     "nombre": "Queso de cabra mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1040 ,  
+    "porcion": 100,
+    "KJ": 1040,
     "Kcal": 248,
     "Grasa": 10.5,
     "Grasa_saturada": 5.9,
     "Hidratos_de_carbono": 27.5,
     "azucar": 2.1,
-    "proteinas": 10.1,   
-     "fibra": 0,
+    "proteinas": 10.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   {
+  {
     "nombre": "Smokey hot honey mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1034 ,  
+    "porcion": 100,
+    "KJ": 1034,
     "Kcal": 247,
     "Grasa": 10.2,
     "Grasa_saturada": 4.8,
     "Hidratos_de_carbono": 27.6,
     "azucar": 3.9,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Supreme mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 829 ,  
+    "porcion": 100,
+    "KJ": 829,
     "Kcal": 198,
     "Grasa": 7.8,
     "Grasa_saturada": 3.7,
     "Hidratos_de_carbono": 21.9,
     "azucar": 1.5,
-    "proteinas": 9.1,   
-     "fibra": 0,
+    "proteinas": 9.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-    {
+  {
     "nombre": "Veggie lovers mediana tradicional",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 728 ,  
+    "porcion": 100,
+    "KJ": 728,
     "Kcal": 173,
     "Grasa": 5.2,
     "Grasa_saturada": 2.7,
     "Hidratos_de_carbono": 23,
     "azucar": 1.8,
-    "proteinas": 7.5,   
-     "fibra": 0,
+    "proteinas": 7.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-{
+  {
     "nombre": "Americana mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 910 ,  
+    "porcion": 100,
+    "KJ": 910,
     "Kcal": 218,
     "Grasa": 11.1,
     "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 19.1,
     "azucar": 1.7,
-    "proteinas": 9.3,   
-     "fibra": 0,
+    "proteinas": 9.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa mediana fina",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 943 ,  
+    "porcion": 100,
+    "KJ": 943,
     "Kcal": 225,
     "Grasa": 10.5,
     "Grasa_saturada": 4.9,
     "Hidratos_de_carbono": 22.4,
     "azucar": 5,
-    "proteinas": 9.4,   
-     "fibra": 0,
+    "proteinas": 9.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12146,45 +12093,45 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Barbacoa Bourbon mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 981 ,  
+    "porcion": 100,
+    "KJ": 981,
     "Kcal": 252,
     "Grasa": 13.9,
     "Grasa_saturada": 5.3,
     "Hidratos_de_carbono": 20.5,
     "azucar": 6.3,
-    "proteinas": 11,   
-     "fibra": 0,
+    "proteinas": 11,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Carbonara mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 790 ,  
+    "porcion": 100,
+    "KJ": 790,
     "Kcal": 188,
     "Grasa": 9.2,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 17.1,
     "azucar": 1.4,
-    "proteinas": 8.4,   
-     "fibra": 0,
+    "proteinas": 8.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Cheese lovers mediana fina",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1033 ,  
+    "porcion": 100,
+    "KJ": 1033,
     "Kcal": 247,
     "Grasa": 12,
     "Grasa_saturada": 7.9,
     "Hidratos_de_carbono": 19.2,
     "azucar": 1.3,
-    "proteinas": 14.9,   
-     "fibra": 0,
+    "proteinas": 14.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12192,183 +12139,183 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Hawaiana mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 902 ,  
+    "porcion": 100,
+    "KJ": 902,
     "Kcal": 216,
     "Grasa": 10.7,
     "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 18.8,
     "azucar": 1.2,
-    "proteinas": 10.4,   
-     "fibra": 0,
+    "proteinas": 10.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Kebab mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 778 ,  
+    "porcion": 100,
+    "KJ": 778,
     "Kcal": 186,
     "Grasa": 8.7,
     "Grasa_saturada": 3.5,
     "Hidratos_de_carbono": 17.7,
     "azucar": 2.2,
-    "proteinas": 8.4,   
-     "fibra": 0,
+    "proteinas": 8.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Margarita mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 944 ,  
+    "porcion": 100,
+    "KJ": 944,
     "Kcal": 225,
     "Grasa": 10.1,
     "Grasa_saturada": 5.9,
     "Hidratos_de_carbono": 22.1,
     "azucar": 1.4,
-    "proteinas": 10.9,   
-     "fibra": 0,
+    "proteinas": 10.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
- 
- {
+
+  {
     "nombre": "Marinera mediana fina",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 903 ,  
+    "porcion": 100,
+    "KJ": 903,
     "Kcal": 216,
     "Grasa": 10.3,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 19.5,
     "azucar": 1.2,
-    "proteinas": 10.7,   
-     "fibra": 0,
+    "proteinas": 10.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Meat lovers mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 959 ,  
+    "porcion": 100,
+    "KJ": 959,
     "Kcal": 229,
     "Grasa": 12.1,
     "Grasa_saturada": 5.7,
     "Hidratos_de_carbono": 18.5,
     "azucar": 1.3,
-    "proteinas": 11.3,   
-     "fibra": 0,
+    "proteinas": 11.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Pepperoni lovers mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1055 ,  
+    "porcion": 100,
+    "KJ": 1055,
     "Kcal": 252,
     "Grasa": 13.3,
     "Grasa_saturada": 6.4,
     "Hidratos_de_carbono": 21.1,
     "azucar": 1.2,
-    "proteinas": 11.5,   
-     "fibra": 0,
+    "proteinas": 11.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-    {
+  {
     "nombre": "Pollo a la parrilla mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 700 ,  
+    "porcion": 100,
+    "KJ": 700,
     "Kcal": 167,
     "Grasa": 6,
     "Grasa_saturada": 3.2,
     "Hidratos_de_carbono": 18,
     "azucar": 2.2,
-    "proteinas": 9.7,   
-     "fibra": 0,
+    "proteinas": 9.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
- {
+  {
     "nombre": "Queso de cabra mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1071 ,  
+    "porcion": 100,
+    "KJ": 1071,
     "Kcal": 256,
     "Grasa": 13.2,
     "Grasa_saturada": 7.6,
     "Hidratos_de_carbono": 23.3,
     "azucar": 2.7,
-    "proteinas": 10.5,   
-     "fibra": 0,
+    "proteinas": 10.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   {
+  {
     "nombre": "Smokey hot honey mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1062 ,  
+    "porcion": 100,
+    "KJ": 1062,
     "Kcal": 254,
     "Grasa": 12.6,
     "Grasa_saturada": 6.1,
     "Hidratos_de_carbono": 23.8,
     "azucar": 4.9,
-    "proteinas": 11,   
-     "fibra": 0,
+    "proteinas": 11,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   
- {
+
+  {
     "nombre": "Supreme mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 807 ,  
+    "porcion": 100,
+    "KJ": 807,
     "Kcal": 193,
     "Grasa": 9.3,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 17.5,
     "azucar": 1.8,
-    "proteinas": 9.2,   
-     "fibra": 0,
+    "proteinas": 9.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Veggie lovers mediana fina",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 682 ,  
+    "porcion": 100,
+    "KJ": 682,
     "Kcal": 163,
     "Grasa": 6.2,
     "Grasa_saturada": 3.3,
     "Hidratos_de_carbono": 18.6,
     "azucar": 2.2,
-    "proteinas": 7.2,   
-     "fibra": 0,
+    "proteinas": 7.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-{
+  {
     "nombre": "Americana mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1021 ,  
+    "porcion": 100,
+    "KJ": 1021,
     "Kcal": 244,
     "Grasa": 12.8,
     "Grasa_saturada": 4.3,
     "Hidratos_de_carbono": 22.5,
     "azucar": 1.5,
-    "proteinas": 9.1,   
-     "fibra": 0,
+    "proteinas": 9.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12376,45 +12323,45 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Barbacoa mediana pan",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1040 ,  
+    "porcion": 100,
+    "KJ": 1040,
     "Kcal": 248,
     "Grasa": 12.3,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 24.8,
     "azucar": 4,
-    "proteinas": 9.2,   
-     "fibra": 0,
+    "proteinas": 9.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa Bourbon mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1065 ,  
+    "porcion": 100,
+    "KJ": 1065,
     "Kcal": 254,
     "Grasa": 12.1,
     "Grasa_saturada": 4.3,
     "Hidratos_de_carbono": 25.9,
     "azucar": 4.9,
-    "proteinas": 10.4,   
-     "fibra": 0,
+    "proteinas": 10.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Carbonara mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 923 ,  
+    "porcion": 100,
+    "KJ": 923,
     "Kcal": 220,
     "Grasa": 11.2,
     "Grasa_saturada": 3.9,
     "Hidratos_de_carbono": 20.8,
     "azucar": 1.3,
-    "proteinas": 8.4,   
-     "fibra": 0,
+    "proteinas": 8.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12422,45 +12369,45 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Cheese lovers mediana pan",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1111 ,  
+    "porcion": 100,
+    "KJ": 1111,
     "Kcal": 265,
     "Grasa": 13.5,
     "Grasa_saturada": 6.3,
     "Hidratos_de_carbono": 22.7,
     "azucar": 1.2,
-    "proteinas": 13.1,   
-     "fibra": 0,
+    "proteinas": 13.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Hawaiana mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1011 ,  
+    "porcion": 100,
+    "KJ": 1011,
     "Kcal": 242,
     "Grasa": 12.5,
     "Grasa_saturada": 4.3,
     "Hidratos_de_carbono": 22.2,
     "azucar": 1.1,
-    "proteinas": 9.9,   
-     "fibra": 0,
+    "proteinas": 9.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Kebab mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 911 ,  
+    "porcion": 100,
+    "KJ": 911,
     "Kcal": 218,
     "Grasa": 10.8,
     "Grasa_saturada": 3.2,
     "Hidratos_de_carbono": 21.1,
     "azucar": 1.9,
-    "proteinas": 8.4,   
-     "fibra": 0,
+    "proteinas": 8.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12468,183 +12415,183 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Margarita mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1058 ,  
+    "porcion": 100,
+    "KJ": 1058,
     "Kcal": 252,
     "Grasa": 12.3,
     "Grasa_saturada": 4.8,
     "Hidratos_de_carbono": 25,
     "azucar": 1.3,
-    "proteinas": 10.2,   
-     "fibra": 0,
+    "proteinas": 10.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Marinera mediana pan",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1020 ,  
+    "porcion": 100,
+    "KJ": 1020,
     "Kcal": 244,
     "Grasa": 12.2,
     "Grasa_saturada": 3.6,
     "Hidratos_de_carbono": 22.9,
     "azucar": 1.2,
-    "proteinas": 10.1,   
-     "fibra": 0,
+    "proteinas": 10.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Meat lovers mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1051 ,  
+    "porcion": 100,
+    "KJ": 1051,
     "Kcal": 251,
     "Grasa": 13.5,
     "Grasa_saturada": 4.9,
     "Hidratos_de_carbono": 21.6,
     "azucar": 1.2,
-    "proteinas": 10.7,   
-     "fibra": 0,
+    "proteinas": 10.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
-{
+
+  {
     "nombre": "Pepperoni lovers mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1133 ,  
+    "porcion": 100,
+    "KJ": 1133,
     "Kcal": 271,
     "Grasa": 14.5,
-    "Grasa_saturada":5.1,
+    "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 24.2,
     "azucar": 1.2,
-    "proteinas": 10.6,   
-     "fibra": 0,
+    "proteinas": 10.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Pollo a la parrilla mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 855 ,  
+    "porcion": 100,
+    "KJ": 855,
     "Kcal": 204,
     "Grasa": 8.8,
     "Grasa_saturada": 2.9,
     "Hidratos_de_carbono": 21.4,
     "azucar": 1.9,
-    "proteinas": 9.4,   
-     "fibra": 0,
+    "proteinas": 9.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
- {
+  {
     "nombre": "Queso de cabra mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1146 ,  
+    "porcion": 100,
+    "KJ": 1146,
     "Kcal": 274,
     "Grasa": 14.5,
     "Grasa_saturada": 5.9,
     "Hidratos_de_carbono": 25.8,
     "azucar": 2.2,
-    "proteinas": 9.9,   
-     "fibra": 0,
+    "proteinas": 9.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
- 
+
   {
     "nombre": "Smokey hot honey mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1135 ,  
+    "porcion": 100,
+    "KJ": 1135,
     "Kcal": 271,
     "Grasa": 14,
     "Grasa_saturada": 4.9,
     "Hidratos_de_carbono": 26,
     "azucar": 3.8,
-    "proteinas": 10.3,   
-     "fibra": 0,
+    "proteinas": 10.3,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Supreme mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 937 ,  
+    "porcion": 100,
+    "KJ": 937,
     "Kcal": 224,
     "Grasa": 11.3,
     "Grasa_saturada": 3.9,
     "Hidratos_de_carbono": 21.1,
     "azucar": 1.6,
-    "proteinas": 9.0,   
-     "fibra": 0,
+    "proteinas": 9.0,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Veggie lovers mediana pan",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 850 ,  
+    "porcion": 100,
+    "KJ": 850,
     "Kcal": 203,
     "Grasa": 9.1,
     "Grasa_saturada": 3.0,
     "Hidratos_de_carbono": 22,
     "azucar": 1.9,
-    "proteinas": 7.6,   
-     "fibra": 0,
+    "proteinas": 7.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-  
-{
+
+  {
     "nombre": "Americana mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 950 ,  
+    "porcion": 100,
+    "KJ": 950,
     "Kcal": 227,
     "Grasa": 10.4,
     "Grasa_saturada": 5,
     "Hidratos_de_carbono": 21.6,
     "azucar": 1.4,
-    "proteinas": 10.9,   
-     "fibra": 0,
+    "proteinas": 10.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 971 ,  
+    "porcion": 100,
+    "KJ": 971,
     "Kcal": 232,
     "Grasa": 10.1,
     "Grasa_saturada": 4.9,
     "Hidratos_de_carbono": 23.8,
     "azucar": 3.7,
-    "proteinas": 11,   
-     "fibra": 0,
+    "proteinas": 11,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Barbacoa Bourbon mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 997 ,  
+    "porcion": 100,
+    "KJ": 997,
     "Kcal": 237,
     "Grasa": 10,
     "Grasa_saturada": 4.9,
     "Hidratos_de_carbono": 24.8,
     "azucar": 4.6,
-    "proteinas": 12,   
-     "fibra": 0,
+    "proteinas": 12,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12652,139 +12599,137 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Carbonara mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 864 ,  
+    "porcion": 100,
+    "KJ": 864,
     "Kcal": 206,
     "Grasa": 9.2,
     "Grasa_saturada": 4.6,
     "Hidratos_de_carbono": 20,
     "azucar": 1.2,
-    "proteinas": 10.2,   
-     "fibra": 0,
+    "proteinas": 10.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Cheese lovers mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 1017 ,  
+    "porcion": 100,
+    "KJ": 1017,
     "Kcal": 242,
     "Grasa": 10.5,
     "Grasa_saturada": 6.4,
     "Hidratos_de_carbono": 22.6,
     "azucar": 1.1,
-    "proteinas": 14.1,   
-     "fibra": 0,
+    "proteinas": 14.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Dentrisimo de jamon mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 969 ,  
+    "porcion": 100,
+    "KJ": 969,
     "Kcal": 231,
     "Grasa": 10.3,
     "Grasa_saturada": 5.2,
     "Hidratos_de_carbono": 21.9,
     "azucar": 2.1,
-    "proteinas": 12.5,   
-     "fibra": 0,
+    "proteinas": 12.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-
-
   {
     "nombre": "Dentrisimo de pepperoni mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 913 ,  
+    "porcion": 100,
+    "KJ": 913,
     "Kcal": 217,
     "Grasa": 9.1,
     "Grasa_saturada": 4.7,
     "Hidratos_de_carbono": 22.3,
     "azucar": 1.2,
-    "proteinas": 11.4,   
-     "fibra": 0,
+    "proteinas": 11.4,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Hawaiana mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 943 ,  
+    "porcion": 100,
+    "KJ": 943,
     "Kcal": 225,
     "Grasa": 10.2,
     "Grasa_saturada": 5,
     "Hidratos_de_carbono": 21.3,
     "azucar": 1.0,
-    "proteinas": 11.7,   
-     "fibra": 0,
+    "proteinas": 11.7,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Kebab mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 854 ,  
+    "porcion": 100,
+    "KJ": 854,
     "Kcal": 204,
     "Grasa": 8.8,
     "Grasa_saturada": 3.9,
     "Hidratos_de_carbono": 20.4,
     "azucar": 1.8,
-    "proteinas": 10.2,   
-     "fibra": 0,
+    "proteinas": 10.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
- 
- {
+
+  {
     "nombre": "Margarita mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 968 ,  
+    "porcion": 100,
+    "KJ": 968,
     "Kcal": 230,
     "Grasa": 9.2,
     "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 24.8,
     "azucar": 1.2,
-    "proteinas": 11.9,   
-     "fibra": 0,
+    "proteinas": 11.9,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Marinera mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-   "KJ": 947 ,  
+    "porcion": 100,
+    "KJ": 947,
     "Kcal": 226,
     "Grasa": 9.9,
     "Grasa_saturada": 4.4,
     "Hidratos_de_carbono": 21.9,
     "azucar": 1.1,
-    "proteinas": 12.0,   
-     "fibra": 0,
+    "proteinas": 12.0,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Meat lovers mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 982 ,  
+    "porcion": 100,
+    "KJ": 982,
     "Kcal": 234,
     "Grasa": 11.2,
     "Grasa_saturada": 5.4,
     "Hidratos_de_carbono": 21.1,
     "azucar": 1.1,
-    "proteinas": 12.2,   
-     "fibra": 0,
+    "proteinas": 12.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12792,91 +12737,91 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Pepperoni lovers mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1047 ,  
+    "porcion": 100,
+    "KJ": 1047,
     "Kcal": 250,
     "Grasa": 11.8,
-    "Grasa_saturada":5.8,
+    "Grasa_saturada": 5.8,
     "Hidratos_de_carbono": 23.1,
     "azucar": 1.0,
-    "proteinas": 12.6,   
-     "fibra": 0,
+    "proteinas": 12.6,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
   {
     "nombre": "Pollo a la parrilla mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 800 ,  
+    "porcion": 100,
+    "KJ": 800,
     "Kcal": 190,
     "Grasa": 6.9,
     "Grasa_saturada": 3.7,
     "Hidratos_de_carbono": 20.6,
     "azucar": 1.7,
-    "proteinas":11.1,   
-     "fibra": 0,
+    "proteinas": 11.1,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
- {
+  {
     "nombre": "Queso de cabra mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1062 ,  
+    "porcion": 100,
+    "KJ": 1062,
     "Kcal": 253,
     "Grasa": 12.2,
     "Grasa_saturada": 6.8,
     "Hidratos_de_carbono": 23.6,
     "azucar": 1.9,
-    "proteinas": 12.2,   
-     "fibra": 0,
+    "proteinas": 12.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
 
-   {
+  {
     "nombre": "Smokey hot honey mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 1052 ,  
+    "porcion": 100,
+    "KJ": 1052,
     "Kcal": 251,
     "Grasa": 11.4,
     "Grasa_saturada": 5.6,
     "Hidratos_de_carbono": 24.8,
     "azucar": 3.5,
-    "proteinas": 12.2,   
-     "fibra": 0,
+    "proteinas": 12.2,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-    {
+  {
     "nombre": "Supreme mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 876 ,  
+    "porcion": 100,
+    "KJ": 876,
     "Kcal": 209,
     "Grasa": 9.2,
     "Grasa_saturada": 4.6,
     "Hidratos_de_carbono": 20.3,
     "azucar": 1.5,
-    "proteinas": 10.8,   
-     "fibra": 0,
+    "proteinas": 10.8,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
-   {
+  {
     "nombre": "Veggie lovers mediana rolling pizza",
     "imagen": "",
-    "porcion":100, 
-    "KJ": 793 ,  
+    "porcion": 100,
+    "KJ": 793,
     "Kcal": 189,
     "Grasa": 7.1,
     "Grasa_saturada": 3.7,
     "Hidratos_de_carbono": 21.2,
     "azucar": 1.7,
-    "proteinas": 9.5,   
-     "fibra": 0,
+    "proteinas": 9.5,
+    "fibra": 0,
     "product_by": pizzahutId,
     "promoted": false
   },
@@ -12884,9 +12829,9 @@ final List<Map<String, dynamic>> productos = [
   {
     "nombre": "Plátano natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "Kcal": 18,
-    "KJ":  74,
+    "KJ": 74,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 4.6,
@@ -12896,12 +12841,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Fresa natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "Kcal": 6,
-    "KJ":  27,
+    "KJ": 27,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 1.5,
@@ -12911,12 +12856,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Kiwi natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "Kcal": 12,
-    "KJ":  51,
+    "KJ": 51,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 2.9,
@@ -12927,12 +12872,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Mandarina natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 45,
-    "Kcal":  11,
+    "Kcal": 11,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 2.7,
@@ -12942,12 +12887,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Mango natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 50,
-    "Kcal":  12,
+    "Kcal": 12,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 3,
@@ -12957,12 +12902,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Melocoton natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 33,
-    "Kcal":  8,
+    "Kcal": 8,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 1.9,
@@ -12973,13 +12918,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "Melon natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 24,
-    "Kcal":  6,
+    "Kcal": 6,
     "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 1.3,
@@ -12989,12 +12933,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Naranja natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 41,
-    "Kcal":  10,
+    "Kcal": 10,
     "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 2.4,
@@ -13004,12 +12948,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Pera natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 48,
-    "Kcal":  11,
+    "Kcal": 11,
     "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 3,
@@ -13020,12 +12964,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Piña natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 42,
-    "Kcal":  10,
+    "Kcal": 10,
     "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 2.6,
@@ -13035,12 +12979,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Sandia natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 25,
-    "Kcal":  6,
+    "Kcal": 6,
     "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 1.5,
@@ -13050,12 +12994,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Uva natural",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 78,
-    "Kcal":  19,
+    "Kcal": 19,
     "Grasa": 0.4,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 3.5,
@@ -13065,12 +13009,12 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Avellana Crunch Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 503,
-    "Kcal":  121,
+    "Kcal": 121,
     "Grasa": 9,
     "Grasa_saturada": 1.2,
     "Hidratos_de_carbono": 8.8,
@@ -13080,10 +13024,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Caramelo Liquido Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 269,
     "Kcal": 63,
     "Grasa": 0,
@@ -13095,10 +13039,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crema crujiente Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 464,
     "Kcal": 111,
     "Grasa": 8.4,
@@ -13111,10 +13055,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Dulce de leche Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 262,
     "Kcal": 62,
     "Grasa": 0.7,
@@ -13126,10 +13070,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Smorroch Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 491,
     "Kcal": 117,
     "Grasa": 8.3,
@@ -13141,10 +13085,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crema de cacahuete Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 516,
     "Kcal": 124,
     "Grasa": 10,
@@ -13157,10 +13101,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Crema de turron Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 495,
     "Kcal": 119,
     "Grasa": 8.4,
@@ -13172,10 +13116,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crema Cookies Blak Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 469,
     "Kcal": 112,
     "Grasa": 7.5,
@@ -13187,10 +13131,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Cereza Amarena Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 237,
     "Kcal": 56,
     "Grasa": 0,
@@ -13203,10 +13147,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Fresas Silvestres Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 201,
     "Kcal": 48,
     "Grasa": 0,
@@ -13218,10 +13162,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Frutas del Bosque Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 205,
     "Kcal": 49,
     "Grasa": 0,
@@ -13233,10 +13177,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Mango-Maracuya Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 224,
     "Kcal": 53,
     "Grasa": 0,
@@ -13249,11 +13193,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "Chocolate Belga Negro Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 483.4,
     "Kcal": 117.6,
     "Grasa": 8.3,
@@ -13265,10 +13208,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crema Cacao Avellanas Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 425,
     "Kcal": 102,
     "Grasa": 7.4,
@@ -13280,10 +13223,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Nacar (Choco blanco) Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 423.4,
     "Kcal": 101.2,
     "Grasa": 5.94,
@@ -13296,10 +13239,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Cacao Cinco Cereales Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 478,
     "Kcal": 115,
     "Grasa": 7.5,
@@ -13311,10 +13254,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Choco-coco Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 459,
     "Kcal": 110,
     "Grasa": 7.3,
@@ -13326,10 +13269,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Cafe Crunch Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 488,
     "Kcal": 117,
     "Grasa": 7.8,
@@ -13342,10 +13285,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Variegato Galleta Caramelizada Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 555,
     "Kcal": 134,
     "Grasa": 10.8,
@@ -13357,10 +13300,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Variegato Pistacho Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 484,
     "Kcal": 122,
     "Grasa": 9,
@@ -13372,10 +13315,10 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Kingchoc Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 486,
     "Kcal": 116,
     "Grasa": 5.7,
@@ -13388,12 +13331,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "Miel Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 269,
     "Kcal": 64,
     "Grasa": 0,
@@ -13405,13 +13346,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Variegato de Frambuesa Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 190,
     "Kcal": 44.6,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 10.7,
     "azucar": 10.3,
@@ -13420,13 +13361,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Variegato de Manzana y Jengibre Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 184.2,
     "Kcal": 43.4,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 10.7,
     "azucar": 10.2,
@@ -13435,13 +13376,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Turron Choco Topping",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 486,
     "Kcal": 117,
-    "Grasa":8.2,
+    "Grasa": 8.2,
     "Grasa_saturada": 1.3,
     "Hidratos_de_carbono": 9.5,
     "azucar": 8.1,
@@ -13450,13 +13391,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Variegato Cookies&Cream Topping Dress",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 455,
     "Kcal": 117,
-    "Grasa":7.5,
+    "Grasa": 7.5,
     "Grasa_saturada": 1.4,
     "Hidratos_de_carbono": 12,
     "azucar": 11,
@@ -13465,13 +13406,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Variegato Tarta de Limon Topping Dress",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 487,
     "Kcal": 117,
-    "Grasa":7.5,
+    "Grasa": 7.5,
     "Grasa_saturada": 1.4,
     "Hidratos_de_carbono": 12,
     "azucar": 11.1,
@@ -13480,13 +13421,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Variegato Chocolate y Cacahuete Topping Dress",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 495,
     "Kcal": 119,
-    "Grasa":8.8,
+    "Grasa": 8.8,
     "Grasa_saturada": 1.6,
     "Hidratos_de_carbono": 6.9,
     "azucar": 6.3,
@@ -13495,13 +13436,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Conguitos Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 435,
     "Kcal": 104,
-    "Grasa":6.2,
+    "Grasa": 6.2,
     "Grasa_saturada": 2.0,
     "Hidratos_de_carbono": 9.4,
     "azucar": 8.7,
@@ -13510,13 +13451,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Chellies Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 230,
     "Kcal": 54,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 13.4,
     "azucar": 13.2,
@@ -13525,13 +13466,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crispies Mix Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 409,
     "Kcal": 98,
-    "Grasa":4.8,
+    "Grasa": 4.8,
     "Grasa_saturada": 3,
     "Hidratos_de_carbono": 12.8,
     "azucar": 9.0,
@@ -13540,13 +13481,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Curls Negro Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 444,
     "Kcal": 106,
-    "Grasa":6.6,
+    "Grasa": 6.6,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 10.1,
     "azucar": 9.6,
@@ -13555,13 +13496,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Colour Mix Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 351.2,
     "Kcal": 82.8,
-    "Grasa":0.8,
+    "Grasa": 0.8,
     "Grasa_saturada": 0.06,
     "Hidratos_de_carbono": 19,
     "azucar": 17.4,
@@ -13571,13 +13512,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Galleta Holandesa Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 400,
     "Kcal": 95,
-    "Grasa":3.6,
+    "Grasa": 3.6,
     "Grasa_saturada": 1.6,
     "Hidratos_de_carbono": 14.2,
     "azucar": 7.8,
@@ -13586,13 +13527,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Mini Cookies Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 398.4,
     "Kcal": 95,
-    "Grasa":3.88,
+    "Grasa": 3.88,
     "Grasa_saturada": 1.84,
     "Hidratos_de_carbono": 13.14,
     "azucar": 6.4,
@@ -13601,13 +13542,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crocanti Cacahuete Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 505,
     "Kcal": 122,
-    "Grasa":10.6,
+    "Grasa": 10.6,
     "Grasa_saturada": 1.6,
     "Hidratos_de_carbono": 1.3,
     "azucar": 0.0,
@@ -13617,13 +13558,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Mini Lentis Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 396.2,
     "Kcal": 94.2,
-    "Grasa":3.4,
+    "Grasa": 3.4,
     "Grasa_saturada": 1.96,
     "Hidratos_de_carbono": 15.2,
     "azucar": 14.4,
@@ -13632,13 +13573,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Muesly Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 373,
     "Kcal": 89,
-    "Grasa":3.5,
+    "Grasa": 3.5,
     "Grasa_saturada": 1.2,
     "Hidratos_de_carbono": 12.2,
     "azucar": 5.5,
@@ -13647,13 +13588,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Nubecitas Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 275,
     "Kcal": 65,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 15.2,
     "azucar": 13.2,
@@ -13663,13 +13604,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Nueces Caramelizadas Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 547,
     "Kcal": 132,
-    "Grasa":11.6,
+    "Grasa": 11.6,
     "Grasa_saturada": 1.1,
     "Hidratos_de_carbono": 3.2,
     "azucar": 3.2,
@@ -13678,13 +13619,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Kit-Kat Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 440,
     "Kcal": 105,
-    "Grasa":5.8,
+    "Grasa": 5.8,
     "Grasa_saturada": 3.3,
     "Hidratos_de_carbono": 11.6,
     "azucar": 9.3,
@@ -13693,13 +13634,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Coco Rallado Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 605.6,
     "Kcal": 144.8,
-    "Grasa":13.6,
+    "Grasa": 13.6,
     "Grasa_saturada": 12.6,
     "Hidratos_de_carbono": 4.2,
     "azucar": 1.4,
@@ -13709,14 +13650,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "Fantasmas y Calabazas Halloween Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 336,
     "Kcal": 79,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 19.6,
     "azucar": 19.2,
@@ -13725,13 +13665,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Turron en Trocitos Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 464,
     "Kcal": 112,
-    "Grasa":7.2,
+    "Grasa": 7.2,
     "Grasa_saturada": 0.6,
     "Hidratos_de_carbono": 7.8,
     "azucar": 7.6,
@@ -13740,13 +13680,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crocantin Almendra Caramelo Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 403,
     "Kcal": 96,
-    "Grasa":3.8,
+    "Grasa": 3.8,
     "Grasa_saturada": 0.3,
     "Hidratos_de_carbono": 14.2,
     "azucar": 14.2,
@@ -13756,15 +13696,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "Ositos Gominola Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 258.2,
     "Kcal": 60.84,
-    "Grasa":0.15,
+    "Grasa": 0.15,
     "Grasa_saturada": 0.15,
     "Hidratos_de_carbono": 13.68,
     "azucar": 9.61,
@@ -13773,13 +13711,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Granola Frambuesa Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 350,
     "Kcal": 84,
-    "Grasa":2.4,
+    "Grasa": 2.4,
     "Grasa_saturada": 0.3,
     "Hidratos_de_carbono": 13.2,
     "azucar": 3.7,
@@ -13788,13 +13726,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Galleta Black Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 362,
     "Kcal": 86,
-    "Grasa":3.4,
+    "Grasa": 3.4,
     "Grasa_saturada": 1.7,
     "Hidratos_de_carbono": 12.2,
     "azucar": 4.0,
@@ -13804,28 +13742,28 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Zanahorias Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 284,
     "Kcal": 67,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 15.6,
-    "azucar":11.0,
+    "azucar": 11.0,
     "fibra": 0.0,
     "proteinas": 0.8,
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": " Mix Frutas Tropicales Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 362.2,
     "Kcal": 86.6,
-    "Grasa":9.92,
+    "Grasa": 9.92,
     "Grasa_saturada": 2.62,
     "Hidratos_de_carbono": 14.4,
     "azucar": 10.46,
@@ -13834,13 +13772,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Corazones Rosas Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 449,
     "Kcal": 107,
-    "Grasa":6.2,
+    "Grasa": 6.2,
     "Grasa_saturada": 4,
     "Hidratos_de_carbono": 11.4,
     "azucar": 11.2,
@@ -13850,15 +13788,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-
-{
+  {
     "nombre": "Corazones Rojos Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 430,
     "Kcal": 103,
-    "Grasa":6.0,
+    "Grasa": 6.0,
     "Grasa_saturada": 4,
     "Hidratos_de_carbono": 11.4,
     "azucar": 10.6,
@@ -13867,13 +13803,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Dragon Rojo Chocolate Blanco Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 477,
     "Kcal": 114,
-    "Grasa":7.2,
+    "Grasa": 7.2,
     "Grasa_saturada": 4.4,
     "Hidratos_de_carbono": 11,
     "azucar": 10.9,
@@ -13882,13 +13818,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Shocobolas Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 434,
     "Kcal": 104,
-    "Grasa":5.4,
+    "Grasa": 5.4,
     "Grasa_saturada": 3.2,
     "Hidratos_de_carbono": 12.4,
     "azucar": 10.0,
@@ -13898,13 +13834,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Miniconguitos Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 452,
     "Kcal": 109,
-    "Grasa":6.8,
+    "Grasa": 6.8,
     "Grasa_saturada": 2.4,
     "Hidratos_de_carbono": 8.8,
     "azucar": 8.2,
@@ -13913,13 +13849,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Crunchy Pearls Color Rosa Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 340,
     "Kcal": 80,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 20,
     "azucar": 20,
@@ -13928,13 +13864,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Boba Sabor Manzana Verde Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 75,
     "Kcal": 18,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 4.6,
     "azucar": 4,
@@ -13944,13 +13880,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Boba Sabor Lichi Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 75,
     "Kcal": 18,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 4.6,
     "azucar": 4,
@@ -13959,13 +13895,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Pop Eye Topping Dry",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 268,
     "Kcal": 63,
-    "Grasa":0,
+    "Grasa": 0,
     "Grasa_saturada": 0,
     "Hidratos_de_carbono": 14.4,
     "azucar": 10.4,
@@ -13974,13 +13910,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Natural Yogurt",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 532,
     "Kcal": 126,
-    "Grasa":0.9,
+    "Grasa": 0.9,
     "Grasa_saturada": 0.6,
     "Hidratos_de_carbono": 24.7,
     "azucar": 22.3,
@@ -13990,13 +13926,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Helado Brown Chocolate",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 561,
     "Kcal": 133,
-    "Grasa":2.2,
+    "Grasa": 2.2,
     "Grasa_saturada": 1.5,
     "Hidratos_de_carbono": 22.87,
     "azucar": 22.3,
@@ -14005,13 +13941,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Ivory Nata",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 557,
     "Kcal": 132,
-    "Grasa":1.5,
+    "Grasa": 1.5,
     "Grasa_saturada": 1.1,
     "Hidratos_de_carbono": 24.6,
     "azucar": 23.5,
@@ -14020,13 +13956,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Ferrero",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 667,
     "Kcal": 159,
-    "Grasa":5.1,
+    "Grasa": 5.1,
     "Grasa_saturada": 1.6,
     "Hidratos_de_carbono": 21.9,
     "azucar": 21.5,
@@ -14036,14 +13972,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "Helado Cookies Black",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 593,
     "Kcal": 141,
-    "Grasa":2.2,
+    "Grasa": 2.2,
     "Grasa_saturada": 1.5,
     "Hidratos_de_carbono": 24.3,
     "azucar": 23.3,
@@ -14052,13 +13987,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Vainilla",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 566,
     "Kcal": 134,
-    "Grasa":0.9,
+    "Grasa": 0.9,
     "Grasa_saturada": 0.6,
     "Hidratos_de_carbono": 26.9,
     "azucar": 24.3,
@@ -14067,13 +14002,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Galleta",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 603,
     "Kcal": 143,
-    "Grasa":1.7,
+    "Grasa": 1.7,
     "Grasa_saturada": 1.3,
     "Hidratos_de_carbono": 26.9,
     "azucar": 25.1,
@@ -14083,13 +14018,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Helado Leche Merengada",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 594,
     "Kcal": 140,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 27.3,
     "azucar": 25.5,
@@ -14098,13 +14033,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Dulce De Leche",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 602,
     "Kcal": 143,
-    "Grasa":1.7,
+    "Grasa": 1.7,
     "Grasa_saturada": 1.2,
     "Hidratos_de_carbono": 26.9,
     "azucar": 25.8,
@@ -14113,13 +14048,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado de Turrón",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 667,
     "Kcal": 159,
-    "Grasa":3.4,
+    "Grasa": 3.4,
     "Grasa_saturada": 1.2,
     "Hidratos_de_carbono": 26.4,
     "azucar": 20.4,
@@ -14129,14 +14064,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "Helado Verde Halloween",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 531,
     "Kcal": 125,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 25.3,
     "azucar": 23.6,
@@ -14145,13 +14079,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Carrot Cake",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 593,
     "Kcal": 140,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 27.2,
     "azucar": 25.3,
@@ -14160,13 +14094,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Straberry Love",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 564,
     "Kcal": 134,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 25.7,
     "azucar": 24.1,
@@ -14176,13 +14110,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Helado Mango +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 563,
     "Kcal": 133,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.4,
     "azucar": 25.4,
@@ -14191,13 +14125,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Fruta del Dragon +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 556,
     "Kcal": 131,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.0,
     "azucar": 25.2,
@@ -14206,13 +14140,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Helado Platano +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 562,
     "Kcal": 133,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.4,
     "azucar": 25.4,
@@ -14222,13 +14156,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Helado Fresa +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 554,
     "Kcal": 131,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.0,
     "azucar": 25.3,
@@ -14237,13 +14171,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Limon +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 568,
     "Kcal": 134,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.7,
     "azucar": 25.5,
@@ -14252,13 +14186,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Melon +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 557,
     "Kcal": 131,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.0,
     "azucar": 25.1,
@@ -14268,14 +14202,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
-{
+  {
     "nombre": "Helado Guanabana +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 560,
     "Kcal": 132,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 27.4,
     "azucar": 25.1,
@@ -14284,13 +14217,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Helado Lichi +Protein",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 552,
     "Kcal": 130,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 26.9,
     "azucar": 24.9,
@@ -14299,13 +14232,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Freezer Limon",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 290,
     "Kcal": 68,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 17.2,
     "azucar": 17.0,
@@ -14315,13 +14248,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Freezer Naranja",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 268,
     "Kcal": 63,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 15.7,
     "azucar": 15.6,
@@ -14330,13 +14263,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Freezer Fresa",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 250,
     "Kcal": 59,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 14.5,
     "azucar": 14.3,
@@ -14345,13 +14278,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Freezer Limon",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 290,
     "Kcal": 68,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 17.2,
     "azucar": 17.0,
@@ -14361,13 +14294,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Freezer Sandia",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 275,
     "Kcal": 65,
-    "Grasa":0.1,
+    "Grasa": 0.1,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 16.2,
     "azucar": 15.1,
@@ -14376,13 +14309,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Freezer Cafe",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 267,
     "Kcal": 63,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 15.5,
     "azucar": 14.2,
@@ -14391,13 +14324,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Freezer Frutos Rojos",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 279,
     "Kcal": 65,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 16.5,
     "azucar": 16.2,
@@ -14407,13 +14340,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Freezer Fresa Activacion",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 224,
     "Kcal": 55,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 13.8,
     "azucar": 13.4,
@@ -14422,13 +14355,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Twister Funny",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 881,
     "Kcal": 210,
-    "Grasa":8.3,
+    "Grasa": 8.3,
     "Grasa_saturada": 2.6,
     "Hidratos_de_carbono": 27.6,
     "azucar": 24.1,
@@ -14437,13 +14370,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Twister Loop",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 354,
     "Kcal": 83,
-    "Grasa":0.4,
+    "Grasa": 0.4,
     "Grasa_saturada": 0.2,
     "Hidratos_de_carbono": 18.3,
     "azucar": 16.0,
@@ -14453,13 +14386,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Smoothie Ambrosia",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 301,
     "Kcal": 72,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 12.1,
     "azucar": 9.9,
@@ -14468,13 +14401,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Smoothie Tropic Fusion",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 331,
     "Kcal": 78,
-    "Grasa":0.3,
+    "Grasa": 0.3,
     "Grasa_saturada": 0.2,
     "Hidratos_de_carbono": 18.0,
     "azucar": 16.3,
@@ -14483,13 +14416,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Smoothie Oreo",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 669,
     "Kcal": 159,
-    "Grasa":5.8,
+    "Grasa": 5.8,
     "Grasa_saturada": 1.6,
     "Hidratos_de_carbono": 22.3,
     "azucar": 17.2,
@@ -14499,13 +14432,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Smoothie Mel-on + Vitaminas",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 399,
     "Kcal": 95,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 16.8,
     "azucar": 15.4,
@@ -14514,13 +14447,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Smoothie Ambrosia + Vitaminas",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 392,
     "Kcal": 93,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 16.5,
     "azucar": 15.0,
@@ -14529,13 +14462,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Sweets Bubble Gofre Sin Gluten",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1050,
     "Kcal": 251,
-    "Grasa":9.9,
+    "Grasa": 9.9,
     "Grasa_saturada": 8.2,
     "Hidratos_de_carbono": 33.5,
     "azucar": 10.9,
@@ -14545,13 +14478,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Sweets Gofre Envasado",
     "imagen": "",
-   "porcion":103, 
+    "porcion": 103,
     "KJ": 1748,
     "Kcal": 418,
-    "Grasa":19.0,
+    "Grasa": 19.0,
     "Grasa_saturada": 8.7,
     "Hidratos_de_carbono": 54.0,
     "azucar": 37.0,
@@ -14560,13 +14493,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Sweets Gofres Bola",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1820,
     "Kcal": 435,
-    "Grasa":21.6,
+    "Grasa": 21.6,
     "Grasa_saturada": 10.5,
     "Hidratos_de_carbono": 53.6,
     "azucar": 27.9,
@@ -14575,13 +14508,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Sweets Crepes",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 895,
     "Kcal": 213,
-    "Grasa":7.5,
+    "Grasa": 7.5,
     "Grasa_saturada": 6.0,
     "Hidratos_de_carbono": 31.5,
     "azucar": 10.2,
@@ -14591,10 +14524,10 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Sweets Tortitas",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1120,
     "Kcal": 267,
     "Grasa": 11.8,
@@ -14606,13 +14539,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Sweets Kood Mufin",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1722,
     "Kcal": 411,
-    "Grasa":19.2,
+    "Grasa": 19.2,
     "Grasa_saturada": 3.0,
     "Hidratos_de_carbono": 53.7,
     "azucar": 32.4,
@@ -14621,13 +14554,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Sweets Boon Cinnamon",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1723,
     "Kcal": 410,
-    "Grasa":19.1,
+    "Grasa": 19.1,
     "Grasa_saturada": 3.0,
     "Hidratos_de_carbono": 53.9,
     "azucar": 32.1,
@@ -14637,13 +14570,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Frozen Roll Galleta de Barquillo",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1551,
     "Kcal": 369,
-    "Grasa":0.7,
+    "Grasa": 0.7,
     "Grasa_saturada": 0.1,
     "Hidratos_de_carbono": 83.7,
     "azucar": 20.4,
@@ -14652,13 +14585,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Frozen Roll Galleta de Barquillo",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1854,
     "Kcal": 438,
-    "Grasa":3.5,
+    "Grasa": 3.5,
     "Grasa_saturada": 1.0,
     "Hidratos_de_carbono": 92.0,
     "azucar": 37.0,
@@ -14667,13 +14600,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Frapes Cafe",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 431,
     "Kcal": 102,
-    "Grasa":0.7,
+    "Grasa": 0.7,
     "Grasa_saturada": 0.5,
     "Hidratos_de_carbono": 21.9,
     "azucar": 18.4,
@@ -14683,13 +14616,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Frapes Fresa",
     "imagen": "",
-     "porcion":103, 
+    "porcion": 103,
     "KJ": 406,
     "Kcal": 96,
-    "Grasa":0.7,
+    "Grasa": 0.7,
     "Grasa_saturada": 0.5,
     "Hidratos_de_carbono": 20.4,
     "azucar": 17.3,
@@ -14698,13 +14631,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Frapes Caramelo",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 433,
     "Kcal": 102,
-    "Grasa":0.7,
+    "Grasa": 0.7,
     "Grasa_saturada": 0.5,
     "Hidratos_de_carbono": 22.1,
     "azucar": 19.2,
@@ -14713,13 +14646,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Frapes Chocolate",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 407,
     "Kcal": 96,
-    "Grasa":1.4,
+    "Grasa": 1.4,
     "Grasa_saturada": 0.9,
     "Hidratos_de_carbono": 18.8,
     "azucar": 15.9,
@@ -14729,13 +14662,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Cafes Capuchino Avellana",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 243,
     "Kcal": 57,
-    "Grasa":0.8,
+    "Grasa": 0.8,
     "Grasa_saturada": 0.6,
     "Hidratos_de_carbono": 11.2,
     "azucar": 10.2,
@@ -14744,13 +14677,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Cafes Mocaccino Chocolate",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 332,
     "Kcal": 79,
-    "Grasa":3.9,
+    "Grasa": 3.9,
     "Grasa_saturada": 2.8,
     "Hidratos_de_carbono": 9.5,
     "azucar": 8.4,
@@ -14759,13 +14692,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
-{
+  {
     "nombre": "Cafes Mocaccino Caramelo",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 343,
     "Kcal": 82,
-    "Grasa":3.6,
+    "Grasa": 3.6,
     "Grasa_saturada": 2.6,
     "Hidratos_de_carbono": 10.9,
     "azucar": 10.0,
@@ -14775,12 +14708,12 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-{
+  {
     "nombre": "Cafes Mocaccino Chocolate Blanco",
     "imagen": "",
-   "KJ": 350,
+    "KJ": 350,
     "Kcal": 83,
-    "Grasa":4.2,
+    "Grasa": 4.2,
     "Grasa_saturada": 3.0,
     "Hidratos_de_carbono": 9.6,
     "azucar": 8.4,
@@ -14789,13 +14722,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Bebidas Prime Melon",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 21,
     "Kcal": 5,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 1.0,
     "azucar": 0.2,
@@ -14804,13 +14737,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium Chocolate",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 785,
     "Kcal": 187,
-    "Grasa":8.0,
+    "Grasa": 8.0,
     "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 23.9,
     "azucar": 23.3,
@@ -14820,29 +14753,28 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
- {
+  {
     "nombre": "Cream Cremas Premium Nata",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 673,
     "Kcal": 160,
-    "Grasa":5.8,
+    "Grasa": 5.8,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 23.4,
-    "azucar":22.3,
+    "azucar": 22.3,
     "fibra": 0.1,
     "proteinas": 3.5,
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium Mantecado",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 813,
     "Kcal": 194,
-    "Grasa":9.0,
+    "Grasa": 9.0,
     "Grasa_saturada": 5.5,
     "Hidratos_de_carbono": 23.7,
     "azucar": 22.6,
@@ -14851,13 +14783,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium Fresa",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 775,
     "Kcal": 185,
-    "Grasa":8.7,
+    "Grasa": 8.7,
     "Grasa_saturada": 5.9,
     "Hidratos_de_carbono": 24.0,
     "azucar": 22.7,
@@ -14867,13 +14799,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
- {
+  {
     "nombre": "Cream Cremas Premium  Espuma de Limon",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 584,
     "Kcal": 137,
-    "Grasa":0.0,
+    "Grasa": 0.0,
     "Grasa_saturada": 0.0,
     "Hidratos_de_carbono": 33.4,
     "azucar": 27.1,
@@ -14882,13 +14814,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium Coco",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 854,
     "Kcal": 206,
-    "Grasa":9.1,
+    "Grasa": 9.1,
     "Grasa_saturada": 6.9,
     "Hidratos_de_carbono": 26.9,
     "azucar": 24.6,
@@ -14897,13 +14829,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium Dulce de leche",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 817,
     "Kcal": 194,
-    "Grasa":6.5,
+    "Grasa": 6.5,
     "Grasa_saturada": 4.2,
     "Hidratos_de_carbono": 30.6,
     "azucar": 28.9,
@@ -14913,13 +14845,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
- {
+  {
     "nombre": "Cream Cremas Premium Leche Merengada",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 748,
     "Kcal": 178,
-    "Grasa":6.8,
+    "Grasa": 6.8,
     "Grasa_saturada": 4.8,
     "Hidratos_de_carbono": 25.8,
     "azucar": 23.9,
@@ -14928,13 +14860,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium Chocolate Blanco",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 824,
     "Kcal": 196,
-    "Grasa":8.3,
+    "Grasa": 8.3,
     "Grasa_saturada": 5.0,
     "Hidratos_de_carbono": 27.3,
     "azucar": 25.6,
@@ -14943,13 +14875,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Chocolate con Brownie",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 840,
     "Kcal": 200,
-    "Grasa":9.0,
+    "Grasa": 9.0,
     "Grasa_saturada": 5.0,
     "Hidratos_de_carbono": 24.7,
     "azucar": 23.5,
@@ -14959,13 +14891,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Nata con Oreo",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 710,
     "Kcal": 169,
-    "Grasa":6.1,
+    "Grasa": 6.1,
     "Grasa_saturada": 4.1,
     "Hidratos_de_carbono": 24.8,
     "azucar": 22.4,
@@ -14974,13 +14906,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Turron con Trozos",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 892,
     "Kcal": 214,
-    "Grasa":9.6,
+    "Grasa": 9.6,
     "Grasa_saturada": 2.2,
     "Hidratos_de_carbono": 26.6,
     "azucar": 25.5,
@@ -14989,13 +14921,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Mango con Fresas Silvestres",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 760,
     "Kcal": 181,
-    "Grasa":6.4,
+    "Grasa": 6.4,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 27.4,
     "azucar": 26.0,
@@ -15005,13 +14937,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Yogur con Frutos del Bosque",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 535,
     "Kcal": 126,
-    "Grasa":0.6,
+    "Grasa": 0.6,
     "Grasa_saturada": 0.4,
     "Hidratos_de_carbono": 24.5,
     "azucar": 22.8,
@@ -15020,13 +14952,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Pistacho",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 881,
     "Kcal": 220,
-    "Grasa":10.3,
+    "Grasa": 10.3,
     "Grasa_saturada": 5.3,
     "Hidratos_de_carbono": 24.1,
     "azucar": 23.0,
@@ -15035,13 +14967,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Kinder Choch",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 1056,
     "Kcal": 253,
-    "Grasa":14.3,
+    "Grasa": 14.3,
     "Grasa_saturada": 5.3,
     "Hidratos_de_carbono": 26.9,
     "azucar": 25.1,
@@ -15051,13 +14983,13 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Tarta de Queso",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 782,
     "Kcal": 186,
-    "Grasa":6.9,
+    "Grasa": 6.9,
     "Grasa_saturada": 4.8,
     "Hidratos_de_carbono": 27.3,
     "azucar": 25.5,
@@ -15066,13 +14998,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Galleta Cookies",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 839,
     "Kcal": 200,
-    "Grasa":8.2,
+    "Grasa": 8.2,
     "Grasa_saturada": 5.1,
     "Hidratos_de_carbono": 27.5,
     "azucar": 24.9,
@@ -15081,13 +15013,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Vainilla con Cookies",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 794,
     "Kcal": 189,
-    "Grasa":7.2,
+    "Grasa": 7.2,
     "Grasa_saturada": 4.9,
     "Hidratos_de_carbono": 27.5,
     "azucar": 24.5,
@@ -15097,29 +15029,28 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 
-
- {
+  {
     "nombre": "Cream Cremas Premium con Decoracion Stracciatella",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 747,
     "Kcal": 178,
-    "Grasa":7.4,
+    "Grasa": 7.4,
     "Grasa_saturada": 5.3,
     "Hidratos_de_carbono": 24.1,
     "azucar": 22.8,
     "fibra": 0.5,
-    "proteinas":3.7,
+    "proteinas": 3.7,
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Bajo en Azucar Helado de Chocolate Bajo en Azucar",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 561,
     "Kcal": 134,
-    "Grasa":5.9,
+    "Grasa": 5.9,
     "Grasa_saturada": 4.5,
     "Hidratos_de_carbono": 23.1,
     "azucar": 4.7,
@@ -15128,13 +15059,13 @@ final List<Map<String, dynamic>> productos = [
     "product_by": smooyId,
     "promoted": false
   },
- {
+  {
     "nombre": "Cream Cremas Bajo en Azucar Helado de Avellana Bajo en Azucar",
     "imagen": "",
-    "porcion":103, 
+    "porcion": 103,
     "KJ": 738,
     "Kcal": 178,
-    "Grasa":10.9,
+    "Grasa": 10.9,
     "Grasa_saturada": 4.3,
     "Hidratos_de_carbono": 22.2,
     "azucar": 4.8,

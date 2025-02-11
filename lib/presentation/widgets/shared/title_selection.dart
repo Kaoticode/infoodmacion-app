@@ -12,10 +12,10 @@ class TitleSelection extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(title, style: const TextStyle(color: AppStyle.lightColor, fontSize: 24, fontWeight: FontWeight.bold)),
+        Text(title, style: const TextStyle(color: Colors.black, fontSize: 24, fontWeight: FontWeight.bold)),
         GestureDetector(
           onTap: callback,
-          child: const Text('Ver Mas', style: TextStyle(color: AppStyle.primaryColor, fontSize: 16, fontWeight: FontWeight.bold))
+          child: const Text('Ver más', style: TextStyle(color: AppStyle.primaryColor, fontSize: 16, fontWeight: FontWeight.bold))
         )
       ],
     );

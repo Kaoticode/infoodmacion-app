@@ -13,7 +13,7 @@ class FoodsPlacesSearchByNameBloc extends Bloc<FoodsPlacesSearchEvent, FoodsPlac
 
   Future<void> _onGetFoodsPlacesSearchByName(GetFoodsPlacesSearchByName event, Emitter<FoodsPlacesSearchState> emit) async {
     emit(FoodsPlacesSearchLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(FoodsPlacesSearchByNameLoaded(foodsPlaces: await foodRepositoryProvider.getFoodsPlacesBByName(event.name)));
   }
 }

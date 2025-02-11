@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class AppStyle {
-  static const primaryColor = Color.fromARGB(255, 225, 255, 0);
+  static const primaryColor = Color.fromRGBO(231, 46, 111, 1);
 
   static const lightColor = Color.fromARGB(255, 225, 226, 215);
 
-  static const backgroundColor = Color.fromARGB(255, 25, 25, 25);
+  static const backgroundColor = Color.fromRGBO(247, 165, 39, 1);
 
   static const secondAppBarColor = Color.fromRGBO(103,114,12, 1);
 
@@ -22,13 +22,13 @@ class AppStyle {
 
   static const secondContainerTitleTextStyle = TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18);
 
-  static const generalTitle = TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.white);
+  static const generalTitle = TextStyle(fontSize: 26, fontWeight: FontWeight.bold, color: Colors.black);
 
   static const generalSubtitle = TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white);
 
-  static const generalParagraphBold = TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold);
+  static const generalParagraphBold = TextStyle(fontSize: 18, color: Colors.black);
 
   static const generalParagraph = TextStyle(fontSize: 18, color: Colors.white);
 
-  static const generalParagraphPrimaryColor = TextStyle(fontSize: 18, color: AppStyle.primaryColor);
+  static const generalParagraphPrimaryColor = TextStyle(fontSize: 18, color: AppStyle.primaryColor, fontWeight: FontWeight.bold);
 }

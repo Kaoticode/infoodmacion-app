@@ -1,4 +1,4 @@
-package com.example.infoodmacion_app
+package com.kaoticode.infoodmacion_app
 
 import io.flutter.embedding.android.FlutterActivity
 

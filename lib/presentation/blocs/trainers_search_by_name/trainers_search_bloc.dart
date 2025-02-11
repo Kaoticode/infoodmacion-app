@@ -13,7 +13,7 @@ class TrainersSearchBloc extends Bloc<TrainersSearchEvent, TrainersSearchState> 
 
   Future<void> _onGetTrainersByName(TrainersSearchByName event, Emitter<TrainersSearchState> emit) async {
     emit(TrainersSearchLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(TrainersSearchLoaded(trainers: await trainerRepositoryProvider.getTrainersByName(event.name)));
   }
 }

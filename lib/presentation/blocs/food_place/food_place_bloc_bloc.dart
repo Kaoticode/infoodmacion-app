@@ -14,7 +14,7 @@ class FoodPlaceBlocBloc extends Bloc<FoodPlaceBlocEvent, FoodPlaceBlocState> {
 
   Future<void> _onGetFoodPlaces(GetFoodPlaces event, Emitter<FoodPlaceBlocState> emit) async {
     emit(FoodPlaceLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(FoodPlaceLoaded(foods: await foodRepositoryProvider.getFoodPlaces()));
   }
     

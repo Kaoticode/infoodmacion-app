@@ -13,7 +13,7 @@ class RecipesSearchBloc extends Bloc<RecipesSearchEvent, RecipesSearchState> {
 
   Future<void> _onGetRecipesByNameAndType(GetRecipesSearchEvent event, Emitter<RecipesSearchState> emit) async {
     emit(RecipesSearchLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(RecipesSearchLoaded(recipes: await recipeRepositoryProvider.getRecipesByTypeAndName(event.name, event.type)));
   }
 }

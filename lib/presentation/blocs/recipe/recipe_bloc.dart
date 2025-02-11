@@ -13,7 +13,7 @@ class RecipeBloc extends Bloc<RecipeEvent, RecipeState> {
 
   Future<void> _onGetRecipes(GetRecipes event, Emitter<RecipeState> emit) async {
     emit(RecipeLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(RecipeLoaded(recipes: await recipeRepositoryProvider.getRecipes()));
   }
 }

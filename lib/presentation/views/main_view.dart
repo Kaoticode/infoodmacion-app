@@ -35,7 +35,7 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
     return Scaffold(
       appBar: _tabController.index == 0 ? null : AppBar(
         backgroundColor: AppStyle.primaryColor,
-        title: Text(_tabController.index == 1 ? 'Carrito' : _tabController.index == 2 ? 'Notificaciones': 'Soporte'),
+        title: Text(_tabController.index == 1 ? 'Carrito' : _tabController.index == 2 ? 'Chat': 'Soporte'),
         actions: [
           _tabController.index == 1 ? IconButton(
             icon: const Icon(Icons.calculate),
@@ -48,7 +48,7 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
         children: const [
           HomeScreen(),
           CartScreen(),
-          NotificationScreen(),
+          ChatScreen(),
           SupportScreen()
         ],
       ),
@@ -63,7 +63,7 @@ class _MainViewState extends State<MainView> with SingleTickerProviderStateMixin
           tabs: const [
             Tab(icon: Icon(Icons.home_outlined)),
             Tab(icon: Icon(Icons.shopping_cart)),
-            Tab(icon: Icon(Icons.favorite_outline)),
+            Tab(icon: Icon(Icons.chat_outlined)),
             Tab(icon: Icon(Icons.monetization_on)),
           ],
         ),

@@ -43,55 +43,66 @@ class _CartScreenState extends State<CartScreen> with AutomaticKeepAliveClientMi
 
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 10),
-          child: ListView.builder(
-            itemCount: foodLocal.length,
-            itemBuilder: (context, i) => Container(
-              margin: const EdgeInsets.only(top: 10),
-              padding: const EdgeInsets.symmetric(horizontal: 10), 
-              width: double.infinity,
-              height: screenHeight * 0.075,
-              decoration: BoxDecoration(
-                color: Colors.black,
-                borderRadius: BorderRadius.circular(15),
-              ),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
-                    child: Text(
-                      foodLocal[i].name,
-                      style: const TextStyle(fontSize: 18, color: Colors.white),
-                      overflow: TextOverflow.ellipsis,
-                      maxLines: 1,
-                    ),
-                  ),
-
-                  IconButton(
-                    icon: const Icon(Icons.remove, color: AppStyle.primaryColor),
-                    onPressed: () {
-                      if(foodLocal[i].quantity == 1) {
-                        CustomSnackbar.show(context, "El producto ${foodLocal[i].name} ha sido eliminado correctamente.");
-                      }
-                      context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: -1));
-                    },
-                  ),
-
-                  Text(
-                    "${foodLocal[i].quantity}",
-                    style: const TextStyle(fontSize: 18, color: Colors.white),
-                  ),
-
-                  IconButton(
-                    icon: const Icon(Icons.add, color: AppStyle.primaryColor),
-                    onPressed: () => context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: 1))
-                  ),
-                ],
-              ),
+            child: foodLocal.isEmpty ? const Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.search_off, size: 80, color: Colors.black),
+                SizedBox(height: 10),
+                Text(
+                  "Actualmente no hay productos en el carrito, añade alguno y vuelve",
+                  style: TextStyle(fontSize: 18, color: Colors.black),
+                ),
+              ],
             )
-          ),
-        );
-      },
-    );
+            : ListView.builder(
+                        itemCount: foodLocal.length,
+                        itemBuilder: (context, i) => Container(
+                          margin: const EdgeInsets.only(top: 10),
+                          padding: const EdgeInsets.symmetric(horizontal: 10), 
+                          width: double.infinity,
+                          height: screenHeight * 0.075,
+                          decoration: BoxDecoration(
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(15),
+                          ),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Expanded(
+                                child: Text(
+                                  foodLocal[i].name,
+                                  style: const TextStyle(fontSize: 18, color: Colors.white),
+                                  overflow: TextOverflow.ellipsis,
+                                  maxLines: 1,
+                                ),
+                              ),
+
+                              IconButton(
+                                icon: const Icon(Icons.remove, color: AppStyle.primaryColor),
+                                onPressed: () {
+                                  if(foodLocal[i].quantity == 1) {
+                                    CustomSnackbar.show(context, "El producto ${foodLocal[i].name} ha sido eliminado correctamente.");
+                                  }
+                                  context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: -1));
+                                },
+                              ),
+
+                              Text(
+                                "${foodLocal[i].quantity}",
+                                style: const TextStyle(fontSize: 18, color: Colors.white),
+                              ),
+
+                              IconButton(
+                                icon: const Icon(Icons.add, color: AppStyle.primaryColor),
+                                onPressed: () => context.read<FoodLocalBloc>().add(UpdateFoodCart(name: foodLocal[i].name, newAmount: 1))
+                              ),
+                            ],
+                          ),
+                        )
+                      ),
+                    );
+                  },
+                );
   }
   
   @override

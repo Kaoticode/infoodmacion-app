@@ -13,7 +13,7 @@ class NotificationBloc extends Bloc<NotificationEvent, NotificationState> {
 
   Future<void> _onGetNotifications(GetNotifications event, Emitter<NotificationState> emit) async {
     emit(NotificationLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(NotificationLoaded(notifications: await notificationRepositoryProvider.getNotifications()));
   }
 }

@@ -13,7 +13,7 @@ class TrainerBloc extends Bloc<TrainerEvent, TrainerState> {
 
   Future<void> _onGetTrainers(GetTrainers event, Emitter<TrainerState> emit) async {
     emit(TrainerLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(TrainerLoaded(trainers: await trainerRepositoryProvider.getTrainers()));
   }
 }

@@ -19,7 +19,7 @@ class FoodLocalBloc extends Bloc<FoodLocalEvent, FoodLocalState> {
 
   Future<void> _onGetFoodCart(GetFoodCart event, Emitter<FoodLocalState> emit) async {
     emit(FoodLocalLoading());
-    await Future.delayed(const Duration(seconds: 3));
+    await Future.delayed(const Duration(seconds: 1));
     emit(FoodLocalLoaded(foodsLocal: await foodLocalRepositoryProvider.getFoodCart()));
   }
 
