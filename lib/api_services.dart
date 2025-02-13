@@ -4,16 +4,15 @@ const popeyesId = 3;
 const kfcId = 4;
 const pizzahutId = 5;
 const smooyId = 6;
+const subwayId = 7;
 const pansId = 8;
 const tacobellId = 9;
-const subwayId = 7;
 
 final List<Map<String, dynamic>> establecimientos = [
   {
     "id": mcdonaldsld,
     "nombre": "McDonald's",
-    "imagen":
-        "https://media.istockphoto.com/id/458546943/es/foto/al-aire-libre-cerca-de-mcdonalds-se%C3%B1al-contra-el-cielo-azul.webp?s=2048x2048&w=is&k=20&c=Q9Pe9FusrXRSmtzEEjHG3KyQjwizBR8Yv11aA3DQGPs=",
+    "imagen": "https://s0.geograph.org.uk/geophotos/03/60/76/3607696_c7f8d63a.jpg",
     "descripcion":
         "Cadena de comida rápida famosa por sus hamburguesas y papas fritas.",
     "promoted": true
@@ -22,7 +21,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": bgkingid,
     "nombre": "Burger King",
     "imagen":
-        "https://eu-central-1.linodeobjects.com/restauracionnews/2022/11/Aperturas-2022-Burger-King-Sevilla_21.02.2022-768x432.jpg",
+        "https://e2.hespress.com/wp-content/uploads/2023/08/burger-king.jpg",
     "descripcion":
         "Famoso por sus hamburguesas a la parrilla y su menú variado.",
     "promoted": true
@@ -31,7 +30,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": popeyesId,
     "nombre": "Popeyes",
     "imagen":
-        "https://bacaf.es/wp-content/uploads/2022/09/Popeyes-abrira%CC%81-un-establecimiento-en-El-Atabal-de-Ma%CC%81laga.webp",
+        "https://upload.wikimedia.org/wikipedia/commons/c/cf/POPEYES_Chicken_-_Near_Coral_Ridge_Fort_Lauderdale%2C_Florida._%2850522265388%29.jpg",
     "descripcion":
         "Fanquicia que vende el primer yogur helado bajo en grasa, rico en fibra y sin gluten.",
     "promoted": false
@@ -40,7 +39,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": kfcId,
     "nombre": "KFC",
     "imagen":
-        "https://eu-central-1.linodeobjects.com/restauracionnews/2024/09/KFC-1-768x510.png",
+        "https://s0.geograph.org.uk/geophotos/04/79/04/4790448_6bb59404.jpg",
     "descripcion": "Conocido por su pollo frito y variedad de platos.",
     "promoted": true
   },
@@ -48,7 +47,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": subwayId,
     "nombre": "Subway",
     "imagen":
-        "https://sivarious.com/wp-content/uploads/2023/01/subway.jpg.webp",
+        "https://upload.wikimedia.org/wikipedia/commons/2/2a/Subway_in_Burwood_Plaza.jpg",
     "descripcion": "Famoso por sus sándwiches y opciones saludables.",
     "promoted": false
   },
@@ -56,7 +55,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": smooyId,
     "nombre": "Smöoy",
     "imagen":
-        "https://www.paxinasgalegas.es/imagenes/sm%C3%B6oy_img278871t0m0w1424h712.jpg",
+        "https://live.staticflickr.com/5474/10801010195_f3fe7b3a81_c.jpg",
     "descripcion":
         "Fanquicia que vende el primer yogur helado bajo en grasa, rico en fibra y sin gluten.",
     "promoted": false
@@ -66,7 +65,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": pizzahutId,
     "nombre": "Pizza Hut",
     "imagen":
-        "https://st.depositphotos.com/2075661/2160/i/950/depositphotos_21600207-stock-photo-pizza-hut-logo.jpg",
+        "https://live.staticflickr.com/4036/4690979756_ba9b8f5a30_b.jpg",
     "descripcion":
         "Cadena de pizzerías conocida por su masa y variedad de toppings.",
     "promoted": true
@@ -75,7 +74,7 @@ final List<Map<String, dynamic>> establecimientos = [
   {
     "id": pansId,
     "nombre": "Pans & Company",
-    "imagen": "https://www.baricentro.es/wp-content/uploads/sites/8/Pans.jpg",
+    "imagen": "https://live.staticflickr.com/5561/14375733035_4b734128d8_b.jpg",
     "descripcion":
         "Los mejores bocadillos al mejor precio. Y además, menús, complementos, cafés y desayunos, postres, Zona 1€... ¡Disfruta ya de Pans and Company!",
     "promoted": true
@@ -84,7 +83,7 @@ final List<Map<String, dynamic>> establecimientos = [
     "id": tacobellId,
     "nombre": "Tacobell",
     "imagen":
-        "https://assets.turbologo.com/blog/es/2020/02/19132624/Taco-Bell-958x575.png",
+        "https://upload.wikimedia.org/wikipedia/commons/b/b8/Taco_Bell_Night.JPG",
     "descripcion":
         "Los mejores bocadillos al mejor precio. Y además, menús, complementos, cafés y desayunos, postres, Zona 1€... ¡Disfruta ya de Pans and Company!",
     "promoted": true
@@ -4238,7 +4237,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 3.17,
     "Hidratos_de_carbono": 46.44,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0,
   },
   {
     "nombre": "Chick&Share (9 tiras de pechuga OR)",
@@ -4248,7 +4248,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 3.60,
     "Hidratos_de_carbono": 28.80,
     "azucar": 0.4,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Chick&Share (9 tiras de pechuga Mixtas)",
@@ -4258,7 +4259,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 3.36,
     "Hidratos_de_carbono": 38.60,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Chick&Share (12 Alitas picantes)",
@@ -4268,7 +4270,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 20.83,
     "Hidratos_de_carbono": 43.01,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Chick&Share cruji (6 piezas de pollo)",
@@ -4278,7 +4281,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 21.70,
     "Hidratos_de_carbono": 70.51,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Chick&Share original (6 piezas de pollo)",
@@ -4288,7 +4292,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 23.28,
     "Hidratos_de_carbono": 52.38,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Chick&Share mixto (3 crujis + 3 originales)",
@@ -4298,7 +4303,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 22.49,
     "Hidratos_de_carbono": 61.45,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú 5 tiras Veggie",
@@ -4308,7 +4314,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 2.26,
     "Hidratos_de_carbono": 26.86,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (12 tiras Veggie)",
@@ -4318,7 +4325,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 5.41,
     "Hidratos_de_carbono": 64.45,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (5 piezas de pollo OR + 5 alitas picantes)",
@@ -4328,7 +4336,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 28.08,
     "Hidratos_de_carbono": 61.57,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (5 piezas de pollo cruji + 5 alitas picantes)",
@@ -4338,7 +4347,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 26.76,
     "Hidratos_de_carbono": 76.68,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (12 tiras de pechuga CR)",
@@ -4348,7 +4358,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 4.22,
     "Hidratos_de_carbono": 61.92,
     "azucar": 1.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (12 tiras de pechuga OR)",
@@ -4358,7 +4369,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 4.80,
     "Hidratos_de_carbono": 38.40,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (12 tiras de pechuga mixtas)",
@@ -4368,7 +4380,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 4.51,
     "Hidratos_de_carbono": 50.16,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (10 tiras de pechuga CR)",
@@ -4378,7 +4391,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 3.52,
     "Hidratos_de_carbono": 51.60,
     "azucar": 1.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (10 tiras de pechuga OR)",
@@ -4388,7 +4402,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 4.00,
     "Hidratos_de_carbono": 32.00,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (10 tiras de pechuga mixtas)",
@@ -4398,7 +4413,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 3.76,
     "Hidratos_de_carbono": 41.80,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú para 2 (cubo El Maldito)*",
@@ -4408,7 +4424,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 57.42,
     "Hidratos_de_carbono": 188.86,
     "azucar": 17.85,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 3 per.(9 piezas OR)",
@@ -4418,7 +4435,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 14.00,
     "Hidratos_de_carbono": 78.57,
     "azucar": 1.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 3 per.(9 piezas Cruji)",
@@ -4428,7 +4446,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 15.90,
     "Hidratos_de_carbono": 105.77,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 3 per.(15 tiras de pechuga CR)",
@@ -4438,7 +4457,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.40,
     "Hidratos_de_carbono": 77.40,
     "azucar": 1.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 3 per.(15 tiras de pechuga OR)",
@@ -4448,7 +4468,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.40,
     "Hidratos_de_carbono": 48.00,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 3 per.(15 tiras de pechuga Mixtas)",
@@ -4458,7 +4479,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.87,
     "Hidratos_de_carbono": 63.68,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 4 per.(12 piezas OR)",
@@ -4468,7 +4490,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 14.00,
     "Hidratos_de_carbono": 104.76,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Bucket para 4 per.(12 piezas cruji)",
@@ -4478,7 +4501,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 15.90,
     "Hidratos_de_carbono": 141.02,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Buckets para 4 (20 tiras de pechuga CR)",
@@ -4488,7 +4512,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.40,
     "Hidratos_de_carbono": 20.64,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Buckets para 4 (20 tiras de pechuga OR)",
@@ -4498,7 +4523,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.40,
     "Hidratos_de_carbono": 64.00,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Buckets para 4 (20 tiras de pechuga Mixtas)",
@@ -4508,7 +4534,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.90,
     "Hidratos_de_carbono": 83.60,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 8 tiras OR",
@@ -4518,7 +4545,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.73,
     "Hidratos_de_carbono": 80.18,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 8 tiras CR",
@@ -4528,7 +4556,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.04,
     "Hidratos_de_carbono": 95.86,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 8 tiras mixtas",
@@ -4538,7 +4567,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.39,
     "Hidratos_de_carbono": 88.02,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 6 tiras OR y 4 alitas",
@@ -4548,7 +4578,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 15.24,
     "Hidratos_de_carbono": 102.45,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 6 tiras CR y 4 alitas",
@@ -4558,7 +4589,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 14.85,
     "Hidratos_de_carbono": 114.21,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 6 tiras mixtas y 4 alitas",
@@ -4568,7 +4600,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 13.31,
     "Hidratos_de_carbono": 133.41,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Menú Bucket para 2 2 piezas, 2 tiras, 4 alitas",
@@ -4578,7 +4611,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 16.73,
     "Hidratos_de_carbono": 117.07,
     "azucar": 0.00,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Combo del Kentucky",
@@ -4588,7 +4622,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.89,
     "Hidratos_de_carbono": 93.72,
     "azucar": 3.73,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Combito burger",
@@ -4598,7 +4633,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.41,
     "Hidratos_de_carbono": 56.71,
     "azucar": 3.29,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "La Sobrada Simple",
@@ -4608,7 +4644,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.91,
     "Hidratos_de_carbono": 43.58,
     "azucar": 3.04,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "La Sobrada Doble",
@@ -4618,7 +4655,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.79,
     "Hidratos_de_carbono": 50.67,
     "azucar": 2.14,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Classic Burger",
@@ -4628,7 +4666,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.08,
     "Hidratos_de_carbono": 26.87,
     "azucar": 3.24,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Double Krunch OR",
@@ -4638,7 +4677,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 7.46,
     "Hidratos_de_carbono": 32.08,
     "azucar": 1.48,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Coronel Simple",
@@ -4648,7 +4688,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.41,
     "Hidratos_de_carbono": 46.37,
     "azucar": 3.35,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Coronel Doble",
@@ -4658,7 +4699,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.17,
     "Hidratos_de_carbono": 53.45,
     "azucar": 2.45,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Kids burger",
@@ -4668,7 +4710,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 7.72,
     "Hidratos_de_carbono": 28.83,
     "azucar": 3.24,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Kids Mayo Burger",
@@ -4678,7 +4721,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 7.79,
     "Hidratos_de_carbono": 29.88,
     "azucar": 4.66,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Kids Cheese Burger",
@@ -4688,7 +4732,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 12.13,
     "Hidratos_de_carbono": 29.34,
     "azucar": 2.68,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Kids Mayo Wrap",
@@ -4698,7 +4743,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 11.43,
     "Hidratos_de_carbono": 27.96,
     "azucar": 1.48,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Kids Cheese Wrap",
@@ -4708,7 +4754,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 7.67,
     "Hidratos_de_carbono": 46.53,
     "azucar": 2.59,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "La Clásica",
@@ -4718,7 +4765,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 7.75,
     "Hidratos_de_carbono": 47.19,
     "azucar": 3.39,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "La Clásica Veggie",
@@ -4728,7 +4776,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.46,
     "Hidratos_de_carbono": 50.85,
     "azucar": 3.54,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "BBQ Cheese Burger",
@@ -4738,7 +4787,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.75,
     "Hidratos_de_carbono": 50.55,
     "azucar": 4.04,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Double Krunch BBQ Cheese",
@@ -4748,7 +4798,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.67,
     "Hidratos_de_carbono": 58.69,
     "azucar": 1.82,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "La Kentucky BBQ Simple",
@@ -4758,7 +4809,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.16,
     "Hidratos_de_carbono": 50.84,
     "azucar": 5.74,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "La Kentucky BBQ Doble",
@@ -4768,7 +4820,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.71,
     "Hidratos_de_carbono": 57.92,
     "azucar": 4.17,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Ensalada Original",
@@ -4778,7 +4831,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 9.40,
     "Hidratos_de_carbono": 47.65,
     "azucar": 2.13,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Ensalada Emmental",
@@ -4788,7 +4842,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 15.33,
     "Hidratos_de_carbono": 46.68,
     "azucar": 1.72,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Ensalada Veggie",
@@ -4798,7 +4853,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 2.20,
     "Hidratos_de_carbono": 13.90,
     "azucar": 0.82,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Twister bbc",
@@ -4808,7 +4864,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.86,
     "Hidratos_de_carbono": 45.76,
     "azucar": 2.60,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Twister",
@@ -4818,7 +4875,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.42,
     "Hidratos_de_carbono": 61.75,
     "azucar": 4.35,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Twister Veggie",
@@ -4828,7 +4886,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 12.54,
     "Hidratos_de_carbono": 50.11,
     "azucar": 1.60,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Burger Original Picante*",
@@ -4838,7 +4897,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.70,
     "Hidratos_de_carbono": 45.18,
     "azucar": 2.85,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Maldita Burger Extrema Doble*",
@@ -4848,7 +4908,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 10.60,
     "Hidratos_de_carbono": 54.25,
     "azucar": 3.72,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
   {
     "nombre": "Maldita Burger*",
@@ -4858,7 +4919,8 @@ final List<Map<String, dynamic>> productos = [
     "Grasa_saturada": 8.70,
     "Hidratos_de_carbono": 45.18,
     "azucar": 2.85,
-    "product_by": kfcId
+    "product_by": kfcId,
+"fibra": 0.0
   },
 
   //==================================================================== Smooy ==============================================================================================//
@@ -15075,3 +15137,4 @@ final List<Map<String, dynamic>> productos = [
     "promoted": false
   },
 ];
+
