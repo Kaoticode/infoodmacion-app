@@ -103,9 +103,8 @@ final List<Map<String, dynamic>> entrenadores = [
 final List<Map<String, dynamic>> recetas = [
   {
     "nombre": "Helado Fit de Fresa y Yogur",
+           "imagen": "https://www.infoodmacion.com/logo.png",
     "type": "postre",
-    "imagen":
-        "https://imag.bonviveur.com/vista-en-primer-plano-de-un-polo-de-yogurt-griego-y-frutos-rojos.webp",
     "ingredientes": [
       "fresas congeladas",
       "yogur griego",
@@ -118,9 +117,8 @@ final List<Map<String, dynamic>> recetas = [
   },
   {
     "nombre": "Hamburguesas de lentejas",
+                "imagen": "https://www.infoodmacion.com/logo.png",
     "type": "principal",
-    "imagen":
-        "https://recetasveganas.net/wp-content/uploads/2013/04/burgers-len.jpg",
     "ingredientes": ["lentejas", "carne picada", "pan integral"],
     "descripcion":
         "Tritura las lentejas, mezcla con la carne picada, da forma de hamburguesa, pon en la sarten y metela en el pan.",
@@ -128,8 +126,8 @@ final List<Map<String, dynamic>> recetas = [
   },
   {
     "nombre": "Empanadillas con masa de calabaza",
+           "imagen": "https://www.infoodmacion.com/logo.png",
     "type": "principal",
-    "imagen": "https://recetaslily.com/wp-content/uploads/2020/03/10-3.jpg",
     "ingredientes": ["calabaza", "queso", "pan integral"],
     "descripcion":
         "Tritura las lentejas, mezcla con la carne picada, da forma de hamburguesa, pon en la sarten y metela en el pan.",
@@ -137,9 +135,8 @@ final List<Map<String, dynamic>> recetas = [
   },
   {
     "nombre": "Waffles de plátano",
+        "imagen": "https://www.infoodmacion.com/logo.png",
     "type": "postre",
-    "imagen":
-        "https://blog.pizcadesabor.com/wp-content/uploads/2023/12/Waffles-de-platano-4-683x1024.jpg",
     "ingredientes": ["platano", "huevo", "harina", "sal"],
     "descripcion":
         "Tritura medio plátano, 2 huevos, 2 cucharadas de harina de trigo y una pizca de sal. Cuando todo esté uniforme, introducelo en la gofrera y condimenta al gusto con cualquier ingrediente opcional.",
@@ -147,9 +144,8 @@ final List<Map<String, dynamic>> recetas = [
   },
   {
     "nombre": "Gnoccis de garbanzo y patata",
+        "imagen": "https://www.infoodmacion.com/logo.png",
     "type": "principal",
-    "imagen":
-        "https://www.cocinacaserayfacil.net/wp-content/uploads/2018/09/%C3%91oquis-de-patata.jpg",
     "ingredientes": [
       "patatas",
       "garbanzos",
@@ -165,9 +161,8 @@ final List<Map<String, dynamic>> recetas = [
   },
   {
     "nombre": "Pasteles de calabacín",
+        "imagen": "https://www.infoodmacion.com/logo.png",
     "type": "principal",
-    "imagen":
-        "https://gbprodstorage.blob.core.windows.net/files/styles/recipe_main_image_670x420/windowsazurestorage/recipes/2023-07/13/1556/Pastel-calabacin-con.jpg",
     "ingredientes": [
       "1 calabacín",
       "2 patatas",
@@ -207,8 +202,6 @@ final List<Map<String, dynamic>> productos = [
 
   {
     "nombre": "Alitas de Pollo (x3) / Chicken Wings (x3)",
-    "imagen":
-        "https://mellerware.com/cdn/shop/articles/09._Alitas_de_pollo_con_soja_y_miel_-_FOTO_3_1400x.jpg?v=1657657039",
     "porcion": 117,
     "Kcal": 238,
     "KJ": 994,
@@ -225,8 +218,6 @@ final List<Map<String, dynamic>> productos = [
 
   {
     "nombre": "Alitas de Pollo (x6) / Chicken Wings (x6)",
-    "imagen":
-        "https://mellerware.com/cdn/shop/articles/09._Alitas_de_pollo_con_soja_y_miel_-_FOTO_3_1400x.jpg?v=1657657039",
     "porcion": 234,
     "Kcal": 476,
     "KJ": 1988,
@@ -243,8 +234,6 @@ final List<Map<String, dynamic>> productos = [
 
   {
     "nombre": "King Aros de CebollaTM / Onion Rings (x5)",
-    "imagen":
-        "https://mellerware.com/cdn/shop/articles/09._Alitas_de_pollo_con_soja_y_miel_-_FOTO_3_1400x.jpg?v=1657657039",
     "porcion": 59,
     "Kcal": 142,
     "KJ": 595,
@@ -261,8 +250,6 @@ final List<Map<String, dynamic>> productos = [
 
   {
     "nombre": "King Aros de CebollaTM / Onion Rings (x7)",
-    "imagen":
-        "https://mellerware.com/cdn/shop/articles/09._Alitas_de_pollo_con_soja_y_miel_-_FOTO_3_1400x.jpg?v=1657657039",
     "porcion": 82,
     "Kcal": 199,
     "KJ": 833,
